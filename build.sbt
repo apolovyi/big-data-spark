@@ -1,4 +1,4 @@
-name := "testNew"
+name := "big-data-spark"
 
 version := "0.1"
 
@@ -8,12 +8,18 @@ val sparkVersion = "2.4.0"
 
 resolvers ++= Seq("apache-snapshots" at "http://repository.apache.org/.apache.org/snapshots/")
 
-libraryDependencies += "org.apache.spark" %% "spark-core" % sparkVersion
-libraryDependencies += "org.apache.spark" %% "spark-mllib" % sparkVersion
-libraryDependencies += "edu.umd" % "cloud9" % "1.4.17"
-libraryDependencies += "com.databricks" %% "spark-xml" % "0.5.0"
+
+libraryDependencies ++= Seq(
+  "org.apache.spark" %% "spark-core" % sparkVersion,
+  "org.apache.spark" %% "spark-mllib" % sparkVersion,
+  "edu.umd" % "cloud9" % "1.4.17",
+  "com.databricks" %% "spark-xml" % "0.5.0",
+  "edu.stanford.nlp" % "stanford-corenlp" % "3.9.2",
+  "edu.stanford.nlp" % "stanford-corenlp" % "3.9.2" classifier "models"
+)
+
+//libraryDependencies += "databricks" % "spark-corenlp" % "0.4.0-spark2.4-scala2.11"
 //libraryDependencies += "databricks" % "spark-corenlp" % "0.4.0-spark2.4-scala2.11"
 
-
-
+//libraryDependencies += "databricks" % "spark-corenlp" % "0.2.0-s_2.11"
 
