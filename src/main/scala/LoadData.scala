@@ -34,11 +34,11 @@ object LoadData {
     //
     //println(text3.rdd)
 
-    val output = dataFrame.select(cleanxml('text).as('doc)).select(explode(ssplit('doc)).as('sen)).select('sen, tokenize('sen).as('words))
-    //, ner('sen).as('nerTags), sentiment('sen).as('sentiment)
-    output.show()
+    //val output = dataFrame.select(cleanxml('text).as('doc)).select(explode(ssplit('doc)).as('sen)).select('sen, tokenize('sen).as('words))
+    ////, ner('sen).as('nerTags), sentiment('sen).as('sentiment)
+    //output.show()
 
-    val output1 = output.select('sen, lemma('sen).as('lemmatized))
+    //val output1 = output.select('sen, lemma('sen).as('lemmatized))
     ////val dataFrame = df.withColumn("title", )
     ////println(dataFrame.first())
     //
