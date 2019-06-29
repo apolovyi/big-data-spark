@@ -3,154 +3,165 @@
 
 import java.util.Properties
 
-import com.databricks.spark.xml._
-import edu.stanford.nlp.ling.CoreAnnotations.{SentencesAnnotation, TextAnnotation, TokensAnnotation}
-import edu.stanford.nlp.ling.CoreLabel
-import edu.stanford.nlp.pipeline.{Annotation, StanfordCoreNLP}
-import edu.stanford.nlp.util.CoreMap
-import org.apache.spark.sql.DataFrame
-//import org.apache.spark
-import org.apache.spark.sql.{Dataset, SparkSession}
-import org.apache.spark.{SparkConf, SparkContext}
-import org.apache.spark.sql.functions._
-
 import scala.collection.JavaConverters._
+import com.databricks.spark.xml._
+import edu.stanford.nlp.ling.CoreAnnotations.{LemmaAnnotation, SentencesAnnotation, TokensAnnotation}
+import edu.stanford.nlp.pipeline.{Annotation, StanfordCoreNLP}
+import org.apache.spark.ml.feature.{CountVectorizer, IDF}
+import org.apache.spark.ml.linalg.{Vector => MLVector}
+import org.apache.spark.mllib.linalg.distributed.RowMatrix
+import org.apache.spark.mllib.linalg.{Matrix, SingularValueDecomposition}
+import org.apache.spark.sql.functions.{col, size}
+import org.apache.spark.sql.{DataFrame, Encoders, Row, SparkSession}
+import org.apache.spark.{SparkConf, SparkContext}
 
-
-//import scala.collection.mutable.ArrayBuffer
-//import com.databricks.spark.corenlp.functions._
-//import edu.stanford.nlp.pipeline._
-//import edu.stanford.nlp.ling.CoreAnnotations._
+import scala.collection.Map
+import scala.collection.mutable.ArrayBuffer
 
 object LoadData {
+
+  val pipeline1: StanfordCoreNLP = createNLPPipeline()
+
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf().setAppName("Spark Job for Loading Data").setMaster("local[*]") // local[*] will access all core of your machine
     val sc = new SparkContext(conf)
 
     val spark = SparkSession.builder.getOrCreate()
-    val df = spark.read.option("rowTag", "page").xml("src/main/resources/train.xml")
+    val wikiData = spark.read.option("rowTag", "page").xml("src/main/resources/sm.xml")
 
-    val dataFrame = df.select("title", "revision.text._VALUE")
-    //println(dataFrame.first())
 
-    //val title = dataFrame.select("title")
-    //val text = dataFrame.select("text._VALUE")
-    //val text2 = dataFrame.select("text._bytes")
-    //val text3 = dataFrame.select("text._space")
-
-    println(dataFrame.first())
-
+    val dataFrame = wikiData.select("title", "revision.text._VALUE")
 
     val props: Properties = new Properties()
     props.put("annotators", "tokenize, ssplit, pos, lemma")
 
-    val pipeline: StanfordCoreNLP = new StanfordCoreNLP(props)
 
-    // read some text from a file - Uncomment this and comment the val text = "Quick...." below to load from a file
-    //val inputFile: File = new File("src/test/resources/sample-content.txt")
-    //val text: String = Files.toString(inputFile, Charset.forName("UTF-8"))
-    val text3 = "Quick brown fox jumps over the lazy dog. This is Harshal."
+    val stopWords = scala.io.Source.fromFile("src/main/resources/stopwords.txt").getLines().toSet
 
-    // create blank annotator
-    val document: Annotation = new Annotation(text3)
+    val terms: DataFrame = dataFrame
+      .map((t: Row) => (t.getAs("title"): String, plainTextToLemmas(t.getAs("_VALUE"), stopWords, pipeline1): String))(Encoders.tuple(Encoders.STRING, Encoders.STRING)).toDF("title", "terms")
 
-    // run all Annotator - Tokenizer on this text
-    pipeline.annotate(document)
+    val trd = terms.rdd.map((row: Row) => (
+      row.getAs("title"): String, row.getAs("terms").toString.split(","): Seq[String]
+    ))
 
-    val sentences: List[CoreMap] = document.get(classOf[SentencesAnnotation]).asScala.toList
+    val wikiDF = spark.createDataFrame(trd).toDF("title", "terms")
 
-    (for {
-      sentence: CoreMap <- sentences
-      token: CoreLabel <- sentence.get(classOf[TokensAnnotation]).asScala.toList
-      word: String = token.get(classOf[TextAnnotation])
+    wikiDF.foreach((row: Row) => {
+      println("Title:")
+      println(row.getAs("title"))
+      println("Lemmas:")
+      println(row.getAs("terms"))
+      println("--------")
+    })
 
-    } yield (word, token)) foreach (t => println("word: " + t._1 + " token: " + t._2))
+    val filtered = wikiDF.where(size(col("terms")).>=(100))
+
+    val countVectorizer = new CountVectorizer().setInputCol("terms").setOutputCol("termFrequency").setVocabSize(200)
+    val vocabModel = countVectorizer.fit(filtered)
+
+    // docTermFrequency contains title; terms; termFrequency.
+    // term frequency of each term with respect to each document
+    val docTermFrequency = vocabModel.transform(filtered)
+
+    docTermFrequency.cache()
+
+    /*docTermFrequency.foreach((row: Row) => {
+      println("Title: " + row.getAs("title"))
+      println("Terms: " + row.getAs("terms"))
+      println("TermFrequency: " + row.getAs("termFrequency"))
+      println()
+    })*/
+
+    val idf = new IDF().setInputCol("termFrequency").setOutputCol("tfidfVec")
+    val idfModel = idf.fit(docTermFrequency)
+    val docTermMatrix = idfModel.transform(docTermFrequency).select("title", "tfidfVec")
+
+    /*docTermMatrix.foreach((row: Row) => {
+      println()
+      println("Title: " + row.getAs("title"))
+      println("tfidfVec: " + row.getAs("tfidfVec"))
+      println()
+    })*/
+
+    val termIds: Array[String] = vocabModel.vocabulary
+
+    val docIds = docTermFrequency.rdd.map(_.getString(0)).
+      zipWithUniqueId().
+      map(_.swap).
+      collect().toMap
 
 
+    val vecRdd = docTermMatrix.select("tfidfVec").rdd.map {
+      row => org.apache.spark.mllib.linalg.Vectors.fromML(row.getAs[MLVector]("tfidfVec"))
+    }
 
-    val rdd = sc.newAPIHadoopFile("src/main/resources/train.xml")
-    print(rdd.name)
+    vecRdd.cache()
 
-    //dataFrame.write
-    //    //  .option("rootTag", "books")
-    //    //  .option("rowTag", "book")
-    //    //  .xml("newbooks.xml")
+    val mat = new RowMatrix(vecRdd)
+    val k = 20
+    val svd = mat.computeSVD(k, computeU = true)
 
-    // It will return a RDD
-    // Read the records
-    //println(emp_data.foreach(println))
+    val topConceptTerms = topTermsInTopConcepts(svd, 10, 15, termIds)
+    val topConceptDocs = topDocsInTopConcepts(svd, 10, 5, docIds)
+    for((terms, docs) <- topConceptTerms.zip(topConceptDocs)) {
+      println("Concept terms: " + terms.map(_._1).mkString(", "))
+      println("Concept docs: " + docs.map(_._1).mkString(", "))
+      println()
+    }
+
+    print(trd)
   }
 
-  //def createNLPPipeline(): StanfordCoreNLP = {
-  //  val props = new Properties()
-  //  props.put("annotators", "tokenize, ssplit, pos, lemma")
-  //  new StanfordCoreNLP(props)
-  //}
-  //def isOnlyLetters(str: String): Boolean = {
-  //  str.forall(c => Character.isLetter(c))
-  //}
-  //def plainTextToLemmas(text: String, stopWords: Set[String],
-  //                      pipeline: StanfordCoreNLP): Seq[String] = {
-  //  val doc = new Annotation(text)
-  //  pipeline.annotate(doc)
-  //  val lemmas = new ArrayBuffer[String]()
-  //  val sentences = doc.get(classOf[SentencesAnnotation])
-  //  for (sentence <- sentences.asScala;
-  //       token <- sentence.get(classOf[TokensAnnotation]).asScala) {
-  //    val lemma = token.get(classOf[LemmaAnnotation])
-  //    if (lemma.length > 2 && !stopWords.contains(lemma)
-  //      && isOnlyLetters(lemma)) {
-  //      lemmas += lemma.toLowerCase
-  //    }
-  //  }
-  //  lemmas
-  //}
-  //val stopWords = scala.io.Source.fromFile("stopwords.txt").getLines().toSet
-  //val bStopWords = spark.sparkContext.broadcast(stopWords)
-  //val terms: Dataset[(String, Seq[String])] =
-  //  docTexts.mapPartitions { iter =>
-  //    val pipeline = createNLPPipeline()
-  //    iter.map { case(title, contents) =>
-  //      (title, plainTextToLemmas(contents, bStopWords.value, pipeline))
-  //    }
-  //  }
-  //
-  
-  
-  //def toPlainText(pageXml: String): Option[(String, String)] = {
-  //  // Wikipedia has updated their dumps slightly since Cloud9 was written,
-  //  // so this hacky replacement is sometimes required to get parsing to work.
-  //  val hackedPageXml = pageXml.replaceFirst(
-  //    "<text xml:space=\"preserve\" bytes=\"\\d+\">",
-  //    "<text xml:space=\"preserve\">")
-  //  val page = new EnglishWikipediaPage()
-  //  WikipediaPage.readPage(page, hackedPageXml)
-  //  if (page.isEmpty) None
-  //  else Some((page.getTitle, page.getContent))
-  //}
+  def createNLPPipeline(): StanfordCoreNLP = {
+    val props = new Properties()
+    props.put("annotators", "tokenize, ssplit, pos, lemma")
+    new StanfordCoreNLP(props)
+  }
 
-  //def readWikiDump(sc: SparkContext, file: String) : RDD[(Long, String)] = {
-  //  val conf = new Configuration()
-  //  conf.set(XmlInputFormat.START_TAG_KEY, "<page>")
-  //  conf.set(XmlInputFormat.END_TAG_KEY, "</page>")
-  //  val rdd = sc.newAPIHadoopFile(file,
-  //    classOf[XmlInputFormat],
-  //    classOf[LongWritable],
-  //    classOf[Text],
-  //    conf)
-  //  rdd.map{case (k,v) => (k.get(), new String(v.copyBytes()))}
-  //}
+  def isOnlyLetters(str: String): Boolean = {
+    str.forall(c => Character.isLetter(c))
+  }
 
-  //def readWikiDump(sc: SparkContext, file: String): RDD[(Long, String)] = {
-  //  val conf = new Configuration()
-  //  sc.read
-  //  conf.set(XmlInputFormat.START_TAG_KEY, "<page>")
-  //  conf.set(XmlInputFormat.END_TAG_KEY, "</page>")
-  //  val rdd = sc.newAPIHadoopFile(file,
-  //    classOf[XmlInputFormat],
-  //    classOf[LongWritable],
-  //    classOf[Text],
-  //    conf)
-  //  rdd.map { case (k, v) => (k.get(), new String(v.copyBytes())) }
-  //}
+  def plainTextToLemmas(text: String, stopWords: Set[String], pipeline: StanfordCoreNLP): String = {
+    val doc = new Annotation(text)
+    pipeline.annotate(doc)
+    //val lemmas = new ArrayBuffer[String]()
+    var lemmas: String = ""
+    val sentences = doc.get(classOf[SentencesAnnotation]).asScala
+    for(sentence <- sentences; token <- sentence.get(classOf[TokensAnnotation]).asScala) {
+      val lemma: String = token.get(classOf[LemmaAnnotation])
+      if(lemma.length > 2 && !stopWords.contains(lemma) && isOnlyLetters(lemma)) {
+        //lemmas= lemma.toLowerCase
+        lemmas = lemmas.concat(lemma).concat(",")
+      }
+    }
+    lemmas
+  }
+
+  def topTermsInTopConcepts(svd: SingularValueDecomposition[RowMatrix, Matrix], numConcepts: Int,
+                            numTerms: Int, termIds: Array[String]): Seq[Seq[(String, Double)]] = {
+    val v = svd.V
+    val topTerms = new ArrayBuffer[Seq[(String, Double)]]()
+    val arr = v.toArray
+    for(i <- 0 until numConcepts) {
+      val offs = i * v.numRows
+      val termWeights = arr.slice(offs, offs + v.numRows).zipWithIndex
+      val sorted = termWeights.sortBy(-_._1)
+      topTerms += sorted.take(numTerms).map { case (score, id) => (termIds(id), score) }
+    }
+    topTerms
+  }
+
+  def topDocsInTopConcepts(svd: SingularValueDecomposition[RowMatrix, Matrix], numConcepts: Int,
+                           numDocs: Int, docIds: Map[Long, String]): Seq[Seq[(String, Double)]] = {
+    val u = svd.U
+    val topDocs = new ArrayBuffer[Seq[(String, Double)]]()
+    for(i <- 0 until numConcepts) {
+      val docWeights = u.rows.map(_.toArray(i)).zipWithUniqueId
+      topDocs += docWeights.top(numDocs).map { case (score, id) => (docIds(id), score) }
+    }
+    topDocs
+  }
+
 }

@@ -12,7 +12,6 @@ project/plugins/project/
 .history
 .cache
 .lib/
-**.xml
 ### JetBrains template
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
 # Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
@@ -83,3 +82,10 @@ fabric.properties
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
 
+!/src/main/resources/sm.xml
+/src/main/resources/small.xml
+/src/main/resources/smallWiki.xml
+/src/main/resources/train.xml
+/src/main/resources/wiki.xml
+/.idea/checkstyle-idea.xml
+/.idea/qaplug_profiles.xml

@@ -1,0 +1,1971 @@
+<page>
+    <title>Acceleration</title>
+    <ns>0</ns>
+    <id>63</id>
+    <revision>
+        <id>5466153</id>
+        <parentid>5466149</parentid>
+        <timestamp>2016-08-25T07:19:37Z</timestamp>
+        <contributor>
+            <username>MBlaze Lightning</username>
+            <id>511617</id>
+        </contributor>
+        <minor/>
+        <comment>Reverted 1 edit by [[Special:Contributions/Hahi213|Hahi213]] ([[User talk:Hahi213|talk]]) identified as [[WP:VAND|vandalism]] to last
+            revision by 174.44.173.164. ([[WP:TW|TW]])
+        </comment>
+        <model>wikitext</model>
+        <format>text/x-wiki</format>
+        <text xml:space="preserve">'''Acceleration''' is a [[measure]] of how [[speed|fast]] [[velocity]] [[wikt:change|changes]]. Acceleration is the change of velocity [[Division (mathematics)|divide]]d by the change of [[time]]. Acceleration is a [[vector]], and therefore includes both a [[size]] and a [[direction]].
+
+== Examples ==
+* An object was moving [[north]] at 10 meters per second. The object speeds up and now is moving north at 15 [[meter]]s per [[second]]. The object has accelerated.
+* An [[apple]] is falling down. It starts falling at 0 meters per second. At the end of the first second, the apple is moving at 9.8 meters per second. The apple has accelerated. At the end of the second second, the apple is moving down at 19.6 meters per second. The apple has accelerated again.
+* Jane is walking [[east]] at 3 [[kilometer]]s per [[hour]]. Jane's velocity does not change. Jane's acceleration is [[zero]].
+* Tom was walking east at 3 kilometers per hour. Tom turns and walks [[south]] at 3 kilometers per hour. Tom has had a nonzero acceleration.
+* Sally was walking east at 3 kilometers per hour. Sally slows down. After, Sally walks east at 1.5 kilometers per hour. Sally has had a nonzero acceleration.
+* [[Acceleration due to gravity]]
+
+== Finding acceleration ==
+
+Acceleration is the [[rate (mathematics)|rate]] of change of the [[velocity]] of an object. Acceleration &lt;math&gt;\mathbf{{a}}&lt;/math&gt; can be found by using:&lt;br /&gt;
+:&lt;math&gt;
+\mathbf{{a}} = {\mathbf{v_1} - \mathbf{v_0} \over { t_1 - t_0 }}&lt;/math&gt;
+
+where
+:&lt;math&gt;\mathbf{v_0}&lt;/math&gt; is the velocity at the start
+:&lt;math&gt;\mathbf{v_1}&lt;/math&gt; is the velocity at the end
+:&lt;math&gt;t_0&lt;/math&gt; is the time at the start
+:&lt;math&gt;t_1&lt;/math&gt; is the time at the end
+
+Sometimes the change in velocity &lt;math&gt; \mathbf{v_1} - \mathbf{v_0}&lt;/math&gt; is written as Δ&lt;math&gt;\mathbf{v}&lt;/math&gt;. Sometimes the change in time &lt;math&gt;{ t_1 - t_0 }&lt;/math&gt; is written as Δt.
+
+In difficult situations, the acceleration can be calculated using [[mathematics]]: in [[calculus]], acceleration is the [[Derivative (mathematics)|derivative]] of the velocity (with respect to time), &lt;math&gt;\mathbf{a} = \frac{\mathrm{d}\mathbf{v}}{\mathrm{d}t}&lt;/math&gt;.
+
+=== Units of measurement ===
+Acceleration has its own [[units of measurement]]. For example, if velocity is measured in meters per second, and if time is measured in seconds, then acceleration is measured in meters per second squared  (m/s&lt;sup&gt;2&lt;/sup&gt;).
+
+=== Other words ===
+Acceleration can be [[positive]] or [[negative number|negative]]. When the acceleration is negative (but the velocity does not change direction), it is sometimes called deceleration. For example, when a car brakes it decelerates. Physicists usually only use the word &quot;acceleration&quot;.
+
+== Newton's second law of motion ==
+Newton's laws of motion are [[rule]]s for how things [[Movement|move]]. These rules are called &quot;[[law]]s of [[motion (physics)|motion]]&quot;. [[Isaac Newton]] is the [[scientist]] who first wrote down the main laws of motion.
+According to [[Newton's laws of motion#Second Law|Newton's Second Law of Motion]], the [[Force (physics)|force]] something needs to accelerate an object depends on the object's [[mass]] (the amount of &quot;stuff&quot; the object is made from or how &quot;heavy&quot; it is).
+The formula of Newton's Second Law of Motion is &lt;math&gt;\mathbf{F} = m \mathbf{a}&lt;/math&gt;,
+where &lt;math&gt;\mathbf{a}&lt;/math&gt; is the acceleration, &lt;math&gt;\mathbf{F}&lt;/math&gt; is the force, and &lt;math&gt;m&lt;/math&gt; the mass.
+This formula is very well-known, and it is very important in [[physics]]. Newton's Second Law of Motion, in short &quot;Newton's Second Law&quot;, is often one of the first things that physics students learn.
+
+== Deceleration ==
+Deceleration is the opposite of acceleration. This means that something slows down instead of speeding up. For example, when a car brakes, it is decelerating.
+
+[[Category:Basic physics ideas]]
+[[Category:Mechanics]]</text>
+        <sha1>g5s3ksiw957b7t3s3n75mbz2ylw3t2o</sha1>
+    </revision>
+</page>
+<page>
+<title>Wikipedia:Basic English alphabetical wordlist</title>
+<ns>4</ns>
+<id>66</id>
+<restrictions>edit=autoconfirmed:move=autoconfirmed</restrictions>
+<revision>
+    <id>5723320</id>
+    <parentid>5499547</parentid>
+    <timestamp>2017-07-01T00:05:35Z</timestamp>
+    <contributor>
+        <username>Nixinova</username>
+        <id>606951</id>
+    </contributor>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">{{shortcut|[[BE 850]]}}
+'''This is a list of the 850 words of [[Charles Kay Ogden]]'s [[Basic English]], in [[alphabetical order]].'''
+
+
+{{wordlist}}
+
+__NOTOC__
+{{TOC}}
+
+== [[A]] ==
+[[a]] • [[:wikt:able|able]] • [[:wikt:about|about]] • [[account]] • [[acid]] • [[across]] • [[act]] • [[addition]] • [[adjustment]] • [[advertisement]] • [[agreement]] • [[after]] • [[again]] • [[against]] • [[air]] • [[:wikt:all|all]] • [[wikt:almost|almost]] • [[wikt:among|among]] • [[amount]] • [[wikt:amusement|amusement]] • [[and]] • [[angle]] • [[angry]] • [[animal]] • [[:wikt:answer|answer]] • [[ant]] • [[wikt:any|any]] • [[apparatus]] • [[apple]] • [[approval]] • [[arch]] • [[argument]] • [[arm]] • [[army]] • [[art]] • [[as]] • [[wikt:at|at]] • [[:wikt:attack|attack]] • [[wikt:attempt|attempt]] • [[:wikt:attention|attention]] • [[attraction]] • [[authority]] • [[wikt:automatic|automatic]] • [[awake]]
+
+== [[B]] ==
+[[baby]] • [[back]] • [[wikt:bad|bad]] • [[bag]] • [[balance]] • [[ball]] • [[band]] • [[base]] • [[basin]] • [[basket]] • [[bath]] • [[be]] • [[beautiful]] • [[wikt:because|because]] • [[bed]] • [[bee]] • [[wikt:before|before]] • [[behavior]] • [[belief]] • [[bell]] • [[bent]] • [[berry]] • [[wikt:between|between]] • [[bird]] • [[birth]] • [[bit]] • [[bite]] • [[bitter]] • [[black]] • [[blade]] • [[blood]] • [[wikt:blow|blow]] • [[blue]] • [[board]] • [[boat]] • [[body]] • [[boiling]] • [[bone]] • [[book]] • [[boot]] • [[bottle]] • [[box]] • [[boy]] • [[brain]] • [[brake]] • [[branch]] • [[brass]] • [[bread]] • [[breath]] • [[brick]] • [[bridge]] • [[wikt:bright|bright]] • [[wikt:broken|broken]] • [[brother]] • [[brown]] • [[brush]] • [[bucket]] • [[building]] • [[bulb]] • [[burn]] • [[burst]] • [[business]] • [[wikt:but|but]] • [[butter]] • [[button]] • [[wikt:by|by]]
+
+== [[C]] ==
+[[cake]] • [[camera]] • [[canvas]] • [[card]] • [[wikt:care|care]] • [[carriage]] • [[cart]] • [[cat]] • [[wikt:cause|cause]] • [[wikt:certain|certain]] • [[chain]] • [[chalk]] • [[chance]] • [[wikt:change|change]] • [[wikt:cheap|cheap]] • [[cheese]] • [[chemical]] • [[chest]] • [[wikt:chief|chief]] • [[chin]] • [[church]] • [[circle]] • [[wikt:clean|clean]] • [[clear]] • [[clock]] • [[cloth]] • [[cloud]] • [[coal]] • [[coat]] • [[cold]] • [[collar]] • [[color]] • [[comb]] • [[wikt:come|come]] • [[wikt:comfort|comfort]] • [[wikt:committee|committee]] • [[wikt:common|common]] • [[company]] • [[comparison]] • [[competition]] • [[wikt:complete|complete]] • [[complex]] • [[condition]] • [[connection]] • [[conscious]] • [[control]] • [[cook]] • [[copper]] • [[copy]] • [[cord]] • [[cork (material)|cork]] • [[cotton]] • [[cough]] • [[country]] • [[cover]] • [[cow]] • [[crack]] • [[credit]] • [[crime]] • [[wikt:cruel|cruel]] • [[wikt:crush|crush]] • [[cry]] • [[cup]] • [[current]] • [[curtain]] • [[curve]] • [[cushion]] • [[cut]]
+
+== [[D]] ==
+[[:wikt:damage|damage]] • [[wikt:danger|danger]] • [[dark]] • [[daughter]] • [[day]] • [[dead]] • [[wikt:dear|dear]] • [[death]] • [[debt]] • [[decision]] • [[deep]] • [[degree]] • [[wikt:delicate|delicate]] • [[wikt:dependent|dependent]] • [[design]] • [[wikt:desire|desire]] • [[destruction]] • [[wikt:detail|detail]] • [[development]] • [[different]] • [[digestion]] • [[direction]] • [[dirty]] • [[discovery]] • [[discussion]] • [[disease]] • [[disgust]] • [[distance]] • [[distribution]] • [[division]] • [[wikt:do|do]] • [[dog]] • [[door]] • [[down]] • [[doubt]] • [[drain]] • [[drawer]] • [[dress]] • [[drink]] • [[wikt:driving|driving]] • [[drop]] • [[:wikt:dry|dry]] • [[dust]]
+
+== [[E]] ==
+[[ear]] • [[wikt:early|early]] • [[earth]] • [[east]] • [[edge]] • [[education]] • [[wikt:effect|effect]] • [[egg]] • [[elastic]] • [[electric]] • [[wikt:end|end]] • [[engine]] • [[wikt:enough|enough]] • [[equal]] • [[error]] • [[even]] • [[event]] • [[wikt:ever|ever]] • [[wikt:every|every]] • [[example]] • [[wikt:exchange|exchange]] • [[existence]] • [[wikt:expansion|expansion]] • [[experience]] • [[wikt:expert|expert]] • [[eye]]
+
+== [[F]] ==
+[[face]] • [[fact]] • [[fall]] • [[false]] • [[family]] • [[far]] • [[farm]] • [[fat]] • [[father]] • [[fear]] • [[feather]] • [[wikt:feeble|feeble]] • [[feeling]] • [[female]] • [[fertile]] • [[fiction]] • [[field]] • [[fight]] • [[finger]] • [[fire]] • [[wikt:first|first]] • [[fish]] • [[wikt:fixed|fixed]] • [[flag]] • [[flame]] • [[flat]] • [[flight]] • [[floor]] • [[flower]] • [[fly]] • [[wikt:fold|fold]] • [[food]] • [[foolish]] • [[foot]] • [[wikt:for|for]] • [[force]] • [[fork]] • [[form]] • [[wikt:forward|forward]] • [[fowl]] • [[frame]] • [[free]] • [[wikt:frequent|frequent]] • [[friend]] • [[wikt:from|from]] • [[wikt:front|front]] • [[fruit]] • [[wikt:full|full]] • [[future]]
+
+== [[G]] ==
+[[garden]] • [[general]] • [[wikt:get|get]] • [[girl]] • [[wikt:give|give]] • [[glass]] • [[glove]] • [[go]] • [[goat]] • [[gold]] • [[goodness|good]] • [[government]] • [[grain]] • [[grass]] • [[wikt:great|great]] • [[green]] • [[grey]]/[[gray]] • [[wikt:grip|grip]] • [[group]] • [[growth]] • [[wikt:guide|guide]] • [[gun]]
+
+== [[H]] ==
+[[hair]] • [[hammer]] • [[hand]] • [[hanging]] • [[happy]] • [[harbor]] • [[wikt:hard|hard]] • [[harmony]] • [[hat]] • [[hate]] • [[wikt:have|have]] • [[he]] • [[head]] • [[healthy]] • [[hearing]] • [[heart]] • [[heat]] • [[help]] • [[wikt:here|here]] • [[wikt:high|high]] • [[history]] • [[hole]] • [[wikt:hollow|hollow]] • [[hook]] • [[hope]] • [[horn]] • [[horse]] • [[hospital]] • [[hour]] • [[house]] • [[wikt:how|how]] • [[humor]]
+
+== [[I]] ==
+[[I]] • [[ice]] • [[idea]] • [[if]] • [[ill]] • [[wikt:important|important]] • [[impulse]] • [[in]] • [[wikt:increase|increase]] • [[industry]] • [[ink]] • [[insect]] • [[instrument]] • [[insurance]] • [[interest]] • [[invention]] • [[iron]] • [[island]]
+
+== [[J]] ==
+[[jelly]] • [[jewel]] • [[wikt:join|join]] • [[journey]] • [[judge]] • [[jump]]
+
+== [[K]] ==
+[[wikt:keep|keep]] • [[kettle]] • [[key]] • [[kick]] • [[kind]] • [[kiss]] • [[knee]] • [[knife]] • [[knot]] • [[knowledge]]
+
+== [[L]] ==
+[[land]] • [[language]] • [[wikt:last|last]] • [[wikt:late|late]] • [[laugh]] • [[law]] • [[lead]] • [[leaf]] • [[learning]] • [[leather]] • [[left]] • [[leg]] • [[wikt:let|let]] • [[letter]] • [[level]] • [[library]] • [[lift]] • [[light]] • [[like]] • [[limit]] • [[line]] • [[linen]] • [[lip]] • [[liquid]] • [[list]] • [[little]] ([[wikt:less|less]], [[wikt:least|least]]) • [[living]] • [[lock]] • [[long]] • [[wikt:look|look]] • [[wikt:loose|loose]] • [[wikt:loss|loss]] • [[wikt:loud|loud]] • [[love]] • [[wikt:low|low]]
+
+== [[M]] ==
+[[machine]] • [[wikt:make|make]] • [[male]] • [[man]] • [[manager]] • [[map]] • [[mark]] • [[market]] • [[married]] • [[match]] • [[material]] • [[mass]] • [[may]] • [[meal]] • [[measure]] • [[meat]] • [[medical]] • [[meeting]] • [[memory]] • [[metal]] • [[middle]] • [[military]] • [[milk]] • [[mind]] • [[mine]] • [[minute]] • [[wikt:mist|mist]] • [[mixed]] • [[money]] • [[monkey]] • [[month]] • [[moon]] • [[morning]] • [[mother]] • [[motion]] • [[mountain]] • [[mouth]] • [[move]] • [[wikt:much|much]] ([[wikt:more|more]], [[wikt:most|most]]) • [[muscle]] • [[music]]
+
+== [[N]] ==
+[[nail]] • [[name]] • [[wikt:narrow|narrow]] • [[nation]] • [[natural]] • [[near]] • [[necessary]] • [[neck]] • [[need]] • [[needle]] • [[nerve]] • [[net]] • [[new]] • [[news]] • [[wikt:night|night]] • [[no]] • [[noise]] • [[wikt:normal|normal]] • [[north]] • [[nose]] • [[not]] • [[note]] • [[now]] • [[number]] • [[nut]]
+
+== [[O]] ==
+[[observation]] • [[of]] • [[wikt:off|off]] • [[wikt:offer|offer]] • [[office]] • [[oil]] • [[old]] • [[wikt:on|on]] • [[wikt:only|only]] • [[wikt:open|open]] • [[operation]] • [[opposite]] • [[opinion]] • [[wikt:other|other]] • [[wikt:or|or]] • [[orange]] • [[order]] • [[organization]] • [[wikt:ornament|ornament]] • [[out]] • [[oven]] • [[wikt:over|over]] • [[owner]]
+
+== [[P]] ==
+[[page]] • [[pain]] • [[paint]] • [[paper]] • [[parallel]] • [[parcel]] • [[wikt:part|part]] • [[past]] • [[paste]] • [[wikt:payment|payment]] • [[peace]] • [[pen]] • [[pencil]] • [[person]] • [[physical]] • [[picture]] • [[pig]] • [[pin]] • [[pipe]] • [[wikt:place|place]] • [[plane]] • [[plant]] • [[plate]] • [[play]] • [[wikt:please|please]] • [[pleasure]] • [[plough]]/[[plow]] • [[pocket]] • [[point]] • [[poison]] • [[polish]] • [[political]] • [[wikt:poor|poor]] • [[porter]] • [[position]] • [[wikt:possible|possible]] • [[pot]] • [[potato]] • [[powder]] • [[power]] • [[wikt:present|present]] • [[price]] • [[wikt:print|print]] • [[prison]] • [[private]] • [[wikt:probable|probable]] • [[wikt:process|process]] • [[produce]] • [[profit]] • [[property]] • [[prose]] • [[protest]] • [[wikt:public|public]] • [[wikt:pull|pull]] • [[pump]] • [[punishment]] • [[wikt:purpose|purpose]] • [[wikt:push|push]] • [[wikt:put|put]]
+
+== [[Q]] ==
+[[quality]] • [[question]] • [[quick]] • [[wikt:quiet|quiet]] • [[wikt:quite|quite]]
+
+== [[R]] ==
+[[rail]] • [[rain]] • [[wikt:range|range]] • [[rat]] • [[wikt:rate|rate]] • [[ray]] • [[reaction]] • [[red]] • [[reading]] • [[wikt:ready|ready]] • [[wikt:reason|reason]] • [[receipt]] • [[record]] • [[wikt:regret|regret]] • [[wikt:regular|regular]] • [[relation]] • [[religion]] • [[representative]] • [[wikt:request|request]] • [[:wikt:respect|respect]] • [[wikt:responsible|responsible]] • [[wikt:rest|rest]] • [[reward]] • [[rhythm]] • [[rice]] • [[right]] • [[ring]] • [[river]] • [[road]] • [[rod]] • [[wikt:roll|roll]] • [[roof]] • [[wikt:room|room]] • [[root]] • [[wikt:rough|rough]] • [[round]] • [[wikt:rub|rub]] • [[rule]] • [[wikt:run|run]]
+
+== [[S]] ==
+[[sad]] • [[safe]] • [[sail]] • [[salt]] • [[wikt:same|same]] • [[sand]] • [[wikt:say|say]] • [[scale]] • [[school]] • [[science]] • [[scissors]] • [[screw]] • [[sea]] • [[wikt:seat|seat]] • [[second]] • [[secret]] • [[secretary]] • [[see]] • [[seed]] • [[wikt:selection|selection]] • [[self]] • [[wikt:send|send]] • [[wikt:seem|seem]] • [[sense]] • [[wikt:seperate|separate]] • [[wikt:serious|serious]] • [[servant]] • [[sex]] • [[shade]] • [[wikt:shake|shake]] • [[shame]] • [[sharp]] • [[sheep]] • [[shelf]] • [[ship]] • [[shirt]] • [[shock]] • [[shoe]] • [[short]] • [[wikt:shut|shut]] • [[side]] • [[sign]] • [[silk]] • [[silver]] • [[simple]] • [[sister]] • [[size]] • [[skin]] • [[skirt]] • [[sky]] • [[sleep]] • [[wikt:slip|slip]] • [[slope]] • [[slow]] • [[small]] • [[wikt:smash|smash]] • [[smell]] • [[smile]] • [[smoke]] • [[wikt:smooth|smooth]] • [[snake]] • [[sneeze]] • [[snow]] • [[wikt:so|so]] • [[soap]] • [[society]] • [[sock]] • [[wikt:soft|soft]] • [[solid]] • [[wikt:some|some]] • [[son]] • [[song]] • [[wikt:sort|sort]] • [[sound]] • [[south]] • [[soup]] • [[space]] • [[spade]] • [[wikt:special|special]] • [[sponge]] • [[spoon]] • [[spring]] • [[square]] • [[stamp]] • [[stage]] • [[star]] • [[wikt:start|start]] • [[statement]] • [[station]] • [[steam]] • [[stem]] • [[steel]] • [[wikt:step|step]] • [[stick]] • [[still]] • [[wikt:stitch|stitch]] • [[stocking]] • [[stomach]] • [[stone]] • [[wikt:stop|stop]] • [[store]] • [[story]] • [[wikt:strange|strange]] • [[street]] • [[wikt:stretch|stretch]] • [[sticky]] • [[wikt:stiff|stiff]] • [[straight]] • [[wikt:strong|strong]] • [[structure]] • [[substance]] • [[sugar]] • [[suggestion]] • [[summer]] • [[support]] • [[surprise]] • [[wikt:such|such]] • [[wikt:sudden|sudden]] • [[sun]] • [[sweet]] • [[swim]] • [[system]]
+
+== [[T]] ==
+[[table]] • [[tail]] • [[wikt:take|take]] • [[talk]] • [[wikt:tall|tall]] • [[taste]] • [[tax]] • [[teaching]] • [[wikt:tendency|tendency]] • [[test]] • [[wikt:than|than]] • [[wikt:that|that]] • [[the]] • [[wikt:then|then]] • [[theory]] • [[wikt:there|there]] • [[wikt:thick|thick]] • [[wikt:thin|thin]] • [[wikt:thing|thing]] • [[wikt:this|this]] • [[wikt:thought|thought]] • [[thread]] • [[throat]] • [[wikt:though|though]] • [[wikt:through|through]] • [[thumb]] • [[thunder]] • [[ticket]] • [[wikt:tight|tight]] • [[Wikt:tired|tired]] • [[wikt:till|till]] • [[time]] • [[tin]] • [[to]] • [[toe]] • [[wikt:together|together]] • [[tomorrow]] • [[tongue]] • [[tooth]] • [[wikt:top|top]] • [[touch]] • [[town]] • [[trade]] • [[train]] • [[transport]] • [[tray]] • [[tree]] • [[trick]] • [[trousers]] • [[true]] • [[wikt:trouble|trouble]] • [[wikt:turn|turn]] • [[wikt:twist|twist]]
+
+== [[U]] ==
+[[umbrella]] • [[under]] • [[unit]] • [[wikt:use|use]] • [[up]]
+
+== [[V]] ==
+[[value]] • [[wikt:verse|verse]] • [[wikt:very|very]] • [[vessel]] • [[view]] • [[wikt:violent|violent]] • [[voice]]
+
+== [[W]] ==
+[[walk]] • [[wall]] • [[wikt:waiting|waiting]] • [[war]] • [[warm]] • [[wash]] • [[waste]] • [[watch]] • [[water]] • [[wave]] • [[wikt:wax|wax]] • [[wikt:way|way]] • [[weather]] • [[week]] • [[weight]] • [[well]] • [[west]] • [[wet]] • [[wheel]] • [[wikt:when|when]] • [[wikt:where|where]] • [[wikt:while|while]] • [[whip]] • [[whistle]] • [[white]] • [[wikt:who|who]] • [[wikt:why|why]] • [[wide]] • [[will]] • [[wind]] • [[window]] • [[wine]] • [[wing]] • [[winter]] • [[wire]] • [[wise]] • [[wikt:with|with]] • [[woman]] • [[wood]] • [[wool]] • [[word]] • [[work]] • [[worm]] • [[wound]] • [[writing]] • [[wikt:wrong|wrong]]
+
+== [[X]] ==
+(no Basic English word starts with &quot;x&quot;)
+
+== [[Y]] ==
+[[year]] • [[yellow]] • [[yes]] • [[yesterday]] • [[you]] • [[wikt:young|young]]
+
+== [[Z]] ==
+(no Basic English word starts with &quot;z&quot;)
+
+== Related pages ==
+* [[Wikipedia:Basic English combined wordlist]] (1500 words)
+* [[Wikipedia:Basic English international wordlist]] International wordlist
+* [[Commonly misspelled words]] - includes documented list of misspellings
+
+== Source==
+* [http://ogden.basic-english.org/wordalph.html &quot;Ogden's Basic English Words&quot;]
+
+==Other websites==
+* [http://ogden.basic-english.org/wordthere.html Derivative words considered to be part of the Basic English 850 list], at Ogden's Basic English
+
+[[Category:Basic English]]</text>
+    <sha1>qfzi2bvkt5f9dfrirgnjvflla64rhzu</sha1>
+</revision>
+</page>
+<page>
+<title>Wikipedia:Basic English international wordlist</title>
+<ns>4</ns>
+<id>67</id>
+<revision>
+    <id>4830524</id>
+    <parentid>4519599</parentid>
+    <timestamp>2014-06-19T19:38:22Z</timestamp>
+    <contributor>
+        <username>Rus793</username>
+        <id>294863</id>
+    </contributor>
+    <comment>/* I */</comment>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">This is a list of [[Basic English]] &quot;[[international]]&quot; words in [[alphabet]]ical order.  These words are similar in many Western [[language]]s, are used in [[diplomacy]] or [[school]]s, or are international standards.
+
+{{wordlist}}
+
+__NOTOC__
+{{TOC}}
+
+== [[A]] ==
+[[alcohol]] • [[Algebra]] • [[aluminium]]/[[aluminum]] • [[ammonia]] • [[anaesthetic]]/[[anesthetic]] • [[April]] • [[Arithmetic]] • [[asbestos]] • [[August]] • [[automobile]]
+
+== [[B]] ==
+[[ballet]] • [[bank]] • [[bar]] • [[beef]] • [[beer]] • [[Biology]] • [[bomb]]
+
+== [[C]] ==
+[[cafe]] • [[calendar]] • [[centi-]] • [[champagne]] • [[chauffeur]] • [[chemist]] • [[Chemistry]] • [[check]] • [[chocolate]] • [[cigarette]] • [[circus]] • [[citron]] • [[club]] • [[coffee]] • [[cocktail]] • [[cognac]] • [[College]] • [[colony]]
+
+== [[D]] ==
+[[dance]] • [[December]] • [[degree]] • [[dynamite]]
+
+== [[E]] ==
+[[wikt:eight|eight]] • [[electricity]] • [[wikt:eleven|eleven]] • [[Embassy]] • [[Empire]] • [[encyclopedia]] • [[engineer]]
+
+== [[F]] ==
+[[February]] • [[wikt:fifteen|fifteen]] • [[wikt:fifth|fifth]] • [[fifty]] • [[wikt:five|five]] • [[wikt:four|four]] • [[wikt:fourteen|fourteen]] • [[wikt:fourth|fourth]] • [[forty]] • [[Friday]]
+
+== [[G]] ==
+[[gas]] • [[Geography]] • [[Geology]] • [[Geometry]] • [[gram]] • [[glycerin]]
+
+== [[H]] ==
+[[wikt:half|half]] • [[hotel]] • [[hundred]] • [[hyena]] • [[hygiene]] • [[hysteria]]
+
+== [[I]] ==
+[[Imperial]] • [[influenza]] • [[wikt:international|international]]
+
+== [[J]] ==
+[[January]] • [[jazz]] • [[July]] • [[June]]
+
+== [[K]] ==
+[[kilo-]] • [[King]]
+
+== [[L]] ==
+[[latitude]] • [[lava]] • [[litre]]/[[litre|liter]] • [[liqueur]] • [[longitude]]
+
+== [[M]] ==
+[[macaroni]] • [[wikt:madam|madam]] • [[magnetic]] • [[malaria]] • [[March]] • [[Mathematics]] • [[May]] • [[metre]]/[[metre|meter]]• [[micro-]] • [[microscope]] • [[milli-]] • [[million]] • [[minute]] • [[Monday]] • [[Museum]]
+
+== [[N]] ==
+[[neutron]] • [[nickel]] • [[nicotine]] • [[wikt:nine|nine]] • [[November]]
+
+== [[O]] ==
+[[October]] • [[olive]] • [[wikt:once|once]] • [[omelet]] • [[one]] • [[opera]] • [[opium]] • [[orchestra]] • [[organism]]
+
+== [[P]] ==
+[[pyjamas]]/[[pajamas]] • [[paraffin]] • [[paradise]] • [[park]] • [[passport]] • [[patent]] • [[penguin]] • [[petroleum]] • [[phonograph]] • [[Physics]] • [[Physiology]] • [[piano]] • [[platinum]] • [[police]] • [[wikt:post|post]] • [[President]] • [[Prince]] • [[Princess]] • [[program]] • [[propaganda]] • [[Psychology]] • [[pyramid]]
+
+== [[Q]] ==
+[[quarter]] • [[Queen]] • [[quiz]]
+
+== [[R]] ==
+[[radio]] • [[radium]] • [[referendum]] • [[restaurant]] • [[rheumatism]] • [[Royal]] • [[rum]]
+
+== [[S]] ==
+[[salad]] • [[sardine]] • [[Saturday]] • [[second]] • [[September]]  • [[wikt:seven|seven]] • [[sir]] • [[wikt:six|six]] • [[wikt:sixteen|sixteen]] • [[sport]] • [[Sunday]]• [[Sex]]
+
+== [[T]] ==
+[[taxi]] • [[tea]] • [[telegram]] • [[telephone]] • [[ten]] • [[wikt:terrace|terrace]] • [[theatre]] • [[thermometer]] • [[third]] • [[wikt:thirteen|thirteen]] • [[wikt:thirty|thirty]] • [[thousand]] • [[wikt:three|three]] • [[Thursday]] • [[toast]] • [[tobacco]] • [[torpedo]] • [[Tuesday]] • [[turbine]] • [[wikt:twenty-one|twenty-one]] • [[wikt:twelve|twelve]] • [[wikt:twenty|twenty]] • [[wikt:twice|twice]] • [[wikt:two|two]]
+
+== [[U]] ==
+[[university]] • [[wikt:universal|universal]]
+
+== [[V]] ==
+[[vanilla]] • [[violin]] • [[visa]] • [[vitamin]] • [[vodka]] • [[volt]]
+
+== [[W]] ==
+[[Wednesday]] • [[whisky]]
+
+== [[X]] ==
+
+== [[Y]] ==
+[[you]]
+
+== [[Z]] ==
+[[zebra]] • [[zinc]] • [[Zoology]]
+
+== Other websites ==
+*[http://ogden.basic-english.org/wordalpi.html Ogden's Basic English &quot;International Word&quot; list]
+
+[[Category:Basic English]]</text>
+    <sha1>lxuuvdh5eqokgqodio0u125jbmynylg</sha1>
+</revision>
+</page>
+<page>
+<title>Black pudding</title>
+<ns>0</ns>
+<id>68</id>
+<revision>
+    <id>5295510</id>
+    <parentid>5295448</parentid>
+    <timestamp>2016-01-06T23:06:54Z</timestamp>
+    <contributor>
+        <username>Jeff G.</username>
+        <id>11055</id>
+    </contributor>
+    <comment>w [[Great Britain]], syntax</comment>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">'''Black pudding''' is an English name for blood sausage.  It is [[food]] made by [[cooking]] down the [[blood]] of any [[mammal]] (usually [[pig]]s or cattle) with meat, fat or filler until it is thick enough to [[congealing|congeal]] (become firm or solid) when cooled.
+
+==Types of Black pudding==
+[[File:Blutwurst.jpg|thumb|German ''Blutwurst'']]
+In [[Great Britain]], blood sausage is called  ''Black Pudding''. The ingredients include pig's blood, [[suet]], [[bread]], [[barley]] and [[oats|oatmeal]]. The most common kind of German ''blutwurst'' is made from fatty pork meat, beef blood and filler such as barley. Though already cooked and &quot;ready to eat&quot; it is usually served warm.
+
+Other kinds of blood sausage include ''boudin noir'' (France), ''boudin rouge'' ([[Creole]] and [[Cajun]]) and ''morcilla'' (Spain).
+
+==History==
+A [[legend]] says that blood sausage was invented in a [[gambling|bet]] between two [[Bavarian]] [[butcher]]s drunk on the alcoholic drink [[absinthe]] during the [[14th century]]. [[Homer]]'s ''Odyssey'' from Ancient [[Greece]] says that &quot;As when a man besides a great fire has filled a sausage with fat and blood and turns it this way and that and is very eager to get it quickly roasted...&quot;.
+
+== Other pages ==
+*[[Sausage]]
+
+{{Food-stub}}
+
+[[Category:Sausage]]</text>
+    <sha1>tdv0ewahuy061tni3nxmvzklkw9rfq4</sha1>
+</revision>
+</page>
+<page>
+<title>Boot device</title>
+<ns>0</ns>
+<id>69</id>
+<revision>
+    <id>4425706</id>
+    <parentid>4425704</parentid>
+    <timestamp>2013-05-24T11:11:41Z</timestamp>
+    <contributor>
+        <username>Savh</username>
+        <id>115351</id>
+    </contributor>
+    <minor/>
+    <comment>[[Help:Revert a page|Reverted]] edits by [[Special:Contributions/107.8.158.145|107.8.158.145]] ([[User talk:107.8.158.145|talk]]) to last
+        version by EmausBot
+    </comment>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">A '''boot device''' is used to start a [[computer]].  It is named after a [[boot]] which fits on the [[foot]].  The word [[bootstrap]] is also closely related, and means, to use something simpler to get something more complex to make itself work better. It comes from the English phrase &quot;pull yourself up by your own bootstraps.&quot;
+
+Before a computer can operate normally, it must have [[operating system]] instructions that tell it how to perform basic functions.  A boot device loads the operating system into the [[memory]] of the computer.
+
+Devices that can boot a computer are usually '''boot disks''' or '''boot drives'''
+(normally a [[hard drive]], but can be a [[floppy disk]] or a [[compact disk|CD]]).  Some [[network computer]]s use ''boot chips'' that get the [[operating system]] over a [[network]].  [[Web phone]]s also use such chips to identify the user to the [[cell network]].  '''Boot card''' standards may let many users boot [[kiosk computer]]s with full [[privacy]] and access to all [[applications]] they own. There are also '''boot boards''' or '''boot ''add-in'' cards''' that are more permanent than boot cards.
+
+Some people refer to the boot device as just a '''boot''' and non-boot devices as '''data device'''s, although it is not the [[computer]] but the [[operating system]] that cares about the difference between these.
+
+==Origin==
+The boot in '''boot device''' is the same as [[booting]] (or starting up). This is short for bootstrapping, or to start with simple stuff and make complex stuff out of it.
+
+==Other pages==
+*[[Booting]]
+
+[[category:software]]
+[[Category:Computer hardware]]</text>
+    <sha1>izuyvrc5fd2bgbqxqkl4sndi4i2zn55</sha1>
+</revision>
+</page>
+<page>
+<title>Boot</title>
+<ns>0</ns>
+<id>70</id>
+<revision>
+    <id>5376286</id>
+    <parentid>5292620</parentid>
+    <timestamp>2016-04-19T21:18:47Z</timestamp>
+    <contributor>
+        <username>Auntof6</username>
+        <id>22027</id>
+    </contributor>
+    <comment>/* Other meanings */ rem section -- not related to main topic</comment>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">{{for|the fictional character|List of characters in Pirates of the Caribbean#Bootstrap Bill Turner}}
+
+[[File:Boots-WhiteLeather-6cmHeel.jpg|thumb|200px|right]]
+A '''boot''' is a type of [[footwear]] that protects the [[foot]] and [[ankle]]. Boots are higher and larger than [[shoe]]s and [[sandal]]s. Some boots are high enough to protect the [[leg|calves]] (lower part of the leg) as well.  Some boots are held on with ''bootstraps'' or ''bootlaces''.  Some also have '''spats''' or ''gaiters'' to keep water out.  Most have a very strong ''boot sole'', the bottom part of a boot.
+
+== Types of boots ==
+* '''Rain boots''' (or rubber boots) are made from [[rubber]] or [[plastic]]. Rain boots protect a person's feet from [[water]] and [[rain]]. People who work on [[fishing]] boats and [[farmer]]s wear rubber boots to keep their feet dry. People who work in [[chemical industry|chemical]] factories wear rubber boots to protect their feet from dangerous chemicals.
+
+* '''Winter boots''' are boots that keep a person's feet warm in cold weather. People in cold countries such as [[Canada]] and [[Sweden]] wear winter boots during the cold season. Winter boots can be made from many different materials, such as [[leather]], [[fabric]], or [[plastic]]. Winter boots are [[thermal insulation|insulated]] with wool or fur to keep the feet warm. Most winter boots also keep people's feet dry.
+
+* '''Work boots''' (or &quot;[[construction]] boots&quot;) are designed for people who work in construction or [[factory]] jobs. Work boots often have a steel toe cover to protect the person's toes. Work boots are usually made of strong leather, to protect the person's foot from sharp objects or dangerous chemicals. Some work boots have a flat piece of [[steel]] in the sole to protect the foot from sharp [[nail]]s. Many countries require construction workers to wear work boots when they are on a construction site.
+
+== Other websites ==
+
+{{commonscat-inline|Boots}}
+
+
+[[Category:Basic English 850 words]]
+[[Category:Footwear]]</text>
+    <sha1>c5yeezwhc0n911mp8vk2i7lneu32rex</sha1>
+</revision>
+</page>
+<page>
+<title>Bankruptcy</title>
+<ns>0</ns>
+<id>71</id>
+<revision>
+    <id>5703609</id>
+    <parentid>5699648</parentid>
+    <timestamp>2017-06-07T19:50:36Z</timestamp>
+    <contributor>
+        <username>Arllaw</username>
+        <id>610120</id>
+    </contributor>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">'''Bankruptcy''' is a [[law|legal process]] which happens when a person or an organisation does not have enough [[money]] to pay all of its [[debt]]s.  Legally they are [[Insolvency|insolvent]].
+
+Where it is a person who cannot pay their debts, the person's creditors may ask the court to appoint a ''trustee in bankruptcy''.   This is a professional accountant who is appointed by the court, and they will take control of the bankrupt person's assets.  Some assets are protected by law, but the trustee in bankruptcy will sell off all of the other assets and use the proceeds to pay as much of that person's debts as possible.  After the process is complete the person is ''discharged from bankruptcy'', and the person is free from any further liability to pay those claims, but normally that person will be limited in their ability to borrow money again because their credit rating will be damaged.
+
+Where it is an organisation who cannot pay their debts, the creditors may ask the court to appoint a ''liquidator''.  The liquidator does a very similar job to the trustee in bankruptcy except that there are no assets which are protected so the liquidator can sell everything.  Once all of the assets of the organisation have been sold, the organisation is then ''dissolved'' and no longer exists.  Organisations do not get discharged from bankruptcy in the same way that a living person does.
+
+== Insolvency or bankrupcy ==
+People often confuse the terms '''bankruptcy''' and '''[[insolvency]]''', and sometimes they use one word when they really mean the other.  Insolvency usually just means that a someone does not have enough money to pay their debts or (sometimes) that the total amount of their debts is worth more than the total amount of their assets.  Bankruptcy is a formal legal process in front of the courts.  Although the two terms are connected, just because a person is insolvent does not necessarily mean that they will go into bankruptcy.
+
+== Alternatives to bankruptcy ==
+Many countries have alternatives to bankruptcy to try and allow people and businesses to try and avoid the bankruptcy process.
+
+In various countries, individual people can try and reach ''individual voluntary arrangements'' (or IVAs) with their creditors.  This means that the creditors agree to take less money to discharge their debts.  There are similar processes for companies and other organisations, and they go by various different names in different countries, but in many countries they are called ''schemes of arrangement''.
+
+== Bankruptcy protection ==
+In many countries a [[company]] or [[business]] can ask the courts for ''bankruptcy protection'' to try and protect the business so that the [[creditor]]s cannot destroy all of the [[physical capital]] and [[goodwill]] by breaking it apart and moving it away. The aim of this is provide is more [[time]] for the business to reorganise itself and to work out a new deal between the owners and the people the business owes money.  In many countries this is called ''going into administration''.
+
+However, not all countries have bankruptcy protection laws for businesses.
+
+== Debt slavery ==
+Often a [[creditor]] threatens a [[debtor]] with [[debt slavery]] in many parts of the world.&lt;ref name=NoackWP&gt;{{cite web |url=http://www.washingtonpost.com/blogs/worldviews/wp/2014/11/18/map-the-worlds-36-million-slaves/ |title=Map: The world’s 36 million slaves |author=Rick Noack |date=18 November 2014 |website= |publisher=The Washington Post |accessdate=30 June 2015}}&lt;/ref&gt; In some cases the debtor does not know that they have a right to go '''bankrupt'''. This is a [[human rights]] problem in some countries.&lt;ref name=NoackWP/&gt; Also, some creditors continue to harass a debtor even though bankruptcy laws say they should not, hoping that the debtor will pay them money that they do not deserve.
+
+== United States ==
+Bankruptcy in the United States falls mostly under federal law, Title 11 of the [[United States]] [[Law|Code]] (Bankruptcy Code). The types of bankruptcy available in the United States are named after the primary divisions, or &quot;chapters&quot;, of that law. The person or business that files a bankruptcy case is known as the ''debtor''.
+
+When a bankruptcy case is filed, a [[trustee]] is chosen by the court. The trustee has authority over the property of the bankrupt person or business and may use some of the debtor's [[asset]]s to pay the [[creditor]]s. After a bankruptcy is filed, creditors are notified that they are to stop trying to collect money directly from the debtor and are to make claims for payment to the bankruptcy court.
+
+===Chapter 7===
+The most common form of bankruptcy is the Chapter 7 Bankruptcy, which can be filed by [[business]]es or individuals.&lt;ref name=NOLO&gt;{{cite web |url=http://www.nolo.com/legal-encyclopedia/chapter-7-13-bankruptcy-basics-29829.html |title=What Is Bankruptcy? |author= |date= |website= |publisher=NOLO |accessdate=30 June 2015}}&lt;/ref&gt; It is also called [[liquidation]] bankruptcy because some of a debtor's [[property]] may be sold (liquidated) to satisfy creditors.&lt;ref name=NOLO/&gt;
+
+When a [[business]] is in [[debt]] and cannot pay it, it may ask or be forced to file bankruptcy in court under Chapter 7.&lt;ref&gt;{{cite web|url=http://www.law.cornell.edu/uscode/text/11/109|title=11 U.S. Code § 109 - Who may be a debtor|work=cornell.edu|accessdate=1 July 2015}}&lt;/ref&gt; A chapter 7 usually makes a [[company]] stop doing business. [[Employee]]s often lose their jobs when company files for chapter 7.
+
+===Chapter 11===
+Chapter 11 bankruptcy is a complicated type of bankruptcy that reorganizes the debtor's finances, usually reducing the amount of debt owed and changing debt repayment terms. A Chapter 11 bankruptcy case allows a business to keep running while it finds ways to reduce and and arrange payment of its debts.
+
+Almost all Chapter 11 bankruptcies are filed by businesses. Ordinary people do not usually file Chapter 11 bankruptcy, because a Chapter 13 bankruptcy will almost always be cheaper and easier for them.
+
+===Chapter 13===
+Chapter 13 is the most popular form of bankruptcy in the United States for ordinary people.&lt;ref name=NOLO/&gt; In a Chapter 13 bankruptcy some of your debts may be forgiven (discharged), but you will have to pay back a portion of your debt. The debt repayment plan is supervised by the bankruptcy court and usually lasts for three to five years. Businesses cannot file for Chapter 13 bankruptcy.
+
+===Other bankruptcy chapters===
+
+Less common forms of bankruptcy may be filed under Chapter 9 and Chapter 11 of the bankruptcy code.
+
+====Chapter 9====
+Chapter 9 bankruptcy allows [[Municipality|municipalities]], smaller units of government such as cities and towns, to restructure their debts.
+
+====Chapter 12====
+Chapter 12 bankruptcy is a special type of bankruptcy for family farms and fisherman. It combines elements of Chapter 11 and Chapter 13 bankruptcy to allow smaller farms and fishing businesses to stay open while they restructure their debts.
+
+== References ==
+{{reflist}}
+
+
+[[Category:Economics]]</text>
+    <sha1>nib095feqpq6466na50a40e9agjiebj</sha1>
+</revision>
+</page>
+<page>
+<title>User talk:Bdesham</title>
+<ns>3</ns>
+<id>73</id>
+<revision>
+    <id>494310</id>
+    <parentid>36423</parentid>
+    <timestamp>2007-08-17T00:08:59Z</timestamp>
+    <contributor>
+        <username>Bdesham</username>
+        <id>142</id>
+    </contributor>
+    <minor/>
+    <comment>[[User:Bdesham]] moved to [[User talk:Bdesham]]: This was just talk anyway, so moving will keep the page's history.</comment>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">Hi Benjamin, welcome to '''Simple'''! You can find all sorts of useful links on the [[Useful]] page. Please add to it if you think anything else would be useful. [[Angela]]
+</text>
+    <sha1>bhcx7g7o5fzd8fhqc2ophtgy5qekgnl</sha1>
+</revision>
+</page>
+<page>
+<title>Breakfast sausage</title>
+<ns>0</ns>
+<id>74</id>
+<revision>
+    <id>4311374</id>
+    <parentid>4198336</parentid>
+    <timestamp>2013-03-14T23:01:52Z</timestamp>
+    <contributor>
+        <username>Auntof6</username>
+        <id>22027</id>
+    </contributor>
+    <minor/>
+    <comment>removed [[Category:Meats]]; added [[Category:Sausage]] using [[Help:Gadget-HotCat|HotCat]]</comment>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">'''Breakfast sausage''' is a type of fresh [[pork]] [[sausage]] made from [[season]]ed [[ground]] [[meat]] mixed with [[bread]] crumbs. Breakfast sausage has a blander flavor than many other types of sausage, such as Polish or Italian-style sausages.
+
+==Using breakfast sausages==
+Breakfast sausages are not [[curing|cured]] or [[smoking|smoked]] like other types of sausages, which means that they have to be cooked soon after they are purchased (unless they are frozen).  Uncooked sausages should be stored in the [[refrigerator]] or the [[Refrigerator|freezer]]. Individuals handling them should wash their hands in hot [[soap]]y water, because uncooked pork is unhealthy for humans. Pork sausages have to be heated until all of the meat inside is cooked.
+
+They are usually [[Frying|fried]] or grilled in a pan until they are browned and served at [[breakfast]], often with cooked [[Egg (food)|eggs]], [[pancake]]s, and [[toast]]ed bread. Breakfast sausages are also used in other dishes, such as &quot;toad in the hole&quot; a cooked batter dish.
+
+==Types of breakfast sausages==
+Different types made from pork and [[beef]] mixtures as well as [[poultry]] can now be found. There are also [[vegetarian]] types that use [[tofu|textured vegetable protein]] in place of meat. Breakfast sausages are available in patties or slices from a large roll, or in weiner-like links of different lengths and thickness.
+
+
+{{food-stub}}
+
+[[Category:Sausage]]
+[[Category:Breakfast foods]]</text>
+    <sha1>0ow1h0e3liub7qd5yusr9555bqqr05o</sha1>
+</revision>
+</page>
+<page>
+<title>Talk:Basic English</title>
+<ns>1</ns>
+<id>75</id>
+<revision>
+    <id>2577379</id>
+    <parentid>2577251</parentid>
+    <timestamp>2010-12-28T16:49:29Z</timestamp>
+    <contributor>
+        <username>Hydriz</username>
+        <id>127811</id>
+    </contributor>
+    <minor/>
+    <comment>/* English Improve */</comment>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">{{talkpage}}
+What we really need is to apply the rules of [[grammar]] of [[Basic English]] to the [[2000 words]] required to make up a full [[defining vocabulary]].  See [[talk:Simple English]]
+
+------------
+
+Suggestion for new [[boilerplate]], 24 October 03:
+On every article whose title is one of the 850 [[Basic English]] words we add a header:
+
+'''This is a [[Basic English]] word.'''
+
+-- I assume users will often find this kind of marker helpful -- RJ092191.user.veloxzone.com.br
+
+::Yes, good idea.  We should do the same for the most common [[1000 words]] and [[2000 words]].
+
+:::So you want to do it for the BE list, the 1000 word list, and the 2000 word list? Where does it end? What if I want to do it for the [[Spache]] list as well. See my comments on [[Wikipedia talk:Standard messages]]. This is not a good idea. We are '''not''' the &quot;Basic English&quot; Wikipedia. [[Angela]].
+
+::::I was just writing a suggestion, but i've deleted, because i've realised something.  We aren't meant to have pages for the BE words.
+
+:::::No, not the &quot;words&quot;, but if the name of an article happens to be the same as a BE (or defining vocabulary or Spache word) we should say so, as it marks a very basic concept every English reader must know.  Mostly these will be disambiguation pages or those explaining complex alternative uses, e.g. [[boot]], [[net]], [[web]], [[run]].  When you see on the screen of the computer at the school which you get 15 minutes/week on, it matters if you understand &quot;no [[boot device]]&quot;, or can figure out what it is to &quot;[[run]]&quot; a program vs. to run in a soccer game.  Likewise to catch fish in net vs. to get email over it.  We forget how confusing this metaphor is, and how mixed (you access a non-spider [[web]] usually via the [[net]], but the HTML files may be on your [[boot]] not [[data]] drive etc.).  Imagine how confusing that lingo, which EVERYONE uses, ESPECIALLY new EN users, if we don't write at least those disambiguation articles.  There won't be more than about 100 of them though.  What Tango says here is exactly right:
+
+::::The idea is everyone who comes to the site knows BE and we only have to explain NON BE words.  The idea of being a dictionary was never meant to include definitions for the 1000/2000 words. -- [[Tango]]
+
+:::::That's exactly right.  Those are the ONLY words we CAN'T put those definitions in for!  There is enough to do defining those &gt; the 2000 and getting good articles in place to properly introduce subjects under the proper Full English names, so they can find the correct Full articles (in any language).
+
+&quot;We aren't meant to have pages for the BE words.  The idea is everyone who comes to the site knows BE and we only have to explain NON BE words.  The idea of being a dictionary was never meant to include definitions for the 1000/2000 words.&quot; -- I am new here, so I have to ask: Who says so? Can you point me to a discussion? (I am not asking this to argue, but because if there is a [[Standard Operating Procedure]] about this I haven't seen it. Thanks.) -- RJ092191.user.veloxzone.
+
+:::::This is at [[Wikipedia:Policy|Simple English Wikipedia policy]].  It's one of those points where we must have a markedly different rule than the Full wikis.
+
+Also -- &quot;The idea is everyone who comes to the site knows BE and we only have to explain NON BE words.&quot; --  I say again: The users, contributors, and editors of this [[SEWiki]] are &lt;i&gt;de facto&lt;/i&gt;  anybody who can get to a WWW-capable terminal, can use it, and stumbles across this site. We *cannot* and presumably *should not try to* control &quot;who comes to this site&quot;. -- RJ092191.user.veloxzone.
+
+:Control, no, make a few simple assumptions about, yes.
+
+::The assumptions are at [[Simple English Users]].  As it stands, it is a list of all non-English-speaking people on Earth, with no attempt to guess how likely they are to get to a WWW-capable [[wikt:terminal|terminal]] and this [[website]].  It would be more useful for someone to figure that out, and calculate the likelihood of different types of users getting here for help, than to continue arguing about being a full dictionary that we don't have skills or talent to write.
+
+:I can't remember where it was discussed, probably SimpleTalk, but i seem to remember the conclusion was (although most of it was made before i got here) that we needed to be a dictionary as well as an encyclopedia so we could define the non-simple words that we would need to use in articles from time to time.  There was never any intention of making definitions for the simple words.  We may not want to control who comes here, but we must have an intended audience.  In my view, that is people who already have a knowledge of simple english.  We are not here to teach people english.  If we want to help people learn english, we need to completely change the way we work. -- [[Tango]]
+
+::I think the discussion is at [[Wikipedia talk:Policy|Talk:Simple English Wikipedia policy]] now.
+
+::We are however &quot;teaching English&quot; if we start with [[Basic English]] or a [[defining vocabulary]] and then define [[idiom]] and [[technical term]] up from that.  We just aren't teaching [[Basic English]]!  There are far better programs and systems to do that.
+
+== operator? ==
+
+''Operators and pronouns conjugate as in normal English.''
+
+Since &quot;operator&quot; with a relevant linguistic meaning is not in this Wikipedia or in the normal English one or any of the dictionaries i consulted, it should be changed to something comprehensible and correct. --[[User:80.186.159.233|80.186.159.233]] 12:30, 12 September 2006 (UTC)
+
+== Rules of Word Use Recommendation ==
+
+Under this heading, Rule 8 is:
+::Make combined words from two nouns (for example &quot;milkman&quot;
+:: or &quot;wordend&quot;) or a noun and a directive (sundown).
+
+I'm new to Simple English Wikipedia, but as an ESL teacher, I really don't like making nonexistent words (like &quot;wordend&quot;) to explain things.  Would those with more experience here agree that we can take out &quot;wordend&quot; in its two occurrences? (There's one use above this rule.) --[[User:DBlomgren|DBlomgren]] 15:43, 22 October 2006 (UTC)
+
+::I concur with DBlomgren, this should be changed. We aren't supposed to be inventing new words here. [[User:Blockinblox|Blockinblox]] 00:23, 6 November 2006 (UTC)
+
+:::I agree and disagree... 'wordend' in itself is not very logical, and therefore would be disruptive to a student of the language's learning experience of it anyway. Howwever 'word-end' with a dash, makes all the difference. Therefore, if all compound words were made by joining the two words with a dash, there would be no worry that it may not be correct... because even in normal english you can basically join any two words with a hyphen to create a certain meaning. However, joining two words without a dash is a more tricky event, and we cannot expect students of the language to know when and when not to use the dash, so just keeping it in all the time for simplicity will benefit them, as well as the consistency anyway. [[User:Iamandrewrice|Iamandrewrice]] 12:51, 31 December 2007 (UTC)
+
+==Voccabulary==
+The problems for reader who need basic english is not really the voccabulary. The problems is the misunderstanding. Lexical ambiguity is of course a problem but grammar should be simple. So more terms should be used. Perhaps, a test should be an automatic translation to german (or other, for example) and retranslation to english. If the text can't be understand, that is an Ambiguity. [[User:86.72.170.234|86.72.170.234]] 12:45, 7 February 2007 (UTC)
+
+== add examples for the rules ==
+
+I had a hard time understanding what the rules mean.  Examples might make them more easy to understand.  I am a native speaker of English, but I still did not understand what most of the rules were trying to say, especially the second one. [[Special:Contributions/76.118.217.245|76.118.217.245]] 06:01, 26 December 2007 (UTC)
+
+== those links at the end need to be tidied up ==
+
+its so unclear what they are... [[User:Iamandrewrice|Iamandrewrice]] 12:48, 31 December 2007 (UTC)
+
+== cup illustration inappropriate ==
+
+The photograph illustrating the word cup is inappropriate because the cup is sitting on a saucer, which is a word not in the Basic English word list. [[User:Kensor|Kensor]] ([[User talk:Kensor|talk]]) 01:27, 15 July 2008 (UTC)
+
+== Other Languages ==
+
+Do other languages have this kind of concept as well? If so it might be helpful to link to articles (or create them) on this subject.--[[User:Crossmr|Crossmr]] ([[User talk:Crossmr|talk]]) 04:38, 17 February 2009 (UTC)
+
+== Software for &quot;Basic English&quot; ==
+
+For the first time I read about the &quot;Basic English&quot; in the WIki
+and created a free program specifically for set of words &quot;Basic English&quot;
+Can I place a link to it?
+* [http://www.forcemem.com/#exercises &quot;Basic English&quot; on Your Phone (Mobile Tutor)]
+[[User:SergF|SergF]] ([[User talk:SergF|☎]]) 2 July 2009
+
+:Hello, Wikipedia is not a mere directory of links. You are, however, encouraged to add information instead of links to the encyclopedia. Regards, --&amp;nbsp;[[User:Mercy|Mercy]] ('''[[User talk:Mercy|☎]]|[[Special:Contributions/Mercy|✍]]''') 10:20, 2 July 2009 (UTC)
+
+::Thanks, I really help much relevant links from the Wiki. Sometimes even more than the text. [[User:SergF|SergF]] ([[User talk:SergF|☎]]) 2 July 2009
+::Questions to the Mercy. 1. You can add links, or not at all (from your answer I did not understand)? 2. My link spam or not spam? 3. To link Basic English Utility is advertising, but why you did not delete? 4. It may be to create a partition software to link with the software (How Practical use)?[[User:SergF|SergF]] ([[User talk:SergF|☎]]) 2 July 2009
+
+Good Grammar – a Portal to Success
+Having good grammar is essential for speakers of any language. When your grammar skills are superior and you are able to form clear sentences, your writing will come across as natural, sophisticated and intelligent. This can provide great benefits, whether you are a student or a working professional. GrammaRight® software can provide you with a reliable source of answers for every type of grammar question. Whether you are trying to write a business proposal, thesis or other crucial text, this software will help you to gain a linguistic edge.
+English Grammar is not Intuitive
+English grammar is complex, partly because English has been influenced by various languages throughout its history. English grammar is not intuitive, with many aspects which not only flummox foreign language learners who are trying to become fluent in the language, but even cause trouble for well-spoken first-language speakers. English grammar may not be intuitive, but software which is can help you to develop an innate sense of what is right and what is wrong when writing. As your awareness of the various components of grammatical structures improves, so will your writing’s clarity.
+An Online English Grammar Exercise for your Business
+Businesses gain or lose clients according to how good or bad their communication skills are. If you business communicates clearly and effectively, it will exude a sense of commanding power which will help clients to feel secure in investing in your services. A writer who works for one of the largest law firms in America has developed English training packages which help businesses to get the edge in clear and effective expression. Your business can request a training package which will help to improve employees’ language skills considerably, benefitting your business.
+Use Basic English Grammar Tools to Enhance your Style
+With the aid of Basic English grammar tools in the form of computer training software, you can enhance your writing style considerably, so that it makes a real impact. If you would first like to try the software in question prior to buying the complete package, you can download a sample of it from our website. The files are a hundred percent safe, with secure downloads offered. A grammar tool in which you can look up various rules provides a useful electronic writing resource, with numerous examples illuminating the various lessons in the use of good grammar.
+Common Grammar Problems Resolved
+It is easy to become confused when writing in English. Similar words such as ‘their’ and ‘there’ are homophones (words which sound the same) and are easily jumbled up in sentence creation, causing the writer of a particular text to come across as juvenile to those who are more conscious of grammatical errors. When you have the authority on English grammar a few clicks away, you can ensure that your writing is always concise, and that you convey what you intend to.
+
+== English Improve ==
+
+Hi,
+I want to improve my english if you help me I am always try to speak but i forget words so help me about this {{unsigned|Atiq Ur Rehman}}</text>
+    <sha1>bsk98asnp33uch67zi8ugn1k3vwisne</sha1>
+</revision>
+</page>
+<page>
+<title>Browser</title>
+<ns>0</ns>
+<id>76</id>
+<revision>
+    <id>4614183</id>
+    <parentid>4606881</parentid>
+    <timestamp>2013-11-08T18:59:20Z</timestamp>
+    <contributor>
+        <username>Jim.henderson</username>
+        <id>70336</id>
+    </contributor>
+    <comment>[[image:Giraffe feeding, Tanzania crop.jpg]]</comment>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">{{Distinguish|Web browser}}
+[[Image:Giraffe feeding, Tanzania crop.jpg|thumb|Giraffe browsing]]
+A '''browser''' is an animal, usually a [[herbivorous]] [[mammal]], which eats [[leaves]] and [[shrub]]s rather than [[grass]]. It is contrasted with [[grazer]]s, which eat grass.
+
+{{biology-stub}}
+
+[[Category:Ecology]]
+[[Category:Zoology]]</text>
+    <sha1>co265s1ejo3n0st2qt95k4zkuy961cb</sha1>
+</revision>
+</page>
+<page>
+<title>Talk:Web browser</title>
+<ns>1</ns>
+<id>77</id>
+<revision>
+    <id>196853</id>
+    <parentid>196851</parentid>
+    <timestamp>2006-09-15T17:16:41Z</timestamp>
+    <contributor>
+        <username>Billz</username>
+        <id>3441</id>
+    </contributor>
+    <comment>Fixed link</comment>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">I'm not sure about your use of &quot;boot device&quot;.  A boot device is something used when turning on a computer, the browser is normally installed with the OS, which is what you probably mean, but it isn't what you've said.
+
+:Because it's already defined at [[boot device]]...!
+
+:It's the right balance of terminology for a new user, who is probably just getting used to computing.  It's not wrong to say [[boot device]] usually has the browser - since it usually has the operating system and other basic applications.  And since a boot device is a physical thing they can see, feel, and touch, and all operating systems have them, it's much easier to describe *that* as 'where the browser is' or 'where it should go'.  There is nothing about an &quot;operating system&quot; that is quite standard - each OS uses its own strange terminology.  But every computer has a boot device that I'm aware of.
+
+I'm also not sure about your use of &quot;network appliance&quot;.  Different appliances do different things.  Browsers are a very specific type.  I don't think the term needs mentioning at all.
+
+:No, it does, because a network applicance or [[webPC]] or [[kiosk computer]] really only exists to support a browser.  To those users, who are often using public internet facilities e.g. in India where kiosk computing is common, the browser software and the network applicance are indistinguishable.  And that's going to be a majority of [[Simple English]] readers very soon - there are 200 million school age kids in India...
+
+I'm not going to change the entry yet, but i will in 24 hours of no-ones replied here. -- [[Tango]]
+
+:If you can find a simpler way to explain [[boot device]], do so.  But in [[net jargon]] and [[Technical English]] that phrase universally means &quot;the thing that must be there to make the computer go&quot;, and the verb &quot;to [[boot]]&quot; universally means &quot;to start the computer up.&quot;  There is no chance that any other lingo can be understood quite so readily by every [[Simple English User]].
+
+:There is no such thing as an &quot;operating system&quot; - really our entry should just say what [[Alan Kay]] said about it:  &quot;a collection of utilities not in the language - there shouldn't be one.&quot;
+
+::I really don't understand you.  What are you actually calling a &quot;boot device&quot;?  You say it is a physical thing, what thing? Are you refering the the BIOS? The boot record of the hard drive?
+
+:::You are talking about things that no [[Simple English User]] could possibly know about - [[BIOS]], [[boot record]], etc. - those two concepts only exist in some [[operating system]]s so it is [[Industry Standard Architecture]] and [[Microsoft Windows]]-centric to talk about them.  A [[device]], though, is what such standards as [[SCSI]] and [[EIDE]] and [[USB]], that are not tied to any one OS, refer to.  A [[boot device]] is that device, usually a [[hard disk]], that contains everything the computer needs to start - and likely to provide access to the [[net]] and [[web]].  Such concepts as BIOS or boot record, which I don't think exist on say the [[Mac OS]], should not be mentioned in a generic description of browsers or boots.
+
+::If there is no such thing as an OS, what is Windows? What is Linux? What is MS-DOS? (i'm refering to the kernels, rather than any applications and utilities that come with it). -- [[Tango]]
+
+:::That distinction between &quot;kernel&quot;, &quot;application&quot;, &quot;utility&quot;, is also OS-specific, and should be avoided.   I would have called [[Apple Macintosh|Macintosh]] and [[MS-DOS]] and all versions of [[Microsoft Windows|Windows]] up to and including [[Windows98]] a &quot;[[program loader]]&quot;, since they didn't abstract the processor and let applications crash the &quot;kernel&quot;... But the term [[operating system]] is probably correct now to describe [[Mac OS]], [[Linux]] and [[Windows2000]] and later versions.  It wasn't always...
+
+:::New users physically handle [[boot device]]s, and swap them around - on [[Mac OS]] it's very common to keep a lot of external hard drives around, and it's increasingly common thanks to USB disks on [[Intel box]]es as well.  Eventually the boot device will look like a [[credit card]] and work almost anywhere in any kiosk or something... some [[mobile telephone]]s already have that kind of thing on a [[chip]] - these are their boot devices, they identify the user to the network, make the phone work, and you can go on the [[net]] and [[web]] with them!  But they have no BIOS, no boot loaders... see?</text>
+    <sha1>7sjnlycptbv5az0g34gtmdrvifrusae</sha1>
+</revision>
+</page>
+<page>
+<title>Talk:Boot device</title>
+<ns>1</ns>
+<id>78</id>
+<revision>
+    <id>36428</id>
+    <timestamp>2003-10-16T22:12:24Z</timestamp>
+    <contributor>
+        <username>hlfx44-92.ns.sympatico.ca</username>
+        <id>0</id>
+    </contributor>
+    <comment>*</comment>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">It could be added that &quot;the boot device is that thing that, if it isn't there, you see an [[unhappy Mac]] or &quot;[[no boot device]]&quot; message on your screen, or &quot;[[no user id chip]]&quot; (on a [[mobile telephone]]) instead of the [[graphic user interface]] you'd see if the [[boot]] had occurred.
+
+
+</text>
+    <sha1>2dvwoeypgb11ht0lyum992pyrkwjkkb</sha1>
+</revision>
+</page>
+<page>
+<title>Beekeeping</title>
+<ns>0</ns>
+<id>80</id>
+<revision>
+    <id>5028645</id>
+    <parentid>4896407</parentid>
+    <timestamp>2015-03-08T22:17:11Z</timestamp>
+    <contributor>
+        <username>Dexbot</username>
+        <id>233259</id>
+    </contributor>
+    <minor/>
+    <comment>Removing Link FA template ([[d:Wikidata:Development plan#Badges|handled by wikidata]])</comment>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">[[File:Broodcomb.jpg|thumb|200px|Bees on a comb.]]
+
+'''Beekeeping''' or '''apiculture''' is the [[farming]] of [[honeybee]]s.
+
+== Uses ==
+The keeping of bees is usually, and has been in the past, for [[honey]]. That is becoming less true. Instead, it is more used for [[crop]] [[pollination]] and other products. These are [[:wikt:wax|wax]] and [[propolis]].
+
+There is only one queen bee in each hive and she is bigger than the rest. She lays all the eggs, which makes all the other bees in the hive her daughters and sons. However, they do not control the hive.
+
+== Types of beekeeping ==
+The largest beekeeping operations are agricultural businesses that are operated for profit. Some people also have small beekeeping operations that they do as a [[hobby]]. Urban beekeeping is a growing trend, and some have found that &quot;city bees&quot; are actually healthier than &quot;rural bees&quot; because there are fewer pesticides and greater biodiversity.&lt;ref&gt;http://www.guardian.co.uk/commentisfree/2010/jun/23/can-cities-save-bees&lt;/ref&gt;
+
+==Threats==
+[[Colony Collapse Disorder]] is a growing problem, along with [[mite]]s.
+
+== References ==
+{{reflist}}
+
+{{wikibooks-en}}
+{{Commonscat|Beekeeping}}
+
+
+{{biology-stub}}
+
+[[Category:Agriculture]]
+[[Category:Hobbies]]
+[[Category:Animal husbandry]]
+&lt;!-- interwiki --&gt;</text>
+    <sha1>3hw24utqdrt3en5kmlv3z7mfh0xuvo6</sha1>
+</revision>
+</page>
+<page>
+<title>British English</title>
+<ns>0</ns>
+<id>83</id>
+<revision>
+    <id>5685715</id>
+    <parentid>5685714</parentid>
+    <timestamp>2017-05-14T13:24:54Z</timestamp>
+    <contributor>
+        <username>ChenzwBot</username>
+        <id>16695</id>
+    </contributor>
+    <minor/>
+    <comment>[[Help:Revert a page|Reverted]] edits by
+        [[Special:Contributions/2A00:23C5:186:E300:47:C789:DE2:FF12|2A00:23C5:186:E300:47:C789:DE2:FF12]] ([[User
+        talk:2A00:23C5:186:E300:47:C789:DE2:FF12|talk]]) to last version by 130.105.217.138
+    </comment>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">'''British English''' is the kind of [[English language]] which is used in the [[United Kingdom]] and in most countries which previously were in the [[British Empire]].
+
+== Pronunciation in British English ==
+In the United Kingdom, many different people say words in different ways. For example, a man from a place near [[London]] may not pronounce his &quot;r&quot;s the same as a man from [[Scotland]] or a man from [[Northern Ireland]]. Across the country, the accent is different. For instance, in [[Liverpool]], one speaks with a &quot;scouse&quot; accent, and in [[London]], one speaks with a &quot;cockney&quot; accent. Different variations on all of British English exist from the manner in which words are pronounced to the manner in which they are spelt. One place people speak English in a different way is [[Cornwall]], where the [[Cornish dialect]] is spoken.
+
+=== Other languages ===
+Britain, like other countries, has languages other than English. In [[Wales]] many speak [[Welsh language|Welsh]]; in [[Scotland]] some people speak [[Gaelic]], and in [[Ireland]] a few people speak [[Irish language|Irish]]. However, that is not the subject of this particular article.
+
+== Spelling in British English ==
+British English often keeps more traditional ways of spelling words than American English.
+
+* Some British English words end in &quot;re&quot;, because the words were originally taken from [[French language|French]].  They are often simplified to &quot;er&quot; in American English
+::British English: centre, litre, metre.
+::American English: center, liter, meter.
+* Some British English words end in &quot;our&quot; and are simplified to &quot;or&quot; in American English. The English spelling also came from the French language.
+::British English: colour, favour, honour, labour
+::American English: color, favor, honor, labor
+* Some British English words the have come originally from the Greek language use &quot;ph&quot;. This has been changed to &quot;f&quot; in some other languages.
+::British English: Sulphur
+:: American English: Sulfur
+* Some words in British English use &quot;s&quot; where &quot;z&quot; is used in American English. However, spelling them with &quot;z&quot; is also done in Britain sometimes.
+::British English: colonisation, realisation, organisation
+::American English: colonization, realization, organization
+* The word &quot;[[gray]]&quot; is also a special case, as it is normally spelled &quot;gray&quot; in American English and &quot;grey&quot; in British English. However, &quot;gray&quot; is also used in Britain, and &quot;grey&quot; is also used in America.
+* Many of these rules are also used in other countries outside of the [[United Kingdom]], mostly in countries that are members in the [[Commonwealth of Nations]].
+
+== Vocabulary in British English ==
+In British English, &quot;dock&quot; refers to the [[water]] in the space between two &quot;piers&quot; or &quot;wharfs&quot;. In American English, the &quot;pier&quot; or &quot;wharf&quot; could be called a &quot;dock&quot;, and the water between would be a &quot;slip&quot;.
+
+Some common differences:
+
+British – American
+* accelerator – throttle{{fact|date=October 2015}}
+* [[autumn]] – fall
+* [[biscuit]] – cookie
+* bonnet – hood (of a car)
+* [[boot]] – trunk (of a car)
+* bum – butt
+* caravan – trailer, mobile home
+* chips – [[French fries]]
+* courgette – [[zucchini]]
+* crisps – chips
+* face flannel – washcloth
+* flat – apartment
+* [[football (soccer)|football]] – soccer
+* garden – yard
+* handbag – purse
+* jumper – sweater
+* [[lift]] – elevator
+* lorry – truck
+* manual gearbox – stick shift
+* metro, underground, tube – subway
+* motorway – freeway
+* mum – mom
+* nappy – diaper
+* number plate – license plate
+* pants - underpants
+* pavement – sidewalk
+* pram – stroller
+* petrol – gas or gasoline
+* phone box - phone booth
+* post – mail, mailbox
+* [[railway]] – railroad
+* shifting – moving
+* shopping trolley – shopping cart
+* surname – last name
+* take-away – take-out
+* trousers – pants
+* to let – to rent
+* torch – flashlight
+* tram – streetcar
+
+== Usage in different countries ==
+[[American English]] is only an official language in the [[United States]]. In [[Canada]], the accent sounds extremely similar to American English but with few exceptions (see [[Canadian English]]). The American spelling in Canada is sometimes used, but traditionally, the British Spelling (with the exceptions of some words like programme, -isation/-ise/-isable, chilli, etc.) is used. Although Commonwealth English is the most spoken, American English is seen more often on the internet. American English vocabulary dominates the visual media: &quot;movies&quot; (British: &quot;films&quot;) and television.
+
+All [[Commonwealth of Nations|Commonwealth]] nations and Africa learn Commonwealth English, while American English is often learnt in the Americas and China. Z pronounced 'Zee' is only seen in the U.S.A and less commonly in Canada, while Z pronounced 'Zed' is spoken almost everywhere else. The United Kingdom and Ireland use British layout keyboards, while Australia, South Africa, Canada, New Zealand and the U.S.A use American layout keyboards. In continental [[Europe]] [[English as a second language]] is nowadays sometimes even taught in American English, except perhaps in [[Scandinavia]] and the [[Netherlands]].
+
+== Other websites ==
+* [http://www.digitas.harvard.edu/cgi-bin/wiki/ken/BritishVsAmerican British and American English differences]
+
+[[Category:Dialects of English]]</text>
+    <sha1>havczvo4r22vm3a5uch6o6gtc6adhhe</sha1>
+</revision>
+</page>
+<page>
+<title>Talk:British English</title>
+<ns>1</ns>
+<id>84</id>
+<revision>
+    <id>5374531</id>
+    <parentid>5061747</parentid>
+    <timestamp>2016-04-17T22:11:21Z</timestamp>
+    <contributor>
+        <username>Julianthebarbarian</username>
+        <id>511559</id>
+    </contributor>
+    <comment>/* &quot;One place people speak English in a different way is Cornwall, where the Cornish dialect is spoken.&quot; */ new section
+    </comment>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">{{talkpage}}
+Is [[American English]] more right than [[British English]]? Or vice versa?
+
+It's called &quot;English&quot; so the version spoken in &quot;England&quot; is obviously the &quot;right&quot; one.  Anything else is a dialect, and not pure english.  Obviously there are dialects spoken in england, but they are not normally written, all writing is in &quot;queen's english&quot;. -- [[Tango]]
+
+:On Wikipedia, both are accepted. If it is a page about somewhere where British English is used, you should write in British English. If it is a page about somewhere where American English is used, you should write in American English. For other articles you can write in whichever style you want. &lt;br&gt;[[User:SimonMayer|SimonMayer]] 20:01, 22 Mar 2004 (UTC)
+
+::Neither is more right than the other (whatever that could mean).  Nor are either of them more right than South African English nor is South African English more right the New Zealand English and New Zealand English isn't more right than either British or American English.  All dialects or dialect groups are equal.  [[User:Jimp|Jimp]] 01:09, 15 February 2007 (UTC)
+
+:::It really doesn't matter, but English started in England, and America changed some words. So, I guess if you wanted to know which one is &quot;better&quot;, I would say British English. [[User:Isis|Isis]]  16:12, 29 May 2007 (UTC)
+
+::::No, that is in fact not correct. America did not &quot;change some words&quot; which suggests Britain &quot;did not change those words&quot; and therefore the British English is somehow &quot;better.&quot; Frankly, the Wiki is what it is, but people who are more interested in their opinion than fact shouldn't be writing Wiki pages. For instance, the statement on this page that American English sometimes simplifies pronuciations (by pronouncing Aluminium &quot;alume-inum&quot; is wrong. It's pronounced the way it is in America because that's the way it's spelled in America: aluminum - for a more thoughtful discussion of the facts regarding the spelling of aluminum, for instance, see the Wiki entry on aluminum, where it's pretty clear that aluminum is the spelling early applied by the scientists who actually discovered the metal and aluminium is the result of an arbitrary decision by the OED - I'll attach a Wiki quote). Regarding spellings in general, these have been changing in all forms of English for the entire period during which the language has been recognized as separate from German, from which it mainly derives. It was in a significant state of flux at the time that America separated from the British Empire, and in fact Webster developed the first systemized spelling scheme for English long before the OED got around to it - and is for instance the reason why we don't have quaint phrases like Ye Olde Shoppe in modern English of all dialects. [In fact, Webster standardized English spelling rules 30 years before the earliest tracable beginnings of what has come to be known as the OED.] At the linked &quot;American English&quot; page, which appears to be written by the same person as this page, an example is given of two words which end in &quot;ise&quot; in British English but &quot;ize&quot; in American English. Another example of a modern English word with similar spelling differences is &quot;naturali(s/z)e.&quot; Interestingly, it is spelled with a &quot;z&quot; (as is authorize) in the original draft of the American Constitution - drafted by men who were educated in the British Empire, clearly demonstrating again that the spelling of words is far more complicated that the stated &quot;America changed some spellings&quot; of the above statement, and the tone of these English Dialect pages (In fact, I'll sub-quote a passage from the standard English Wiki page on English Spelling at the end to re-emphasize the point). British English is NOT &quot;better,&quot; nor is American English. They have both, along with the other dialects, contributed to what is by far the most complex yet flexible modern human language. By far the biggest detriment to the English language is spelling inconsistencies - not BETWEEN dialects, but within and among all dialects because of (inconsistent) spelling rules applied to words taken from a single language group as well as inconsistent spelling applied to words taken from different language groups.
+
+::::From http://en.wikipedia.org/wiki/Aluminum#Spelling
+:::::The earliest citation given in the Oxford English Dictionary for any word used as a name for this element is alumium, which Humphry Davy employed in 1808 for the metal he was trying to isolate electrolytically from the mineral alumina. The citation is from his journal Philosophical Transactions: &quot;Had I been so fortunate as..to have procured the metallic substances I was in search of, I should have proposed for them the names of silicium, alumium, zirconium, and glucium.&quot;[16]
+:::::By 1812, Davy had settled on aluminum, which, as other sources note, matches its Latin root. He wrote in the journal Chemical Philosophy: &quot;As yet Aluminum has not been obtained in a perfectly free state.&quot;[17] But the same year, an anonymous contributor to the Quarterly Review, a British political-literary journal, objected to aluminum and proposed the name aluminium, &quot;for so we shall take the liberty of writing the word, in preference to aluminum, which has a less classical sound.&quot;[18] (Editor's note: more important politically to get the &quot;classical sound&quot; right than either the scientifically or philologically correct spelling - yes, sarcasm.)
+
+::::From http://en.wikipedia.org/wiki/American_and_British_English_spelling_differences#-ise_.2F_-ize
+:::::-ise / -ize
+:::::American spelling accepts only -ize endings in most cases, such as organize, recognize, and realize. British usage accepts both -ize and the more French-looking -ise (organise, recognise, realise). However, the -ize spelling is now rarely used in the UK in the mass media and newspapers, and is hence often incorrectly regarded as an Americanism,[28] despite being preferred by some authoritative British sources, including Fowler's Modern English Usage and the Oxford English Dictionary, which until recently did not list the -ise form of many individual words, even as an alternative. Indeed, it [OED] firmly deprecates this usage, stating, &quot;[T]he suffix…, whatever the element to which it is added, is in its origin the Gr[eek] -ιζειν, L[atin] -izāre; and, as the pronunciation is also with z, there is no reason why in English the special French spelling in -iser should be followed, in opposition to that which is at once etymological and phonetic.&quot;[29] Noah Webster rejected -ise for the same reasons.[30]
+::::~~mjd 2007-June-8 17:40 EDT
+
+::::::Languages constantly change.  They change wherever they are spoken.  This is hardly a bad thing, it's natural.  A change in a language doesn't necessarily leave the language inherantly any better or worse ... usually just different.
+
+::::::It's called ''English''.  England was named after the language that the people spoke there.  These people spread out to other parts of the World.  So we are to conclude that &quot;the version spoken in 'England' is obviously the 'right' one&quot;?  The logic just doesn't add up.
+
+::::::Everything is a dialect.  There is no &quot;pure English&quot;.  A great deal of the differences between dialects is due to accent.  ''Queen's English'' refers to one such accent.  There is no accent in written English ... obviously.  Writing is not done in Queen's English.
+
+::::::[[User:Jimp|J&lt;small&gt;IM&lt;/small&gt;p]] sevenish GMT, 4 July 2007 (UTC)
+
+:[[English language|English]] is named after England, which is named after [[Angeln]]. [[User:Jim Michael|Jim Michael]] ([[User talk:Jim Michael|talk]]) 14:18, 20 March 2015 (UTC)
+
+==Right or wrong?==
+Regardless of the rightness or wrongness, one thing is clear. The way in which the article was written treated American English as the &quot;norm&quot; and British English as the deviant. This is what I have just rewritten:
+
+*'' '''Some American English words''' ending in &quot;er&quot; end in &quot;re&quot; when written in British English. Examples: center '''becomes''' centre - litre '''becomes''' liter - metre '''becomes''' meter.''
+* '''''Some American English words''' ending in &quot;or&quot; end in &quot;our&quot; when written in British English. Examples: color '''becomes''' colour - favor '''becomes''' favour - honor '''becomes''' honour.''
+* '''''Some words spelled with &quot;f&quot;''' are instead spelled with an &quot;ph&quot;. Example: '''Sulphur is the British spelling of Sulfur.'''''
+* ''Some words in British English use &quot;s&quot; where &quot;z&quot; is used in American English. Example: '''colonisation is the British spelling of colonization.'''''
+*'' Many of these rules are also used in other countries outside of the United Kingdom, more often in countries that are members in the Commonwealth of Nations. ''
+
+So, what is being said here is that ''American words'' '''become''' different, when they are spelt (not spelled if you don't mind!) in English. The article treated British spelling as a mutation of American spelling, and not the other way around. How could this ''possibly'' be the case?
+
+I don't know who wrote this, but I must say to you, that in dealing with a matter like this, the ''knowledge'' of how things are spelt is not sufficient. ''Think hard'' about how you express something before you put it up for the public.
+
+[[User:Amandajm|Amandajm]] ([[User talk:Amandajm|talk]]) 16:13, 27 May 2010 (UTC)
+
+== &quot;One place people speak English in a different way is Cornwall, where the Cornish dialect is spoken.&quot; ==
+
+The above text, taken from the page,  is simply wrong. There is a Cornish accent, and also a more or less dead Cornish language which is a Celtic language similar to Welsh or Breton. There is no Cornish dialect, meaning a form of English with its own nouns, verbs, structures, etc. We could make sense of the sentence by deleting the word dialect and inserting &quot;accent&quot;, or better, delete the sentence altogether.</text>
+    <sha1>scr2pzojs7mo8hysps1ayyfx7uysikj</sha1>
+</revision>
+</page>
+<page>
+<title>Being</title>
+<ns>0</ns>
+<id>85</id>
+<revision>
+    <id>5495734</id>
+    <parentid>5172806</parentid>
+    <timestamp>2016-10-07T20:44:45Z</timestamp>
+    <contributor>
+        <ip>2603:300B:E01:BF00:FC8B:8CD7:EDDE:2C8D</ip>
+    </contributor>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">{{wiktionary}}
+:''Being is also a [[present tense]] part of [[to be]]''
+
+The word '''being''' means a living [[person]] or [[animal]]. &quot;Human being&quot; means the same as &quot;person&quot;. [[man|Men]], [[woman|women]], and [[child]]ren are [[human being]]s.
+
+Some people write stories or make [[movie]]s about beings from other [[planet]]s. Most [[religion]]s talk about [[supernatural]] beings, for example [[spirit]]s, [[angel]]s, [[devil]]s, [[deity|gods]], or [[God]].
+
+{{religion-stub}}
+
+[[Category:Philosophy]]
+[[Category:Religion]]</text>
+    <sha1>mi6nolbjonv5bvgqc6xffxtahj8tu3e</sha1>
+</revision>
+</page>
+<page>
+<title>Beijing</title>
+<ns>0</ns>
+<id>89</id>
+<revision>
+    <id>5478150</id>
+    <parentid>5478149</parentid>
+    <timestamp>2016-09-13T10:47:38Z</timestamp>
+    <contributor>
+        <ip>58.104.209.72</ip>
+    </contributor>
+    <comment>Specified the Olympic Games</comment>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">{{one source|date=July 2014}}
+[[File:Beijing in China (+all claims hatched).svg|thumb|Beijing in China]]
+[[File:Beijing Financial Street (overlook).jpg|thumb|Beijing]]
+
+'''Beijing''' ({{lang-zh|北京}}, Běijīng) is the [[Capital (city)|capital]] of the [[People's Republic of China]]. The city used to be known as '''''[[Peking]]'''''.  It is in the northern and eastern parts of the country.
+
+The city of Beijing has played a very important role in the development of China. Many people from different cities and countries come to Beijing to look for better chances to find work. Nearly 15 million people live there. In 2008 Beijing hosted the [[Summer Olympic Games]], and will host the 2022 [[Winter Olympic Games]]. It will be the only city to host both.
+
+Beijing is well known for its ancient history.  Since the [[Jin Dynasty]], Beijing has been the [[Capital (city)|capital]] of several [[dynasties]] (especially the later ones), including the Yuan, Ming, and Qing. There are many places of historic interest in Beijing.  These places include the [[Summer Palace]] (Yìhéyuán), the Temple of Heaven (Tiāntán), [[Tiananmen Square]] (Tiānānmén Guǎngchǎng), the [[Forbidden City]] (Zǐjìnchéng), and the [[Great Wall of China]] (Chángchéng).
+
+== What This Means==
+Beijing simply means &quot;the northern capital&quot; in the [[Chinese language]].  It was once a counterpart of [[Nanjing]], &quot;the southern capital&quot;, during the Ming Dynasty.  This dynasty gave Beijing its name.  When the city did not serve as the capital city, the city reverts to its original name of Beiping, &quot;northern peace&quot;; this occurred between 1928 and 1949 when Nanjing was the capital of the Republic of China.
+
+== History ==
+The center of Beijing was settled in the [[1st millennium BC]]. In those days, the Kingdom of Yan (燕, Yān) set up their capital where Beijing is today.&lt;ref name=&quot;CD History&quot;&gt;{{citeweb|url=http://www.city-data.com/world-cities/Beijing-History.html |title=History - Beijing |accessdate=23 July 2014}}&lt;/ref&gt; They called it Ji (蓟, Jì). After the Kingdom of Yan was destroyed, the city became smaller, although it was still an important place.
+
+Beijing became more important again in the 10th century, when the Jin dynasty set its capital there. This city was destroyed by [[Mongol]] forces in [[1215]].  Then in [[1267]], Mongols built a new city on the north side of the Jin capital, and called it &quot;Great Capital&quot; (大都, Dàdū), which was the beginning of modern Beijing. When [[Kublai Khan]] the Mongolian monarch, set up the Yuan dynasty, this city became his capital.
+
+The [[Yuan Dynasty]], [[Ming Dynasty]] and [[Qing dynasty]] all made Beijing their capital. When the Qing dynasty lost power and the Republic of China was set up, the new Republic moved its capital from Beijing to Nanjing. When the People's Republic of China seized power, Beijing became the capital of China again.
+
+In 1989, there were [[protest]]s in [[Tiananmen Square|Tian'anmen Square]] because some people wanted [[democracy]].&lt;ref name=&quot;CD History&quot; /&gt;
+
+== Education ==
+Beijing is the education center of People's Republic of China. More than 500 famous universities of China are in Beijing.  They also include 5 of the top universities: [[Peking University]], Tsinghua University, China People University, Beijing Normal University, and Beihang University. Beijing is also education center of China for teaching Chinese as a foreign language. The standard Chinese pronunciation is based on Beijing dialect, so over 70% foreigners who want to study Chinese go to Beijing for their studies.
+
+==References==
+{{reflist}}
+
+== Other websites ==
+{{wiktionary|Beijing}}
+* [http://www.chinatravel.com/beijing/ Beijing Travel]
+* [http://www.chinahighlights.com/beijing/ Beijing Travel Guide]
+* [http://www.voyageschine.com/p%C3%A9kin-voyage/ Voyage Pékin]
+* [http://www.accesschinatravel.com/photos-beijing.html Photos of Beijing]
+
+{{commons}}
+{{Major cities of Greater China}}
+
+[[Category:Beijing| ]]
+[[Category:Olympic cities]]</text>
+    <sha1>3wejjjcjgmdyx3813oxmyrcwd1cgm9a</sha1>
+</revision>
+</page>
+<page>
+<title>Bottle</title>
+<ns>0</ns>
+<id>90</id>
+<revision>
+    <id>5452216</id>
+    <parentid>5452215</parentid>
+    <timestamp>2016-08-01T03:47:20Z</timestamp>
+    <contributor>
+        <username>MBlaze Lightning</username>
+        <id>511617</id>
+    </contributor>
+    <minor/>
+    <comment>Reverted 1 edit by [[Special:Contributions/65.189.18.40|65.189.18.40]] ([[User talk:65.189.18.40|talk]]) identified as
+        [[WP:VAND|vandalism]] to last revision by Chenzw. ([[WP:TW|TW]])
+    </comment>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">[[File:Bouteille.jpg|thumb|Bottle]]
+[[File:Bottle.agr.jpg|thumbnail|100px|right|Six bottles.]]
+
+A '''bottle''' is a [[container]] used to carry [[liquid]]s. Bottles can have many different sizes. Bottles are usually made of [[glass]] or [[plastic]]. Usually, Beer bottles are made of glass, and soft drinks are made of [[plastic]].
+
+[[Milk]], [[wine]], [[lemonade]], and [[water]] are often put into bottles.
+
+
+{{tech-stub}}
+
+[[Category:Basic English 850 words]]
+[[Category:Containers]]</text>
+    <sha1>83abbiv5fb42j4d9odjgghz18nfsy7p</sha1>
+</revision>
+</page>
+<page>
+<title>Berry</title>
+<ns>0</ns>
+<id>91</id>
+<revision>
+    <id>5717685</id>
+    <parentid>5717684</parentid>
+    <timestamp>2017-06-25T23:19:25Z</timestamp>
+    <contributor>
+        <username>ChenzwBot</username>
+        <id>16695</id>
+    </contributor>
+    <minor/>
+    <comment>[[Help:Revert a page|Reverted]] edits by [[Special:Contributions/65.128.173.7|65.128.173.7]] ([[User talk:65.128.173.7|talk]]) to last
+        version by 67.79.115.50
+    </comment>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">[[File:true.berries.jpg|300px|thumb|right|Four fruits that are true berries, shown larger than they are. [[Clockwise]] from right:&lt;br /&gt;[[grape]]s, [[persimmon]], [[gooseberry|red gooseberries]], [[redcurrant|red currants]] (top)]]
+[[File:Berries (USDA ARS).jpg|250px|thumb|right|Several types of common &quot;berries&quot;. None is a berry by botanical definition:&lt;br /&gt;The blueberry is a [[false berry]], blackberries are [[aggregate fruit]], and strawberries are [[accessory fruit]].]]
+The word '''berry''' is used for many different kinds of small [[fruit]]s that have many [[seeds]] and can be used as food. Some examples are [[strawberry]], [[raspberry]], [[blueberry]] and [[lingonberry]].
+
+When [[botany|botanists]] talk about ''berries'', they mean a simple [[fruit]] produced from a single [[gynoecium|ovary]]. They sometimes call this ''true berry'', to distinguish it from ''false berries''. By that statement of how words are used, [[grape]]s or [[tomato]]es are true berries.
+
+The berry is the most common type of soft fruit in which the entire ovary wall gets to the right stage of development of the [[pericarp]] which can be taken as food. The flowers of these plants have an upper ovary with one or more [[carpel]]s. The seeds are inside the soft body of the ovary.
+
+Berries are small, sweet, bright colored fruits. Due to this, they are able to bring more [[animal]]s towards them and spread their [[seed]]s.
+
+Some fruits that are called ''berries'' in [[English language|English]] are not ''true berries'' by the use of words above. These include strawberries, [[blackberry|blackberries]], [[raspberry|raspberries]], [[cranberry|cranberries]], and [[boysenberry|boysenberries]]. Some true berries do not have ''berry'' in their name. These include [[tomato]]es, [[eggplant]]s, [[guava]]s, [[pomegranate]]s and [[chile pepper|chillies]]. [[Pumpkin]]s, [[cucumber]]s, [[melon]]s, [[orange (fruit)|oranges]] and [[lemon]]s are also berries that have slightly different structure and may be called by different names ([[pepo]] for pumpkins, cucumbers, and melons, or [[hesperidium]] for oranges and lemons).
+
+{{Fruits}}
+
+{{biology-stub}}
+
+[[Category:Berries| ]]
+[[Category:Basic English 850 words]]</text>
+    <sha1>4waloo5276vgr9e10qac8r186dx9aof</sha1>
+</revision>
+</page>
+<page>
+<title>Boil</title>
+<ns>0</ns>
+<id>93</id>
+<revision>
+    <id>4405513</id>
+    <parentid>4405512</parentid>
+    <timestamp>2013-05-12T02:52:55Z</timestamp>
+    <contributor>
+        <username>Auntof6</username>
+        <id>22027</id>
+    </contributor>
+    <comment>update</comment>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">'''Boil''' might mean:
+
+*[[Boiling]], heating a liquid to the point where it turns into gas
+*Boil, a type of ''[[Staphylococcal infection]]''
+
+{{disambig}}
+
+[[Category:Basic English 850 words]]</text>
+    <sha1>ppqbhjnpx05p8xjpip3sjtv6uwa5e61</sha1>
+</revision>
+</page>
+<page>
+<title>Beard</title>
+<ns>0</ns>
+<id>94</id>
+<revision>
+    <id>5000551</id>
+    <parentid>5000525</parentid>
+    <timestamp>2015-01-31T08:54:53Z</timestamp>
+    <contributor>
+        <username>Chenzw</username>
+        <id>8630</id>
+    </contributor>
+    <minor/>
+    <comment>[[Help:Revert a page|Reverted]] edits by [[Special:Contributions/DavidBrandon2|DavidBrandon2]] ([[User talk:DavidBrandon2|talk]]) to last
+        version by 50.133.152.203
+    </comment>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">[[Image:Baerte ohne text.jpg|thumb|220px|Some kinds of '''beards'''.]]
+
+A '''beard''' is the [[hair]] growing on the lower part of a [[man]]'s [[face]].
+
+The hair that grows on the upper [[lip]] of some men is a [[mustache]].  When a man has hair only below the lower lip and above the chin, it is called a [[soul patch]].  Some men have a lot of hair and a big beard, and some have very little. In the modern world, many men [[shave]] part or all of their beards, or cut their beard so it does not get very long. Women can also have beards, but it is less common.
+
+Some [[animal]]s also have hair like this, and people sometimes also call this hair a '''beard'''.
+
+{{commonscat|Beards}}
+
+
+{{Biology-stub}}
+
+[[Category:Facial hair]]</text>
+    <sha1>3tlc4t54gorb5j5fgun68l8buaj6wyy</sha1>
+</revision>
+</page>
+<page>
+<title>Talk:Basic English international wordlist</title>
+<ns>1</ns>
+<id>95</id>
+<revision>
+    <id>36442</id>
+    <timestamp>2003-10-25T01:05:35Z</timestamp>
+    <contributor>
+        <username>RJ092191.user.veloxzone.com.br</username>
+        <id>0</id>
+    </contributor>
+    <comment>correct, no problems, right?</comment>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">Added a new intro to explain &quot;what is this?&quot; --
+
+'''This is the [[Basic English]] [[International Wordlist]] in [[alphabetical order]].'''
+
+-- all correct, no problems, right? --  RJ092191.user.veloxzone.com.br
+</text>
+    <sha1>jmls18mou4jr8gnr46v9qujyl347170</sha1>
+</revision>
+</page>
+<page>
+<title>Black</title>
+<ns>0</ns>
+<id>98</id>
+<revision>
+    <id>5749511</id>
+    <parentid>5696026</parentid>
+    <timestamp>2017-08-05T03:27:10Z</timestamp>
+    <contributor>
+        <ip>69.161.103.129</ip>
+    </contributor>
+    <comment>/* Meaning of black */ Grammatical corrections.</comment>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">{{colorswatch|black}}
+
+In light, '''black''' is lack of all [[color]].  In [[painting]], however, the black [[pigment]] is the combination of all colors.  In [[heraldry]], black is called &quot;sable&quot;.
+
+==Origin of ''black''==
+The word black comes from Old English blæc (&quot;black, dark&quot;, also, &quot;ink&quot;), from Proto-Germanic *blakkaz (&quot;burned&quot;), and from Proto-Indo-European *bhleg-. In many languages, ''black'' has the same meaning as ''ink''.
+
+==Black in science==
+In science, an object that is black absorbs the light that hits it. Because these objects do not reflect any light, the human [[eye]] can't see any color coming from that object. The [[brain]] then sees these objects as black.
+
+
+A way to create black objects is to mix [[pigment|pigments]]. A pigment works by reflecting only the color of the pigment. For example, a blue pigment absorbs all colors except blue. By mixing pigments in the right quantities, black can be made.
+
+
+Because black objects absorb light, they become warmer faster.
+
+== Meaning of black ==
+
+Black is associated with power, elegance, formality, [[anarchy]], birth, male, and mystery. Black is a dark color, the darkest color there is. Black, along with gray and white, is a ''neutral'' color. This means that it is not a ''hot'' color or a ''cool'' color.
+
+Black is a color seen with fear and the unknown (black holes). It can have a bad meaning (blacklist, 'black birth', black bat) or a good meaning ('in the black', 'black is beautiful'). Black can stand for strength and power. It can be a [[formal]], elegant, and high-class color (black tie, black Mercedes, black man). Black clothing is common in [[emo]] and [[goth subculture]].
+
+==Related pages==
+* [[List of colors]]
+
+{{colors}}
+{{wiktionary}}
+
+[[Category:Basic English 850 words]]
+[[Category:Colors]]</text>
+    <sha1>owb0czo42et4kkyhd3cfr2qcyzgjim5</sha1>
+</revision>
+</page>
+<page>
+<title>Talk:Black</title>
+<ns>1</ns>
+<id>99</id>
+<revision>
+    <id>3292270</id>
+    <parentid>36444</parentid>
+    <timestamp>2012-01-19T01:58:29Z</timestamp>
+    <contributor>
+        <ip>220.233.21.206</ip>
+    </contributor>
+    <comment>/* Picture */ new section</comment>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">Touchy racial isues. Please revise as necessary for NPOV and politeness -- RJ208033.user.veloxzone.com.br
+
+== Picture ==
+
+I dont think the picture is working. It's all black and nothing is showing. :P</text>
+    <sha1>t88id1q27lt3uqi9058mc66m7zpofo8</sha1>
+</revision>
+</page>
+<page>
+<title>Bubonic plague</title>
+<ns>0</ns>
+<id>100</id>
+<revision>
+    <id>5724456</id>
+    <parentid>5724455</parentid>
+    <timestamp>2017-07-02T13:58:30Z</timestamp>
+    <contributor>
+        <ip>91.77.211.172</ip>
+    </contributor>
+    <comment>/* Transmission */</comment>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">{{Infobox disease
+| Name            = Bubonic plague
+| Image           = Plague_-buboes.jpg
+| Caption         = An inguinal 'bubo' on the upper thigh of person infected with bubonic plague. Swollen [[Lymphatic system|lymph]] glands (''buboes'') often occur in the neck, armpit and groin (''inguinal'') regions of plague victims
+| ICD10           = {{ICD10|A|20|0|a|00}}
+| ICD9            = {{ICD9|020.0}}
+| DiseasesDB      = 14226
+| eMedicineSubj   =
+| eMedicineTopic  =
+| MeshName        =
+| MeshNumber      = D010930
+| MedlinePlus     = 000596
+}}
+'''Bubonic plague''' is the best-known form of the disease [[plague]], which is caused by the [[bacterium]] ''[[Yersinia pestis]]''. The name ''bubonic plague'' is specific for this form of the disease, which enters through the skin, and travels through the [[lymphatic system]].
+
+If the disease is left untreated, it kills about half its victims, in between three and seven days. The bubonic plague was the disease that caused the [[Black Death]], which killed tens of millions of people in Europe, in the [[Middle Ages]].&lt;ref&gt;{{cite web|url=http://news.nationalgeographic.com/news/2004/03/0310_040310_blackdeath.html|title=Bubonic Plague Traced to Ancient Egypt|first=Cameron|last=Walker|publisher=National Geographic News|date=10 March, 2004|accessdate=2 April, 2009}}&lt;/ref&gt;
+
+[[Symptom]]s of this disease include [[cough]]ing, [[fever]], and black spots on the [[skin]].
+
+== Different kinds of the same disease ==
+There are different kinds of Bubonic plague. The most common form of the disease is spread by a certain kind of [[flea]], that lives on [[rat]]s. Then there is an [[incubation period]] which can last from a few hours to about seven days.
+=== [[Septicemic plague]] ===
+[[Sepsis]] happens when the bacterium enters the [[blood]] and makes it form tiny clots.
+=== [[Pneumonic]] plague ===
+This happens when the bacterium can enter the lungs. About 95% of all people with this form will die. Incubation period is only one to two days.
+
+=== The abortive form ===
+This is the most harmless form. It will result in a little [[fever]]. After that, there are [[antibody|antibodies]] that protect against all forms for a long time.
+
+== History ==
+During the 1300s, this [[epidemic]] struck parts of [[Asia]], [[North Africa]], and [[Europe]]. Almost a third of the people in Europe died of it. Unlike [[wikt:catastrophe|catastrophe]]s that pull communities together, this epidemic was so terrifying that it broke people's trust in one another. [[Giovanni Boccaccio]], an [[Italy|Italian]] writer of the time, described it: ''&quot;This [[wikt:scourge|scourge]] had implanted so great a terror in the hearts of men and women that brothers [[wikt:abandon|abandon]]ed brothers, uncles their nephews, sisters their brothers, and in many cases wives deserted their husbands. But even worse,... fathers and mothers refused to nurse and assist their own children.&quot;''&lt;ref&gt;The decameron / Giovanni Boccaccio ; translated by Mark Musa &amp; Peter Bondanella ; with an introduction by Thomas G. Bergin. ISBN 0-451-52866-2&lt;/ref&gt;
+
+== Transmission ==
+[[File:Flea infected with yersinia pestis.jpg|thumb|[[Oriental rat flea]] (''Xenopsylla cheopis'') infected with the ''[[Yersinia pestis]]'' [[Bacteria|bacterium]] which appears as a dark mass in the gut. The foregut of this flea is blocked by a ''Y. pestis'' [[biofilm]]; when the flea attempts to feed on an uninfected [[Host (biology)|host]] ''Y. pestis'' from the foregut is [[Regurgitation (digestion)|regurgitated]] into the wound, causing [[infection]].]]
+The plague was not just carried by [[rat]]s as some people assume. The [[flea]]s also carried it. It came from abroad, from [[Kaffa]] by the [[Black Sea]]. From there the disease started to go new places in [[1347]]. It went to [[England]] in [[1349]]. There it killed '''half''' of the people in England. 70% of people who got plague died. Pigs are also to blame for the transmission, as the bacteria stayed in their blood system, and when eaten, people caught the plague. This is a reason why so few Jews or Muslims caught the disease.
+
+== Modern history ==
+In the [[20th century]], some countries did [[research]] on the [[bacteria]] that causes bubonic plague. They did research to use it for [[biological warfare]].
+
+Samples of this [[bacteria]] are carefully controlled. There is much [[paranoia]] (fear) about it. Dr. Thomas C. Butler, a [[United States|US]] expert in this [[organism]] was charged in October [[2003]] by the [[FBI]] with various [[crime]]s. This happened after he said he lost samples of ''[[Yersinia pestis]]''. This is the bacteria that causes bubonic plague. The FBI did not find the samples. They do not know what happened to them.
+
+== References ==
+&lt;references /&gt;
+
+[[Category:Plague]]
+[[Category:Pulmonology]]
+
+[[de:Pest#Beulenpest]]
+[[it:Peste#Peste bubbonica]]
+[[pl:Dżuma#Patogeneza, objawy i rozpoznawanie]]</text>
+    <sha1>9cakse4df5yl4q84di5qi0kbwrduuji</sha1>
+</revision>
+</page>
+<page>
+<title>Biology</title>
+<ns>0</ns>
+<id>101</id>
+<revision>
+    <id>5744927</id>
+    <parentid>5702759</parentid>
+    <timestamp>2017-07-28T19:52:13Z</timestamp>
+    <contributor>
+        <ip>2603:300B:E01:BF00:A822:DF0F:122F:FED5</ip>
+    </contributor>
+    <comment>/* Branches of biology */</comment>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">[[File:Mimicry by fly.JPG|thumb|150px|[[Animals]]: [[Hoverfly]] on a [[Compositae]] [[inflorescence]]]]
+[[File:Zboże.jpg|thumb|150px|[[Plants]]: [[Wheat]]]]
+[[File:Morchella esculenta 08.jpg|thumb|150px|[[Fungi]]: ''[[Morchella]] esculenta'']]
+[[File:Gemmatimonas aurantiaca.jpg|thumb|150px|[[Bacteria]]]]
+[[File:Halobacteria.jpg|thumb|150px|[[Archaea]]: [[Haloarchaea]]]]
+[[File:Gamma phage.png|thumb|150px|[[Virus]]: Gamma [[bacteriophage]]]]
+'''Biology''' is the [[science]] of life and living things, and their [[evolution]]. Living things include [[animal]]s, [[plants]], [[fungi]] (such as [[mushroom]]s), and [[microorganisms]] such as [[bacteria]] and [[archaea]].
+
+People who study biology are called [[biologists]]. Biology looks at how animals and other organisms behave and work, and what they are like. Biology also studies how [[organism]]s react with each other and the [[environment]]. It has existed as a [[science]] for about 200 years, and was preceded by [[natural history]]. Biology has many [[research]] fields and [[branch]]es. Like all sciences, biology uses the [[scientific method]]. This means that biologists must be able to show [[evidence]] for their ideas and that other biologists must be able to test the ideas for themselves.
+
+Biology attempts to answer questions such as:
+&quot;What are the characteristics of this living thing?&quot; ([[comparative anatomy]]);
+&quot;How do the parts work?&quot; ([[physiology]]);
+&quot;How should we group living things?&quot; ([[Biological classification|classification]], [[taxonomy]]);
+&quot;What does this living thing do?&quot; ([[behaviour]], [[growth]]);
+&quot;How does [[inheritance]] work? ([[genetics]]); &quot;What has been the history of life?&quot; ([[palaeontology]]). How do organisms relate to their [[environment]]? ([[ecology]]). All modern biology is influenced by [[evolution]], which answers the question: &quot;How has the living world come to be as it is?&quot;
+
+==Branches of biology==
+* [[Anatomy]]
+* [[Botany]]
+* [[Biochemistry]]
+* [[Biogeography]]
+* [[Biophysics]]
+* [[Cell biology]]
+* [[Cytology]]
+* [[Developmental biology]]
+* [[Ecology]]
+* [[Entomology]]
+* [[Ethology]]
+* [[Evolution]] / [[Evolutionary biology]]
+* [[Embryology]]
+* [[Genetics]] / [[Genome|Genomics]]
+* [[Herpetology]]
+* [[Histology]]
+* [[Human biology]] / [[Anthropology]] / [[Primatology]]
+* [[Ichthyology]]
+* [[Limnology]]
+* [[Mammalogy]]
+* [[Marine biology]]
+* [[Microbiology]] / [[Bacteria|Bacteriology]]
+* [[Molecular biology]]
+* [[Fungi|Mycology]] / [[Lichen]]ology
+* [[Ornithology]]
+* [[Parasitism|Parasitology]]
+* [[Palaeontology]]
+* [[Phycology]]
+* [[Phylogenetics]]
+* [[Physiology]]
+* [[Taxonomy]]
+* [[Virology]]
+* [[Zoology]]
+
+{{commons}}
+
+[[Category:Biology| ]]
+[[Category:Science-related lists]]</text>
+    <sha1>kyemy7d33sbyjz8itg5xittrtlukld6</sha1>
+</revision>
+</page>
+<page>
+<title>Botany</title>
+<ns>0</ns>
+<id>102</id>
+<revision>
+    <id>5455079</id>
+    <parentid>5172784</parentid>
+    <timestamp>2016-08-06T07:36:38Z</timestamp>
+    <contributor>
+        <username>Chenspec</username>
+        <id>271280</id>
+    </contributor>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">[[File:קיבוץ בית אורן (551).JPG|thumb|Botany]]
+'''Botany''' is the study of [[plants]]. It is a [[science]]. It is a branch of [[biology]], and is also called plant biology. It is sometimes called phytology. Scientists who study botany are called botanists. They study how plants work.
+
+== Branches of Botany ==
+
+*[[Agronomy]]—Application of plant science to crop production
+*[[Bryology]]—Mosses, liverworts, and hornworts
+*[[Forestry]]—Forest management and related studies
+*[[Horticulture]]—Cultivated plants
+*[[Micropaleontology]]—Pollen and spores
+*[[Mycology]]—Fungi
+*[[Paleobotany]]—Fossil plants
+*[[Phycology]]—Algae
+*[[Phytochemistry]]—Plant secondary chemistry and chemical processes
+*[[Phytopathology]]—Plant diseases
+*[[Plant anatomy]]—Cell and tissue structure
+*[[Plant ecology]]—Role of plants in the environment
+*Plant [[genetics]]—Genetic inheritance in plants
+*[[Plant morphology]]—Structure and life cycles
+*[[Plant physiology]]—Life functions of plants
+*[[Plant taxonomy|Plant systematics]]—Classification and naming of plants
+
+== Notable botanists ==
+*[[Ibn al-Baitar]] (d. 1248), Andalusian-Arab scientist, botanist, pharmacist, physician, and author of one of the largest botanical encyclopedias.
+*[[Georges-Louis Leclerc, Comte de Buffon]] (1707–1788) was a French naturalist who held the position of Intendant of the ''Jardin du Roi'' ('King's Garden'). Buffon published thirty-five volumes of his ''Histoire naturelle'' during his lifetime, and nine more volumes were published after his death.
+*[[Luther Burbank]] (1849–1926), American botanist, horticulturist, and a pioneer in agricultural science.
+*[[Charles Darwin]] (1809–1882) wrote eight important books on botany after he published the ''Origin of Species''.
+*[[Al-Dinawari]] (828–896), Kurdish botanist, historian, geographer, astronomer, mathematician, and founder of [[Arabic botany]].
+*[[Conrad Gessner]] (1516–1565) was a [[Swiss]] naturalist and bibliographer.
+*[[Joseph Dalton Hooker]] (1817–1911), English botanist and explorer. Second winner of [[Darwin Medal]].
+*[[Carl Linnaeus]] (1707–1778), Swedish botanist, physician and zoologist who laid the foundations for the modern scheme of Binomial nomenclature. He is known as the father of modern taxonomy, and is also considered one of the fathers of modern ecology.
+*[[Gregor Mendel]] (1822–1884), Augustinian priest and scientist, and is often called the father of [[genetics]] for his study of the inheritance of traits in pea plants.
+*[[John Ray]] (1627–1705) was an English naturalist, the father of English natural history.
+*[[G. Ledyard Stebbins]] (1906–2000) was an American botanist and geneticist. He was one of the leading evolutionary biologists of the 20th century.
+*[[Eduard Strasburger]] (1844–1912) was a Polish-German professor who was one of the most famous botanists of the 19th century.
+*[[Nikolai Vavilov]] (1887–1943) was a Russian botanist and geneticist. He  showed how and where crop plants evolved. He studied and improved wheat, corn, and other cereal crops.
+
+
+{{biology-stub}}
+{{Wikibooks|Botany}}
+
+[[Category:Botany| ]]
+[[Category:Agriculture]]</text>
+    <sha1>epdppjjb154mpdpt1joqxa6cqbqugzy</sha1>
+</revision>
+</page>
+<page>
+<title>Belgium</title>
+<ns>0</ns>
+<id>103</id>
+<revision>
+    <id>5649512</id>
+    <parentid>5636833</parentid>
+    <timestamp>2017-03-31T15:53:03Z</timestamp>
+    <contributor>
+        <username>Wwikix</username>
+        <id>507729</id>
+    </contributor>
+    <minor/>
+    <comment>/* Provinces */</comment>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">{{Infobox country
+| native_name              = {{native name|nl|Koninkrijk België}}&lt;br/&gt;{{native name|fr|Royaume de Belgique}}&lt;br/&gt;{{native name|de|Königreich Belgien}}
+| conventional_long_name   = Kingdom of Belgium
+| common_name              = Belgium
+| image_flag               = Flag of Belgium.svg
+| image_coat               = Great Coat of Arms of Belgium.svg
+| symbol_type              = Coat of arms
+| national_motto           = Eendracht maakt macht{{spaces|2}}&lt;small&gt;(Dutch)&lt;/small&gt;&lt;br/&gt;''L'union fait la force''{{spaces|2}}&lt;small&gt;(French)&lt;/small&gt;&lt;br/&gt;''Einigkeit macht stark''{{spaces|2}}&lt;small&gt;(German)&lt;br/&gt;&quot;Strength through Unity&quot; (lit. &quot;[[Unity makes strength]]&quot;)&lt;/small&gt;
+| image_map                = EU-Belgium.svg
+| map_caption              = {{map caption|location_color=dark green|\region=Europe|region_color=dark grey|subregion=the European Union|subregion_color=green|legend=EU-Belgium.svg}}
+| national_anthem          = The &quot;[[Brabançonne]]&quot;&lt;br/&gt;&lt;small&gt;instrumental version:&lt;/small&gt;&lt;br/&gt;&lt;center style=&quot;height:10px;&quot;&gt;[[File:The Brabanconne.ogg]]&lt;/center&gt;
+| official_languages       = [[Dutch language|Dutch]]&lt;br&gt;[[French language|French]]&lt;br&gt;[[German language|German]]
+| demonym                  = [[Belgians|Belgian]]
+| ethnic_groups            = see [[#Demographics|Demographics]]
+| capital                  = [[City of Brussels|Brussels]]
+| latd                     = 50
+| latm                     = 51
+| latNS                    = N
+| longd                    = 4
+| longm                    = 21
+| longEW                   = E
+| largest_settlement_type  = metropolitan area
+| largest_settlement       = [[Brussels]]
+| government_type          = [[Federal constitutional monarchy|Federal]] [[parliamentary system|parliamentary democracy]] and [[Constitutional monarchy]]&lt;ref
+ name=&quot;&quot;&gt;
+ {{cite web
+ |title=Government of Belgium
+ |work=The World Factbook
+ |publisher=CIA
+ |url=https://www.cia.gov/library/publications/the-world-factbook/geos/be.html
+ |accessdate=&lt;!--Unknown, 2011-02-27 dead url--&gt;
+ }}&lt;/ref&gt;
+| leader_title1            = [[Belgian monarchy|King]]
+| leader_title2            = [[Prime Minister of Belgium|Prime Minister]]
+| leader_name1             = [[Philippe of Belgium|Philippe]]
+| leader_name2             = [[Charles Michel]]&lt;ref name=&quot;trade&quot;&gt;{{cite web|title=Belgium reaches deal on EU-Canada free trade agreement - Prime Minister|url=http://www.dw.com/en/belgium-reaches-deal-on-eu-canada-free-trade-agreement-prime-minister/a-36171102|publisher=DW|accessdate=30 October 2016}}&lt;/ref&gt;
+| legislature              = [[Belgian Federal Parliament|Federal Parliament]]
+| upper_house              = [[Belgian Senate|Senate]]
+| lower_house              = [[Belgian Chamber of Representatives|Chamber of Representatives]]
+| area_km2                 = 30,528
+| area_sq_mi               = 11,787&lt;!--Do not remove per [[WP:MOSNUM]]--&gt;
+| area_rank                = 139th
+| area_magnitude           = 1 E10
+| percent_water            = 6.4
+| population_estimate      = 11,007,020&lt;ref
+ name=&quot;&quot;&gt;
+ {{cite web
+ |title=Total population as of &amp;nbsp;January
+ |publisher=Eurostat
+ |url=http://epp.eurostat.ec.europa.eu/tgm/table.do?tab=table&amp;language=en&amp;pcode=tps00001&amp;tableSelection=1&amp;footnotes=yes&amp;labeling=labels&amp;plugin=1
+ |accessdate=9 February 2010
+ }}&lt;/ref&gt;
+| population_estimate_year = 2011
+| population_estimate_rank = 76th
+| population_census        = 10,296,350
+| population_census_year   = 2001
+| population_density_km2   = 354.7
+| population_density_rank  = 33rd
+| population_density_sq_mi = 918.6 &lt;!--Do not remove [[WP:MOSNUM]]--&gt;
+| GDP_PPP_year             = 2010
+| GDP_PPP                  = $394.346 billion&lt;ref name=IMF&gt;{{cite web|url=http://www.imf.org/external/pubs/ft/weo/2011/01/weodata/weorept.aspx?pr.x=70&amp;pr.y=8&amp;sy=2008&amp;ey=2011&amp;scsm=1&amp;ssd=1&amp;sort=country&amp;ds=.&amp;br=1&amp;c=124&amp;s=NGDPD%2CNGDPDPC%2CPPPGDP%2CPPPPC%2CLP&amp;grp=0&amp;a= |title=Belgium|publisher=International Monetary Fund|accessdate=20 April 2011}}&lt;/ref&gt;
+| GDP_PPP_rank             =
+| GDP_PPP_per_capita       = $36,100&lt;ref name=IMF/&gt;
+| GDP_PPP_per_capita_rank  =
+| GDP_nominal_year         = 2010
+| GDP_nominal              = $465.676 billion&lt;ref name=IMF/&gt;
+| GDP_nominal_rank         =
+| GDP_nominal_per_capita   = $42,630&lt;ref name=IMF/&gt;
+| GDP_nominal_per_capita_rank =
+| Gini                     = 28
+| Gini_ref                 = &lt;ref&gt;
+ {{cite web
+ |title=Distribution of family income — Gini index
+ |work=The World Factbook
+ |publisher=CIA
+ |url=https://www.cia.gov/library/publications/the-world-factbook/fields/2172.html
+ |accessdate=1 September 2009
+ }}&lt;/ref&gt;
+| Gini_year                = 2005
+| Gini_category            = &lt;span style=&quot;color:#090;&quot;&gt;low&lt;/span&gt;
+| HDI_year                 = 2010
+| HDI                      = 0.867
+| HDI_change               = increase
+| HDI_ref                  = &lt;ref&gt;
+ {{cite web
+ |title=Human Development Report 2010
+ |publisher=United Nations
+ |year=2010
+ |url=http://hdr.undp.org/en/media/HDR_2010_EN_Table1.pdf
+ |format=PDF
+ |accessdate=5 November 2010
+ }}&lt;/ref&gt;
+| HDI_rank                 = 18th
+| HDI_category             = &lt;span style=&quot;color:#090;&quot;&gt;very&amp;nbsp;high&lt;/span&gt;
+| sovereignty_type         = [[Belgian Revolution|Independence]]
+| established_event1       = Declared {{nowrap|from [[United Kingdom of the Netherlands|the Netherlands]]}}
+| established_date1        = 4 October 1830
+| established_event2       = [[Treaty of London, 1839|Recognised]]
+| established_date2        = 19 April 1839
+| accessionEUdate          = 25 March 1957
+| EUseats                  = 24
+| currency                 = Euro ([[Euro sign|€]])&lt;sup&gt;1&lt;/sup&gt;
+| currency_code            = EUR
+| time_zone                = [[Central European Time|CET]]
+| utc_offset               = +1
+| time_zone_DST            = [[Central European Summer Time|CEST]]
+| utc_offset_DST           = +2
+| drives_on                = right
+| cctld                    = [[.be]]&lt;sup&gt;2&lt;/sup&gt;
+| calling_code             = [[Telephone numbers in Belgium|32]]
+| footnote1                = Before 1999: [[Belgian franc]] (BEF).
+| footnote2                = The [[.eu]] domain is also used, as it is shared with other European Union member states.
+}}
+
+'''Belgium''', officially the '''Kingdom of Belgium''', is a [[Federation|federal]] [[sovereign state|state]] in Western Europe. It is a founding member of the [[European Union]]. It has the headquarters of the [[European Union]], [[NATO]] and some other famous organisations. The [[capital city]] of Belgium is [[Brussels]].  Belgium has an area of {{convert|30528|km2|sqmi}}.  Around 11 million people live in Belgium.
+
+There are three [[region]]s in Belgium: [[Flanders]] (where the people speak [[Dutch language|Dutch]]) in the northern half of Belgium, [[Wallonia]] (where the people speak [[French language|French]]) in the southern half, and the [[Brussels]]-Capital Region in the middle (where French is mostly spoken, with some Dutch).
+
+The population is about 60% Dutch-speaking (''Flemish people''), 39% French-speaking (''Walloons'') and 1% German-speaking (so called ''Deutschbelgier'') on the border with [[Germany]]. To look after these groups, Belgium has a complicated system of government.
+
+==History==
+[[File:Map Burgundian Netherlands 1477-en.png|thumb|left|The [[Seventeen Provinces]] (orange, brown and yellow areas) and the [[Bishopric of Liège]] (green)]]
+[[File:Prince Philippe of Belgium, Duke of Brabant cropped.jpg|thumb|150px|left|[[Philippe of Belgium]], current King.]]
+The name 'Belgium' comes from ''[[Gallia Belgica]]''.  This was a [[Roman province]] in the northernmost part of [[Gaul]].  Before Roman invasion in 100&amp;nbsp;BC,  the ''[[Belgae]]'', a mix of [[Celts|Celtic]] and [[Germanic peoples]], lived there.&lt;ref&gt; {{Cite book |title=[[Encyclopedia of the Roman Empire]] |author=Bunson, Matthew
+ |year=1994 |page=169 |edition=Hardcover 352pp |publisher=Facts on File, New York |isbn=0-8160-2135-X Paperback 512pp, ISBN 0-8160-3182-7; Revised edition (2002), Hardcover 636pp, ISBN 0-8160-4562-3}}&lt;/ref&gt; The Germanic [[Franks|Frankish]] tribes during the 5th century brought the area under the rule of the [[Merovingian]] kings. A slow shift of power during the 8th century led the kingdom of the Franks to change into the [[Carolingian Empire]].&lt;ref name=CookP3&gt; Cook (2002), p. 3&lt;/ref&gt; The [[Treaty of Verdun]] in 843 divided the region into [[Middle Francia|Middle]] and [[West Francia]]. They were [[vassal]]s either of the [[King of France]] or of the [[Holy Roman Emperor]].&lt;ref name=CookP3/&gt;
+[[Timeline of Burgundian and Habsburg acquisitions in the Low Countries|Many of these fiefdoms]] were united in the [[Burgundian Netherlands]] of the 14th and 15th centuries.&lt;ref&gt; {{cite web |title=Chapter I: The Burgundian Netherlands|work=History of Holland |author=Edmundson, George |publisher=The University Press, Cambridge. Republished: Authorama |year=1922 |url=http://www.authorama.com/history-of-holland-3.html |accessdate=15 December 2010 }}&lt;/ref&gt;
+
+The [[Eighty Years' War]] (1568–1648) divided the Low Countries into the northern [[Dutch Republic|United Provinces]] and the [[Southern Netherlands]].  Southern Netherlands were ruled by the [[Habsburg Spain|Spanish]] and the [[Austria]]n [[Habsburg]]s.  This made up most of modern Belgium.
+
+After the [[French Revolutionary Wars: Campaigns of 1794|campaigns of 1794 in the French Revolutionary Wars]], the Low Countries were added into the [[French First Republic]].  This ended Austrian rule in the area. Adding back the Low Countries formed the [[United Kingdom of the Netherlands]].  This happened at the end of the [[First French Empire]] in 1815.
+
+The [[Belgian Revolution]] was in 1830. &lt;ref name=Dobbelaere-VoyE&gt; {{Cite journal |url = http://socrel.oxfordjournals.org/content/51/Special_Issue/S1.full.pdf |title = From Pillar to Postmodernity: The Changing Situation of Religion in Belgium |page = S1 |publisher = ([http://www-oxford.op.org/allen/about.htm The Allen Review]). Online at [[Oxford Journals]], [[Oxford University Press]] |year = 1990 |format = PDF |accessdate =25 February 2011 |author = [[Karel Dobbelaere|Dobbelaere, Karel]] ([[Katholieke Universiteit Leuven]]); Voyé, Liliane ([[Université Catholique de Louvain]]) }}&lt;/ref&gt; [[Leopold I of Belgium|Leopold&amp;nbsp;I]] became king on {{nowrap|21 July}} 1831.  This is now celebrated as Belgium's [[National Day]].&lt;ref&gt;{{cite web|url=http://www.belgium.be/en/about_belgium/country/belgium_in_nutshell/symbols/national_holiday/|title=National Day and feast days of Communities and Regions|publisher=Belgian Federal Government|accessdate=20 July 2011}}&lt;/ref&gt;
+
+[[File:Wappers - Episodes from September Days 1830 on the Place de l’Hôtel de Ville in Brussels.JPG|thumb|left|&lt;span style=&quot;white-space:nowrap;&quot;&gt;''Episode of the [[Belgian Revolution]] of 1830''&lt;/span&gt; (1834), &lt;span style=&quot;white-space:nowrap;&quot;&gt;by [[Egide Charles Gustave Wappers]],&lt;/span&gt; &lt;span style=&quot;white-space:nowrap;&quot;&gt;[[Royal Museums of Fine Arts of Belgium|Museum of Ancient Art, Brussels]]&lt;/span&gt;]]
+
+The [[Berlin Conference]] of 1885 gave control of the [[Congo Free State]] to [[Leopold II of Belgium|King Leopold&amp;nbsp;II]]. This was for him personally and not for the country of Belgium.  Starting in about 1900 many people did not like how he treated the Congolese people. In 1908 the Belgian state took control of the colony.  It was then called the [[Belgian Congo]].&lt;ref&gt; {{Cite book |title=The State of Africa |pages=95–96(?) |edition=Hardcover 608pp |date=6 June 2005 |author=Meredith, Mark |publisher=Free Press
+ |isbn=0-7432-3221-6}}&lt;/ref&gt;
+
+Germany invaded Belgium in 1914. This was part of World War&amp;nbsp;I. The opening months of the war were very bad in Belgium. During the war Belgium took over the of [[Ruanda-Urundi]] (modern day [[Rwanda]] and [[Burundi]]). After the First World War, the [[districts of Prussia|Prussian districts]] of [[Eupen-Malmedy|Eupen and Malmedy]] were added into Belgium in 1925. [[Battle of Belgium|The country was again invaded by Germany in 1940]] and under German control until 1944. After World War&amp;nbsp;II, the people made king [[Leopold III of Belgium|Leopold&amp;nbsp;III]] leave his throne in 1951. This is because they thought he helped the Germans.
+
+In 1960 the Belgian Congo stopped being under Belgian rule.&lt;ref&gt; {{cite web |url=http://www.bbc.co.uk/dna/h2g2/A1304803 |title=The Congolese Civil War 1960–1964 |publisher=BBC News |accessdate=29 April 2010 }}&lt;/ref&gt; Two years later Ruanda-Urundi also became free. Belgium joined [[NATO]] as a founding member.
+
+== Government and politics ==
+Since 1993, Belgium is a [[federation|federal]] state, divided into three regions and three communities.
+
+Regions:
+* [[Brussels-Capital Region]]
+* [[Flemish Region]] (or Flanders)
+* [[Walloon Region]] (or Wallonia)
+
+Communities:
+* [[Flemish Community]]
+* [[French Community of Belgium]]
+* [[German-speaking Community of Belgium]]
+
+It has a system of [[government]] known as a [[constitutional monarchy]], meaning that it has a [[monarch]], but that the monarch does not rule the country, and that a government is elected [[Democracy|democratically]].
+
+Belgium has had its own monarchy since 1831. King [[Albert II of Belgium|Albert II]] left the throne on July 21, 2013 and the current king is [[Philippe of Belgium|Philippe]].
+
+In Belgium, the government is elected. Between mid-2010 and late 2011, after no clear result in the [[election]], Belgium had no official government, until [[Elio Di Rupo]] became [[Prime Minister]]. [[Flanders]] and [[Wallonia]] both also have their own regional governments, and there is a notable independence movement in Flanders. [[Charles Michel]] is currently the Prime Minister.
+{{-}}
+
+== Geography ==
+{{see also|List of cities in Belgium}}
+
+Belgium is next to [[France]], [[Germany]], [[Luxembourg]] and the [[Netherlands]]. Its total area is 33,990 [[square kilometers]].  The land area alone is 30,528&amp;nbsp;km². Belgium has three main geographical regions. The coastal plain is in the north-west. The central plateau are part of the Anglo-Belgian Basin. The [[Ardennes (forest)|Ardennes]] uplands are in the south-east. The Paris Basin reaches a small fourth area at Belgium's southernmost tip, Belgian Lorraine.
+
+The coastal plain is mostly [[sand dune]]s and [[polder]]s. Further inland is a smooth, slowly rising landscape.  There are fertile [[valley]]s. The hills have many [[forest]]s. The [[plateau]]s of the Ardennes are more rough and rocky.  They have caves and small, narrow valleys. Signal de Botrange is the country's highest point at 694 metres (2,277&amp;nbsp;ft).
+
+===Provinces===
+Belgium is divided into three Regions.  [[Flemish Region|Flanders]] and [[Walloon Region|Wallonia]] are divided into [[province]]s.  The third Region, [[Brussels Capital Region|Brussels]] is not part of any province.
+
+{| class=&quot;sortable wikitable&quot; style=&quot;text-align:left&quot;
+! style=&quot;width:110px;&quot;| Province
+! style=&quot;width:110px;&quot;| Dutch name
+! style=&quot;width:110px;&quot;| French name
+! style=&quot;width:115px;&quot;| Capital
+! style=&quot;width:115px;&quot;| Largest city
+! style=&quot;width:50px;&quot;| Area&lt;br&gt; (km²)
+! style=&quot;width:70px;&quot;| Population
+|-
+| [[Antwerp (province)|Antwerp]] || '''Antwerpen''' || Anvers || [[Antwerp (city)|Antwerp]]&lt;br&gt;(Dutch: ''Antwerpen)&lt;br&gt;(French: ''Anvers'')|| [[Antwerp (city)|Antwerp]]&lt;br&gt;(Dutch: ''Antwerpen)&lt;br&gt;(French: ''Anvers'') || style=&quot;text-align:right&quot;|2,860|| style=&quot;text-align:right&quot;|1,682,683
+|-
+| [[East Flanders]] || '''Oost-Vlaanderen''' || Flandre-Orientale || [[Ghent]]&lt;br&gt;(Dutch: ''Gent'')&lt;br&gt;(French: ''Gand'') || [[Ghent]]&lt;br&gt;(Dutch: ''Gent'')&lt;br&gt;(French: ''Gand'') || style=&quot;text-align:right&quot;|2,982|| style=&quot;text-align:right&quot;|1,389,199
+|-
+| [[Flemish Brabant]] || '''Vlaams-Brabant''' || Brabant flamand || [[Leuven]]&lt;br&gt;(French: ''Louvain'') || [[Leuven]]&lt;br&gt;(French: ''Louvain'') || style=&quot;text-align:right&quot;|2,106 || style=&quot;text-align:right&quot;|1,037,786
+|-
+| [[Hainaut (province)|Hainaut]] || Henegouwen || '''Hainaut''' || [[Mons]]&lt;br&gt;(Dutch: ''Bergen'') || [[Charleroi]] || style=&quot;text-align:right&quot;|3,800|| style=&quot;text-align:right&quot;|1,294,844
+|-
+| [[Liège (province)|Liège]] || Luik || '''Liège''' || [[Liège (city)|Liège]]&lt;br&gt;(Dutch: ''Luik'')&lt;br&gt;(German: ''Lüttich'') || [[Liège (city)|Liège]]&lt;br&gt;(Dutch: ''Luik'')&lt;br&gt;(German: ''Lüttich'') || style=&quot;text-align:right&quot;|3,844 || style=&quot;text-align:right&quot;|1,047,414
+|-
+| [[Limburg (Belgium)|Limburg]] || '''Limburg''' || Limbourg || [[Hasselt]] || [[Hasselt]] || style=&quot;text-align:right&quot;|2,414|| style=&quot;text-align:right&quot;|805,786
+|-
+| [[Luxembourg (Belgium)|Luxembourg]] || Luxemburg || '''Luxembourg''' || [[Arlon]]&lt;br&gt;(Dutch: ''Aarlen'')&lt;br&gt;(German: ''Arel'') || [[Bastogne]]&lt;br&gt;(Dutch: ''Bastenaken'')&lt;br&gt;(German: ''Bastenach'') || style=&quot;text-align:right&quot;|4,443|| style=&quot;text-align:right&quot;|261,178
+|-
+| [[Namur (province)|Namur]] || Namen || '''Namur''' || [[Namur (city)|Namur]]&lt;br&gt;(Dutch: ''Namen'') || [[Namur (city)|Namur]]&lt;br&gt;(Dutch: ''Namen'') || style=&quot;text-align:right&quot;|3,664|| style=&quot;text-align:right&quot;|461,983
+|-
+| [[Walloon Brabant]] || Waals-Brabant|| '''Brabant wallon''' || [[Wavre]]&lt;br&gt;(Dutch: ''Waver'') || [[Braine-l'Alleud]]&lt;br&gt;(Dutch: ''Eigenbrakel'') || style=&quot;text-align:right&quot;|1,093|| style=&quot;text-align:right&quot;|370,460
+|-
+| [[West Flanders]] || '''West-Vlaanderen''' || Flandre-Occidentale || [[Bruges]]&lt;br&gt;(Dutch: ''Brugge'')&lt;br&gt;(French: ''Bruges'') || [[Bruges]]&lt;br&gt;(Dutch: ''Brugge'')&lt;br&gt;(French: ''Bruges'') || style=&quot;text-align:right&quot;|3,151|| style=&quot;text-align:right&quot;|1,130,040
+|}
+
+==Military==
+The Belgian Armed Forces have about 46,000 active troops. In 2009 the yearly defence budget was $6 billion.&lt;ref&gt;{{cite web |url=http://www.eda.europa.eu/DefenceData |title=Defence Data Portal |publisher=[[European Defence Agency]] |accessdate=15 June 2011}}&lt;/ref&gt;  There are four parts: Belgian Land Component, or the Army; Belgian Air Component, or the Air Force; Belgian Naval Component, or the Navy; Belgian Medical Component.
+
+==Science and technology==
+[[File:mercator.jpg|thumb|upright|[[Gerardus Mercator]]]]
+
+Adding to science and technology has happened throughout the country's history. [[Cartography|cartographer]] [[Gerardus Mercator]], [[anatomy|anatomist]] [[Andreas Vesalius]], [[herbalist]] [[Rembert Dodoens]]&lt;ref&gt;{{cite web|title=Rembert Dodoens: iets over zijn leven en werk—Dodoens' werken
+|date=Revised 20 December 2005|work=Plantaardigheden—Project Rembert Dodoens (Rembertus Dodonaeus)|language=Dutch|publisher=Stichting Kruidenhoeve/Plantaardigheden
+|location=Balkbrug|url=http://plantaardigheden.nl/dodoens/over_dodoens/leven_en_werk.htm#dodoens|accessdate=17 May 2007}}&lt;/ref&gt;&lt;ref&gt;{{cite web|title=Simon Stevin|author=O'Connor, J. J.; Robertson, E. F.|publisher=School of Mathematics and Statistics, University of St Andrews, Scotland|year=2004|url=http://www-groups.dcs.st-andrews.ac.uk/~history/Biographies/Stevin.html|accessdate=11 May 2007}}&lt;/ref&gt;&lt;ref&gt;{{cite web|title=Abstract (*)|publisher=S. Karger AG, Basel|url=http://content.karger.com/ProdukteDB/produkte.asp?Aktion=ShowPDF&amp;ProduktNr=223979&amp;Ausgabe=225203&amp;ArtikelNr=13462|accessdate=11 May 2007}}&lt;/ref&gt;&lt;ref&gt;{{cite web
+|title='A Day Without Yesterday': Georges Lemaitre &amp; the Big Bang|date=24 March 2000|pages=18–19|author=Midbon, Mark, [[University of Wisconsin–Madison]]
+|publisher=[[Commonweal]], republished: Catholic Education Resource Center (&lt;span style=&quot;font-size:87%;&quot;&gt;CERC&lt;/span&gt;)|url=http://www.catholiceducation.org/articles/science/sc0022.html|accessdate=7 June 2007}}&lt;/ref&gt; and [[mathematics|mathematician]] [[Simon Stevin]] are among the most influential scientists.&lt;ref&gt;{{cite book|title=The Fair Face of Flanders|author=Patricia Carson|page=136|isbn=90-209-4385-5|publisher=Lannoo Uitgeverij}}&lt;/ref&gt;
+
+Chemist [[Ernest Solvay]]&lt;ref&gt;{{cite book|title=Biographical Dictionary of the History of Technology|page=1135|author=Lance Day|editor=Lance Day, Ian McNeil|publisher=Routledge|year=2003|isbn=0-203-02829-5}}&lt;/ref&gt; and engineer [[Zenobe Gramme]]&lt;ref&gt;{{cite book|title=Biographical Dictionary of the History of Technology|page=523|author=Gordon Woodward|editor=Lance Day, Ian McNeil|publisher=Routledge|year=2003|isbn=0-203-02829-5}}&lt;/ref&gt; gave their names to the [[Solvay process]] and the [[Gramme dynamo]] in the 1860s. [[Bakelite]] was formed in 1907–1909 by [[Leo Baekeland]]. A major addition to science was also due to a Belgian, [[Georges Lemaître]].  He is the one who made the [[Big Bang]] theory of the start of the universe in 1927.&lt;ref&gt;{{cite web|title=Georges Lemaître, Father of the Big Bang|url=http://www.amnh.org/education/resources/rfl/web/essaybooks/cosmic/p_lemaitre.html|publisher=[[American Museum of Natural History]]|year=2000|accessdate=9 December 2010}}&lt;/ref&gt;
+
+Three [[Nobel Prize in Physiology or Medicine|Nobel Prizes in Physiology or Medicine]] were awarded to Belgians: [[Jules Bordet]] in 1919, [[Corneille Heymans]] in 1938 and [[Albert Claude]] together with [[Christian De Duve]] in 1974.  [[Ilya Prigogine]] was awarded the [[Nobel Prize in Chemistry]] in 1977.&lt;ref&gt;{{cite web|title=The Nobel Prize in Chemistry 1977|url=http://nobelprize.org/nobel_prizes/chemistry/laureates/1977/|publisher=Nobelprize.org|accessdate=9 December 2010}}&lt;/ref&gt;  Two Belgian mathematicians have been awarded the [[Fields Medal]]: [[Pierre Deligne]] in 1978 and [[Jean Bourgain]] in 1994.&lt;ref&gt;{{MacTutor Biography|id=Deligne|title=Pierre Deligne}} (Retrieved: 10 November 2011)&lt;/ref&gt;&lt;ref&gt;{{MacTutor Biography|id=Bourgain|title=Jean Bourgain}} (Retrieved: 10 November 2011)&lt;/ref&gt;
+
+In February 2014, Belgium became the first country in the world to legalize [[euthanasia]] without any age limits.&lt;ref&gt;{{cite news|date=2014-02-13|url=http://www.bbc.co.uk/news/world-europe-26181615|title=Belgium's parliament votes through child euthanasia|publisher=BBC News|accessdate=2014-02-13}}&lt;/ref&gt;
+
+==Culture==
+===Fine arts===
+[[File:eyck.hubert.lamb.750pix.jpg|thumb|''The [[Ghent Altarpiece]]: The Adoration of the Mystic Lamb'' (inside view), painted 1432 by [[Jan van Eyck|van Eyck]]]]
+
+
+There have been many additions to painting and architecture. Several examples of major architectural places in Belgium belong to [[UNESCO]]'s [[World Heritage List]].&lt;ref&gt;{{cite web|title=Belgium|work=Properties inscribed on the World Heritage List|publisher=[[UNESCO]]|url=http://whc.unesco.org/en/statesparties/be|accessdate=15 May 2007}}&lt;/ref&gt; In the 15th century the religious paintings of [[Jan van Eyck]] and [[Rogier van der Weyden]] were important.  The 16th century had more styles such as [[Pieter Brueghel the Elder|Peter Breughel]]'s landscape paintings and [[Lambert Lombard]]'s showing of the antique.&lt;ref&gt;{{cite book|language=French|first=Jacques|last=Hendrick|title=La peinture au pays de Liège|year=1987|location=Liège|publisher=Editions du Perron|isbn=2-87114-026-X|page=24}}&lt;/ref&gt;  The style of [[Peter Paul Rubens]] and [[Anthony van Dyck]] was strong in the early 17th century in the Southern Netherlands.&lt;ref&gt;{{cite book|language=German|first=Herwig|last=Guratzsch|title=Die große Zeit der niederländische Malerei|year=1979
+|publisher=Verlag Herder|location=Freiburg im Beisgau|page=7}}&lt;/ref&gt;
+
+During the 19th and 20th centuries many original [[romanticism|romantic]], [[expressionism|expressionist]] and [[surrealism|surrealist]] Belgian painters started.  These  include [[James Ensor]] and other artists in the [[Les XX]] group, [[Constant Permeke]], [[Paul Delvaux]] and [[René Magritte]]. The sculptor [[Panamarenko]] is still a remarkable figure in contemporary art.&lt;ref&gt;{{cite web|title=Belgian Artists: (biographies &amp; artworks)|date=5 February 2006|publisher=World Wide Arts Resources|url=http://wwar.com/masters/nationalities/belgian.html|accessdate=10 May 2007}}—List of Belgian painters, linking to their biographies and artworks&lt;/ref&gt;&lt;ref&gt;{{cite web|author=Baudson, Michel|title=Panamarenko|publisher=Flammarion (Paris), quoted at presentation of the ''XXIII Bienal Internacional de São Paulo''|year=1996|url=http://www1.uol.com.br/bienal/23bienal/universa/iueopa.htm|archiveurl=http://web.archive.org/web/20070207233008/http://www1.uol.com.br/bienal/23bienal/universa/iueopa.htm|archivedate=7 February 2007|accessdate=10 May 2007}}&lt;/ref&gt; The artist [[Jan Fabre]] and the painter [[Luc Tuymans]] are other internationally known figures in contemporary art.
+
+Belgian contributions to architecture were also in the 19th and 20th centuries. [[Victor Horta]] and [[Henry van de Velde]] were major starters of the [[Art Nouveau]] style.&lt;ref&gt;{{cite web|title=ib. (page2)|year=2007|publisher=Senses Art Nouveau Shop, Brussels|url=http://www.senses-artnouveau.com/brussels.php?page=2
+|accessdate=11 May 2007}}&lt;/ref&gt;&lt;ref&gt;{{cite web|title=Major Town Houses of the Architect Victor Horta (Brussels)|work=[[UNESCO]]'s [[World Heritage List]]|publisher=UNESCO
+|url=http://whc.unesco.org/en/list/1005|accessdate=16 May 2007}}&lt;/ref&gt;
+
+In the 19th and 20th centuries, there were major violinists, such as [[Henri Vieuxtemps]], [[Eugène Ysaÿe]] and [[Arthur Grumiaux]]. [[Adolphe Sax]] invented the [[saxophone]] in 1846. The composer [[César Franck]] was born in Liège in 1822. Newer music in Belgium is also famous. Jazz musician [[Toots Thielemans]] and singer [[Jacques Brel]] have made global fame. In rock/pop music, [[Telex (band)|Telex]], [[Front 242]], [[K's Choice]], [[Hooverphonic]], [[Zap Mama]], [[Soulwax]] and [[Deus (band)|dEUS]] are well known. In the heavy metal scene, bands like [[Machiavel]], [[Channel Zero (band)|Channel Zero]] and [[Enthroned]] have a worldwide fan-base.&lt;ref&gt;{{cite web|title=The Timeline—A brief history of Belgian Pop Music|year=2007 |month=March|work=The Belgian Pop &amp; Rock Archives|publisher=Flanders Music Centre, Brussels|url=http://houbi.com/belpop/timeline.htm
+|accessdate=7 June 2007}}&lt;/ref&gt;
+
+Belgium has several well-known authors, including the poet [[Emile Verhaeren]] and novelists [[Hendrik Conscience]], [[Georges Simenon]], [[Suzanne Lilar]] and [[Amélie Nothomb]]. The poet and playwright [[Maurice Maeterlinck]] won the [[Nobel Prize in literature]] in 1911. ''[[The Adventures of Tintin]]'' by [[Hergé]] is the best known of [[Franco-Belgian comics]].  Many other major authors, including [[Peyo]], [[André Franquin]], [[Edgar P. Jacobs]] and [[Willy Vandersteen]] brought the Belgian cartoon strip industry a worldwide fame.&lt;ref&gt;{{cite book|title=Comics in French: the European bande dessinée in context|author=Laurence Grove|publisher=Berghahn Books|year=2010|isbn=1-84545-588-6}}&lt;/ref&gt;
+
+Belgian cinema has brought a number of mainly Flemish novels to life on-screen. Belgian directors include [[André Delvaux]], [[Stijn Coninx]], [[Luc Dardenne|Luc]] and [[Jean-Pierre Dardenne]].  Well-known actors include [[Jan Decleir]] and [[Marie Gillain]].  Successful films include ''[[Man Bites Dog (film)|Man Bites Dog]]'' and ''[[The Alzheimer Affair]]''.&lt;ref&gt;{{cite web|title=History of Cinema in Belgium|work=Film Birth|year=2007|url=http://www.filmbirth.com/belgium.html|accessdate=26 June 2011}}&lt;/ref&gt;
+
+===Cuisine===
+[[File:Brussels waffle.jpg|right|thumb|upright|[[Brussels waffle]]s, commonly known as [[Belgian waffle]]s outside of Belgium]]
+Belgium is famous for beer, chocolate, [[Belgian waffle|waffles]] and [[french fries]]. French fries were first made in Belgium. The national dishes are &quot;steak and fries with salad&quot;, and &quot;[[moules-frites|mussels with fries]]&quot;.&lt;ref&gt;{{cite web|title=Steak-frites|publisher=Epicurious|url=http://www.epicurious.com/recipes/recipe_views/views/40035
+|accessdate=12 August 2007}}&lt;/ref&gt;
+Other local fast food dishes include a [[Mitraillette]]. Brands of Belgian chocolate and [[pralines]], like [[Côte d'Or (brand)|Côte d'Or]], [[Guylian]], [[Chocolatier Neuhaus|Neuhaus]], [[Leonidas (chocolate maker)|Leonidas]], Corné and Galler are famous.&lt;ref&gt;{{cite book | title=Belgium and Luxembourg | author=Mark Elliott, Geert Cole | publisher=Lonely Planet | year=2000 | page=53}}&lt;/ref&gt; Belgium makes over 1100 varieties of beer.&lt;ref name=&quot;BierbijbelNieuwsblad&quot;&gt;{{cite news|url=http://www.nieuwsblad.be/article/detail.aspx?articleid=G2I3H7IVR|title=Nieuwe bierbijbel bundelt alle 1.132 Belgische bieren|first=Chris|last=Snick|date=18 October 2011|language=Dutch|newspaper=Het Nieuwsblad}}&lt;/ref&gt;&lt;ref name=&quot;BierbijbelKW&quot;&gt;{{cite news|url=http://kw.knack.be/west-vlaanderen/nieuws/algemeen/nieuwe-bierbijbel-met-1-132-belgische-bieren-voorgesteld-in-brugge/article-1195119387827.htm|title=Nieuwe bierbijbel met 1.132 Belgische bieren voorgesteld in Brugge|date=18 October 2011|language=Dutch|newspaper=Krant van West-Vlaanderen}}&lt;/ref&gt; The [[Trappist beer]] of the [[Westvleteren Brewery|Abbey of Westvleteren]] has repeatedly been rated the world's best beer.&lt;ref&gt;{{cite news|last=Ames|first=Paul|title=Buying the World's Best Beer|url=http://www.globalpost.com/dispatch/benelux/090828/st-sixtus-westvleteren-beer|accessdate=19 November 2010|newspaper=Global Post|date=30 August 2009}}&lt;/ref&gt;&lt;ref&gt;{{cite news|last=Guthrie|first=Tyler|title=Day trip to the best beer in the world|url=http://articles.chicagotribune.com/2010-08-11/travel/sc-trav-0810-strip-belgian-bike-trip-20100810_1_westvleteren-beer-day-trip|accessdate=19 November 2010|newspaper=Chicago Tribune|date=11 August 2010}}&lt;/ref&gt;  The biggest brewer in the world by volume is [[Anheuser-Busch InBev]], based in [[Leuven]].&lt;ref&gt;{{cite press release|title=InBev dividend 2006: 0.72 euro per share—infobox: About InBev|quote=InBev is a publicly traded company ([[Euronext]]: INB) based in [[Leuven]], Belgium. The company's origins date back to 1366, and today it is the leading global brewer by volume.|date=24 April 200|publisher=InBev
+|url=http://www.inbev.com/press_releases/20070424.1.e.cfm|accessdate=31 May 2007}}&lt;/ref&gt;
+
+===Sports===
+[[File:Kim Clijsters 2006.jpg|thumb|left|Kim Clijsters was [[WTA Awards|WTA Player of the Year]] in 2005 and 2010]]
+
+Since the 1970s, sports clubs are organised separately by each language community.&lt;ref&gt;{{cite book|title=Organised sport in transition: development, structures and trends of sports clubs in Belgium|author1=Marijke Task|author2=Roland Renson|author3=Bart van Reusel|work=Sport clubs in various European countries|editor=Klaus Heinemann|publisher=Schattauer Verlag|year=1999|isbn=3-7945-2038-6|pages=183–229}}&lt;/ref&gt; Association football is one of the most popular sports in both parts of Belgium, together with cycling, tennis, swimming and judo.&lt;ref&gt;{{cite book|title=Belgium|author=George Wingfield|publisher=Infobase Publishing|editor=Charles F. Gritzner|year=2008|isbn=978-0-7910-9670-3|pages=94–95}}&lt;/ref&gt; With five victories in the [[Tour de France]] and many other cycling records, Belgian [[Eddy Merckx]] is said to be one of the greatest cyclists of all time.&lt;ref&gt;{{cite news|title=Great, but there are greater|author=Majendie, Matt|publisher=BBC Sport|date=18 April 2005|url=http://news.bbc.co.uk/sport1/hi/other_sports/cycling/3925265.stm|accessdate=20 September 2007}}&lt;/ref&gt;  [[Jean-Marie Pfaff]], a former Belgian goalkeeper, is said to be one of the greatest in the history of football (soccer).&lt;ref&gt;&quot;[http://www.goalkeepersaredifferent.com/keeper/goalkeeping_greats.htm Goalkeeping Greats]&quot; Goalkeepersaredifferent.com. Retrieved on {{Nowrap|29 June}} 2008&lt;/ref&gt; Belgium and The Netherlands hosted the [[UEFA European Football Championship]] in [[UEFA Euro 2000|2000]]. Belgium hosted the [[UEFA Euro 1972|1972 European Football Championships]].
+
+[[Kim Clijsters]] and [[Justine Henin]] both were [[WTA Awards|Player of the Year]] in the [[Women's Tennis Association]]. The [[Spa-Francorchamps]] motor-racing circuit hosts the [[Formula One World Championship]] [[Belgian Grand Prix]]. The Belgian driver, [[Jacky Ickx]], won eight Grands Prix and six [[24 Hours of Le Mans]]. Belgium also has a strong reputation in [[motocross]].&lt;ref&gt;{{cite book|title=Motocross History: From Local Scrambling to World Championship MX to Freestyle|author=Bob Woods|publisher=Crabtree Publishing Company| year=2008| isbn=978-0-7787-3987-6| page=19}}&lt;/ref&gt; Sporting events held each year in Belgium include the [[Memorial Van Damme]] athletics competition, the [[Belgian Grand Prix]] Formula One, and a number of [[classic cycle races]] such as the [[Tour of Flanders]] and [[Liège–Bastogne–Liège]]. The [[1920 Summer Olympics]] were held in Antwerp.
+{{-}}
+
+== Other pages ==
+*[[Belgium at the Olympics]]
+*[[Belgium national football team]]
+*[[List of rivers of Belgium]]
+
+==References==
+{{reflist|2}}
+
+== Other websites ==
+{{wiktionary|Belgium}}
+{{commons-inline|Belgium}}
+* [http://www.monarchie.be Official website of Belgian monarchy]
+* [http://www.belgium.be Official website of the Belgian federal government]
+* [http://www.telefoongids.2link.be Belgian Telephone directory]
+* [http://www.traveldir.org/belgium/ Belgium Travel Guide]
+* [http://www.ilotsacre.be/site/en/default_en.htm Brussels map]
+
+
+{{Europe}}
+{{European Union}}
+{{North Atlantic Treaty Organisation (NATO)}}
+
+[[Category:Belgium| ]]
+[[Category:European Union member states]]
+[[Category:Benelux]]
+[[Category:Current monarchies]]
+[[Category:Dutch-speaking countries]]
+[[Category:French-speaking countries]]
+[[Category:German-speaking countries]]
+[[Category:Federations]]</text>
+    <sha1>entth46tw8rhcv6evr8bm3vnyhw6pm0</sha1>
+</revision>
+</page>
+<page>
+<title>Brazil</title>
+<ns>0</ns>
+<id>104</id>
+<revision>
+    <id>5732353</id>
+    <parentid>5712276</parentid>
+    <timestamp>2017-07-12T00:11:42Z</timestamp>
+    <contributor>
+        <username>Slaytanic</username>
+        <id>280410</id>
+    </contributor>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">{{for|the city in the U.S. state of Indiana|Brazil, Indiana}}
+{{Infobox country
+|native_name = &lt;span style=&quot;line-height:1.33em;&quot;&gt;{{native name|pt|República Federativa do Brasil}}&lt;/span&gt;
+|conventional_long_name = &lt;span style=&quot;line-height:1.33em;&quot;&gt;Federative Republic of Brazil&lt;/span&gt;
+|common_name = Brazil
+|image_flag = Flag of Brazil.svg
+|alt_flag =
+|image_coat = Coat of arms of Brazil.svg
+|alt_coat =
+|symbol_type = Coat of arms
+|national_motto = ''&quot;{{lang|pt|Ordem e Progresso}}&quot;''&lt;br /&gt;&lt;small&gt;{{pt icon}}&lt;br /&gt;&quot;Order and Progress&quot;&lt;/small&gt;
+|national_anthem = [[Brazilian National Anthem|Hino Nacional Brasileiro]]&lt;br /&gt;&lt;small&gt;{{pt icon}}&lt;br /&gt;&quot;Brazilian National Anthem&quot;&lt;/small&gt;
+|royal_anthem =
+|other_symbol_type = [[Seal (emblem)|National seal]]
+|other_symbol = [[National Seal of Brazil|Selo Nacional do Brasil]] [[File:National Seal of Brazil (color).svg|150px]]
+|image_map = Brazil (orthographic projection).svg
+|alt_map =
+|map_caption =
+|image_map2 =
+|alt_map2 =
+|map_caption2 =
+|capital = [[Brasília]]
+|latd= 15 | latm= 45 | latNS = S
+|longd= 47 |longm= 57 |longEW = W
+|largest_city = [[São Paulo]]
+|official_languages = [[Portuguese language|Portuguese]]&lt;ref&gt;{{cite web|title=Demographics|publisher=Brazilian Government|date=2011|url=http://www.brasil.gov.br/sobre/brazil/brazil-in-numbers/demographics|accessdate=2011-10-08}} {{en}}&lt;/ref&gt;
+|national_languages =
+|regional_languages =
+|languages_type =
+|languages =
+|ethnic_groups = 47.73% [[White Brazilian|White]]&lt;br&gt;43.13% [[Pardo|Brown]] ([[Multiracial#Brazil|Multiracial]])&lt;br&gt;7.61% [[Black Brazilian|Black]]&lt;br&gt;1.09% [[Asian Brazilian|Asian]]&lt;br&gt;0.43% [[Indigenous peoples in Brazil|Amerindian]]
+|ethnic_groups_year = 2010&lt;ref name=&quot;raca2010&quot;&gt;[http://www.ibge.gov.br/home/estatistica/populacao/censo2010/caracteristicas_da_populacao/tabelas_pdf/tab3.pdf Caracteristicas da População e dos Domicílios do Censo Demográfico 2010 — Cor ou raça]&lt;/ref&gt;
+|demonym = [[Brazilian people|Brazilian]]
+|government_type = [[Federalism|Federal]] [[Presidential system|presidential]] [[constitutional republic]]
+|leader_title1 = [[President of Brazil|President]]
+|leader_name1 = [[Michel Temer]] ([[PMDB]])&lt;ref&gt;{{cite web|title=Brazil President Dilma Rousseff removed from office by Senate|url=http://www.bbc.com/news/world-latin-america-37237513|publisher=BBC|accessdate=30 October 2016|date=1 September 2016}}&lt;/ref&gt;
+|leader_title2 = [[Vice-President of Brazil|Vice President]]
+|leader_name2 = ''Vacant''
+|leader_title3 = [[List of Presidents of the Chamber of Deputies of Brazil|President of the Chamber of Deputies]]
+|leader_name3 = [[Rodrigo Maia]] (DEM)
+|leader_title4 = [[President of the Senate of Brazil|President of the Senate]]
+|leader_name4 = [[Eunício Oliveira]] (PMDB)
+|leader_title5 = [[Supreme Federal Court (Brazil)#Chief Justice|Chief Justice]]
+|leader_name5 = [[Cármen Lúcia]]
+|leader_title6 =
+|leader_name6 =
+|legislature = [[National Congress of Brazil|National Congress]]
+|upper_house = [[Senate of Brazil|Federal Senate]]
+|lower_house = [[Chamber of Deputies of Brazil|Chamber of Deputies]]
+|sovereignty_type = [[Brazilian Declaration of Independence|Independence]]
+|sovereignty_note = from [[Portugal]]
+|established_event1 = [[Empire of Brazil|Declared]]
+|established_date1 = 7 September 1822
+|established_event2 = [[Empire of Brazil|Recognized]]
+|established_date2 = 29 August 1825
+|established_event3 = [[República Velha|Republic]]
+|established_date3 = 15 November 1889
+|established_event4 = [[Constitution of Brazil|Current constitution]]
+|established_date4 = 5 October 1988
+|established_event5 =
+|established_date5 =
+&lt;!-- ... --&gt;
+|established_event9 =
+|established_date9 =
+|area_rank = 5th
+|area_magnitude = 1 E12
+|area =
+|area_km2 = 8514877
+|area_sq_mi = 3287597
+|area_footnote =
+|percent_water = 0.65
+|area_label = Total
+|area_label2 =
+|area_dabodyalign =
+|population_estimate =
+|population_estimate_rank =
+|population_estimate_year =
+|population_census = 205,823,665 &lt;ref&gt;{{cite web|url=https://www.cia.gov/library/publications/the-world-factbook/geos/br.html  |title=The World Factbook  |publisher= |date= |accessdate=2017-07-11}}&lt;/ref&gt;
+|population_census_rank = 5th
+|population_census_year = 2016
+|population_density_km2 = 23.6
+|population_density_sq_mi = 57
+|population_density_rank = 182nd
+|GDP_PPP = $3.081 trillion&lt;ref name=imf&gt;{{cite web|url=http://www.imf.org/external/pubs/ft/weo/2011/01/weodata/weorept.aspx?sy=2008&amp;ey=2011&amp;scsm=1&amp;ssd=1&amp;sort=country&amp;ds=.&amp;br=1&amp;c=223&amp;s=NGDPD%2CNGDPDPC%2CPPPGDP%2CPPPPC%2CLP&amp;grp=0&amp;a=&amp;pr.x=25&amp;pr.y=4 |title=Brazil|publisher=International Monetary Fund|accessdate=2011-04-21}}&lt;/ref&gt;
+|GDP_PPP_rank =
+|GDP_PPP_year = 2016
+|GDP_PPP_per_capita = $14,800&lt;ref name=imf/&gt;
+|GDP_PPP_per_capita_rank =
+|GDP_nominal = $1.77 trillion&lt;ref name=imf/&gt;
+|GDP_nominal_rank =
+|GDP_nominal_year = 2016
+|GDP_nominal_per_capita = $10,826&lt;ref name=imf&gt;{{cite web|https://tradingeconomics.com/brazil/indicators|title=Brazil - Economic Indicators|publisher=TRADING ECONOMICS|accessdate=2017-07-11}}&lt;/ref&gt;
+|GDP_nominal_per_capita_rank =
+|Gini = 51.5
+|Gini_ref = &lt;ref name = &quot;2010censusgini&quot;&gt;[http://www.ibge.gov.br/home/estatistica/populacao/censo2010/caracteristicas_da_populacao/tabelas_pdf/tab8.pdf Caracteristicas da População e dos Domicílios do Censo Demográfico 2010 — Rendimento]&lt;/ref&gt;
+|Gini_year = 2014
+|Gini_category = &lt;span style=&quot;color:#e0584e;&quot;&gt;high&lt;/span&gt;
+|HDI = 0.754
+|HDI_change =
+|HDI_ref = &lt;ref name=HDI15&gt;{{cite web|title=The Human Development Index 2016 |url=http://www.nationsonline.org/oneworld/human_development.htm |accessdate=2017-07-11 }}&lt;/ref&gt;
+|HDI_rank = 79th
+|HDI_year = 2015
+|HDI_category = &lt;span style=&quot;color:#090;&quot;&gt;high&lt;/span&gt;
+|currency = [[Brazilian real|Real]] (R$)
+|currency_code = [[BRL]]
+|time_zone = [[Time in Brazil|BRT]]&lt;ref name=&quot;timezones&quot;&gt;{{cite web |title=Hora Legal Brasileira |publisher=Observatório Nacional |url=http://pcdsh01.on.br/Fusbr.htm |archiveurl=http://web.archive.org/web/20110722173247/http://pcdsh01.on.br/Fusbr.htm |archivedate=2011-07-22 |accessdate=2009-02-21}}&lt;/ref&gt;
+|utc_offset = [[UTC−02|-2]] to [[UTC−05|-5]]&lt;ref name=&quot;timezones&quot; /&gt;
+|time_zone_DST = [[Time in Brazil#Summer time|BRST]]
+|antipodes =
+|date_format = dd/mm/yyyy ([[Common Era|CE]])
+|DST_note =
+|utc_offset_DST = [[UTC−02|-2]] to [[UTC−05|-5]]
+|drives_on = right
+|cctld = [[.br]]
+|iso3166code =
+|calling_code = [[Telephone numbers in Brazil|+55]]
+|image_map3 =
+|alt_map3 =
+|footnotes =
+|footnote1 =
+|footnote2 =
+|footnote7 =
+}}
+[[File:Brazilian National Congress.jpg|thumb|Brazilian National Congress]]
+'''Brazil''' (officially called '''Federative Republic of Brazil'''; how to say: {{IPA2|bɾɐˈziw}}) is a [[country]] in [[South America]]. It is the [[earth|world]]'s fifth largest country. The country has about 209 million people. The [[capital (city)|capital]] of Brazil is [[Brasília]]. Brazil was named after [[brazilwood]]. Brazilwood is a tree that once grew very well along the Brazilian coast.&lt;ref name=&quot;Fausto1999&quot;&gt;{{cite book|author=Boris Fausto|title=A Concise History of Brazil|url=http://books.google.com/books?id=HJdaM325m8IC&amp;pg=PA9|year=1999|publisher=Cambridge University Press|isbn=978-0-521-56526-4|page=9}}&lt;/ref&gt;
+
+== History ==
+{{expand section}}
+The first people to come to Brazil came around 9,000 B.C.&lt;ref&gt;{{cite web|title=People of the Earth: An Introduction to World Prehistory|url=https://books.google.com/books?id=M8lwCgAAQBAJ&amp;pg=PA157&amp;lpg=PA157&amp;dq=first+people+to+come+to+Brazil+came+around+9,000+B.C&amp;source=bl&amp;ots=EJsVa2_mPB&amp;sig=PTUqvtsyFvbCCFqNaJEJeyX9s1o&amp;hl=en&amp;sa=X&amp;ved=0ahUKEwiIjJ3cqejQAhVfVWMKHcc4Bg8Q6AEIODAE#v=onepage&amp;q=first%20people%20to%20come%20to%20Brazil%20came%20around%209%2C000%20B.C&amp;f=false|accessdate=10 December 2016|author=Dr. Brian Fagan|coauthors=Nadia Durrani|page=157}}&lt;/ref&gt; That group of people is often called the [[South American Indians]].  They probably came from [[North America]]. Some of them were hunters and gatherers, but others were farmers.&lt;ref name=&quot;Britannica&quot;&gt;{{citeweb|url=http://school.eb.com/levels/high/article/106094 |title=Brazil |website=Britannica School |publisher=Encyclopaedia Britannica |accessdate=30 July 2014}}&lt;/ref&gt;
+[[File:Flag of Brazil (1500).png|thumb|Flag of Brazil, 1500.]]
+[[Pedro Álvares Cabral]] was the first [[Europe|European]] to see Brazil. He saw it in 1500. He was from [[Portugal]] and the Portuguese government claimed Brazil. Soon, explorers explored the whole coastline of Brazil and colonies were set up. In the late 1500s and early 1600s the Dutch and the French would sometimes try to take land in Brazil. Brazilians started moving inland farther than the [[Treaty of Tordesillas]] said they could. This caused some fights with the Spaniards and native people in the area.&lt;ref name=&quot;Britannica&quot; /&gt;
+
+In 1822, Brazil claimed to be its own country and not a part of [[Portugal]] anymore. Soon there was [[civil war]]. But the emperor [[Pedro II of Brazil|Pedro II]] improved the economy, and in 1888, he freed the [[slavery|slaves]]. In 1889, there was a military [[coup]] and Pedro II had to leave the country.&lt;ref name=&quot;Britannica&quot; /&gt;
+
+In 1889, Brazil became a [[republic]]. It was not very [[Democracy|democratic]], because the only people who could vote were people who owned land. There were some uprisings in the 1920s because some people thought the government was unfairly helping coffee growers. Brazil joined the [[Allies of World War II|Allies]] during [[World War II]].&lt;ref name=&quot;Britannica&quot; /&gt;
+
+During the 1960s, the leader [[Castelo Branco]] made the government like a [[dictatorship]]. Since then, the country has become more democratic, but some people feel that there are still big problems in health and education.
+
+In September 2016, then-[[president]] [[Dilma Rousseff]] was removed from office because of [[impeachment]].{{fact|date=December 2016}}
+
+==Languages==
+Most people in Brazil speak [[Portuguese language|Portuguese]]. Brazil is the only country in South America that speaks [[Portuguese language|Portuguese]].
+
+Some people in Brazil speak [[German language|German]] dialects. That came from German immigrants. 2% of Brazilians speak German as their [[first language]]. [[Yiddish]] is spoken by the elders of the [[Jew|Jewish]] community.
+
+Other people in Brazil speak their ancestors languages like [[Italian language|Italian]], [[Japanese language|Japanese]], [[Polish language|Polish]], [[Ukrainian language|Ukrainian]], [[French language|French]], [[Russian language|Russian]], [[Lithuanian language|Lithuanian]], [[Chinese language|Chinese]], [[Dutch language|Dutch]] and [[Korean language|Korean]]. [[Spanish language|Spanish]] or &quot;Portunhol&quot;, a mix of Portuguese and Castilian (Spanish) is spoken at some of the borders. Indigenous languages as [[Guarani language|Guarani]] and [[Aymara language|Aymará]] are the first languages of a small number of Brazilians.
+
+== Geography ==
+Brazil has the world's largest [[rainforest]], the [[Amazon Rainforest]]. It makes up 40% of the country's land area. Brazil also has other types of land, including a type of [[savanna]] called ''cerrado'', and a dry plant region named ''caatinga''.
+
+The most important cities are [[Brasília]] (the capital), [[Belém (Brazil)|Belém]], [[Belo Horizonte]], [[Curitiba]], [[Florianópolis]], [[Fortaleza (Brazil)|Fortaleza]], [[Goiânia]], [[Manaus]], [[Porto Alegre]],  [[Recife]], [[Rio de Janeiro]], [[Salvador, Bahia|Salvador]], [[São Paulo]] (the biggest city) and [[Vitória (Brazil)|Vitória]].  Other cities are at [[List of largest cities in Brazil]].
+
+Brazil is divided into [[Political subdivisions of Brazil|26 states]] plus the Federal District in five regions (north, south, northeast, southeast and centre-west):
+*'''North''': Acre, Amazonas, Rondônia, Roraima, Pará, Amapá, Tocantins
+*'''Northeast''': Maranhão, Pernambuco, Ceará, Piauí, Rio Grande do Norte, Paraíba, Alagoas, Sergipe, Bahia
+*'''Centre-West''': Goiás, Mato grosso, Mato Grosso do Sul, Distrito Federal/ Federal District
+*'''Southeast''': São Paulo, Rio de Janeiro, Espírito Santo, Minas Gerais
+*'''South''': Paraná, Santa Catarina and Rio Grande do Sul
+
+The country is the fifth largest in the world by area. It is known for its many [[Rainforest|rainforests]] and [[Jungle|jungles]]. It is next to every country in South America except [[Chile]] and [[Ecuador]].
+
+== People/culture ==
+Brazil is the largest country in South America and fifth largest in the world.&lt;ref&gt;{{cite web|title=The 50 largest (area) countries in the world|url=http://www.geohive.com/earth/area_top50.aspx|publisher=GeoHive|accessdate=9 December 2016}}&lt;/ref&gt; Its people are called Brazilians or Brasileiros (In Portuguese). The people include citizens of Portuguese or other European descent who mainly live in the South and Southeast, Africans, Native Americans, Arabs, Gypsies and people of Mixed ancestry. Brazil also has the largest Japanese community outside [[Japan]].&lt;ref name=&quot;cnn&quot;&gt;{{cite web|last=Veselinovic|first=Milena|title=Mixing sushi and samba - meet the Japanese Brazilians|url=http://www.cnn.com/2013/06/11/world/brazil-japanese-community/|publisher=CNN|accessdate=10 December 2016|date=July 24, 2013}}&lt;/ref&gt; Other East Asians follow the Japanese group.
+
+Two major [[sport]]ing events were held in Brazil recently: the [[2014 FIFA World Cup]] and the [[2016 Summer Olympics]] in [[Rio de Janeiro]].
+
+== Related pages ==
+* [[Civil Police (Brazil)]]
+* [[Political subdivisions of Brazil]]
+* [https://www.cia.gov/library/publications/the-world-factbook/geos/br.html CIA World Factbook]
+
+== References ==
+{{Reflist}}
+
+==Other websites==
+* {{commons-inline}}
+* {{wikivoyage-inline}}
+[[File:Rio de Janiero banner 1.jpg|thumb|Rio de Janiero.]]
+{{South America}}
+
+[[Category:Brazil| ]]
+[[Category:Portuguese-speaking countries]]</text>
+    <sha1>ti689g391r0u69d7ph0julykc6p12yz</sha1>
+</revision>
+</page>
