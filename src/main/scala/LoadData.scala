@@ -1,9 +1,5 @@
-
-//import java.util.Properties
-
 import java.util.Properties
 
-import scala.collection.JavaConverters._
 import com.databricks.spark.xml._
 import edu.stanford.nlp.ling.CoreAnnotations.{LemmaAnnotation, SentencesAnnotation, TokensAnnotation}
 import edu.stanford.nlp.pipeline.{Annotation, StanfordCoreNLP}
@@ -23,29 +19,35 @@ object LoadData {
   val pipeline1: StanfordCoreNLP = createNLPPipeline()
 
   def main(args: Array[String]): Unit = {
-    val conf = new SparkConf().setAppName("Spark Job for Loading Data").setMaster("local[*]") // local[*] will access all core of your machine
+    val conf = new SparkConf().setAppName("Spark Job for Loading Data").setMaster("local[*]")
     val sc = new SparkContext(conf)
 
     val spark = SparkSession.builder.getOrCreate()
     val wikiData = spark.read.option("rowTag", "page").xml("src/main/resources/sm.xml")
 
 
-    val dataFrame = wikiData.select("title", "revision.text._VALUE")
+    val dataFrame = wikiData.select("title", "revision.text._VALUE").toDF("title", "text")
 
     val props: Properties = new Properties()
     props.put("annotators", "tokenize, ssplit, pos, lemma")
 
-
     val stopWords = scala.io.Source.fromFile("src/main/resources/stopwords.txt").getLines().toSet
 
     val terms: DataFrame = dataFrame
-      .map((t: Row) => (t.getAs("title"): String, plainTextToLemmas(t.getAs("_VALUE"), stopWords, pipeline1): String))(Encoders.tuple(Encoders.STRING, Encoders.STRING)).toDF("title", "terms")
+      .map((t: Row) => (t.getAs("title"): String, plainTextToLemmas(t.getAs("text"), stopWords, pipeline1): String))(Encoders.tuple(Encoders.STRING, Encoders.STRING)).toDF("title", "terms")
 
     val trd = terms.rdd.map((row: Row) => (
       row.getAs("title"): String, row.getAs("terms").toString.split(","): Seq[String]
     ))
 
     val wikiDF = spark.createDataFrame(trd).toDF("title", "terms")
+
+    //the total frequency of each term
+    val termsCount = wikiDF.rdd.flatMap((row: Row) => row.getAs("terms"): Seq[String]).map((w: String) => (w, 1)).reduceByKey(_ + _).sortBy(f => (-(f._2)))
+
+    termsCount.foreach(f => {
+      println("Term: " + f._1 + "\t\t Occurred: " + f._2)
+    })
 
     wikiDF.foreach((row: Row) => {
       println("Title:")
@@ -57,12 +59,14 @@ object LoadData {
 
     val filtered = wikiDF.where(size(col("terms")).>=(100))
 
-    val countVectorizer = new CountVectorizer().setInputCol("terms").setOutputCol("termFrequency").setVocabSize(200)
+    val countVectorizer = new CountVectorizer().setInputCol("terms").setOutputCol("termFrequency").setVocabSize(20000)
     val vocabModel = countVectorizer.fit(filtered)
 
     // docTermFrequency contains title; terms; termFrequency.
     // term frequency of each term with respect to each document
     val docTermFrequency = vocabModel.transform(filtered)
+
+    docTermFrequency.show()
 
     docTermFrequency.cache()
 
@@ -86,11 +90,7 @@ object LoadData {
 
     val termIds: Array[String] = vocabModel.vocabulary
 
-    val docIds = docTermFrequency.rdd.map(_.getString(0)).
-      zipWithUniqueId().
-      map(_.swap).
-      collect().toMap
-
+    val docIds = docTermFrequency.rdd.map(_.getString(0)).zipWithUniqueId().map(_.swap).collect().toMap
 
     val vecRdd = docTermMatrix.select("tfidfVec").rdd.map {
       row => org.apache.spark.mllib.linalg.Vectors.fromML(row.getAs[MLVector]("tfidfVec"))
@@ -126,14 +126,15 @@ object LoadData {
   def plainTextToLemmas(text: String, stopWords: Set[String], pipeline: StanfordCoreNLP): String = {
     val doc = new Annotation(text)
     pipeline.annotate(doc)
-    //val lemmas = new ArrayBuffer[String]()
     var lemmas: String = ""
+    import scala.collection.JavaConverters._
+
     val sentences = doc.get(classOf[SentencesAnnotation]).asScala
+
     for(sentence <- sentences; token <- sentence.get(classOf[TokensAnnotation]).asScala) {
       val lemma: String = token.get(classOf[LemmaAnnotation])
       if(lemma.length > 2 && !stopWords.contains(lemma) && isOnlyLetters(lemma)) {
-        //lemmas= lemma.toLowerCase
-        lemmas = lemmas.concat(lemma).concat(",")
+        lemmas = lemmas.concat(lemma.toLowerCase).concat(",")
       }
     }
     lemmas
