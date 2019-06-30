@@ -20,16 +20,12 @@ object LoadData {
 
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf().setAppName("Spark Job for Loading Data").setMaster("local[*]")
-    val sc = new SparkContext(conf)
+    new SparkContext(conf)
 
     val spark = SparkSession.builder.getOrCreate()
-    val wikiData = spark.read.option("rowTag", "page").xml("src/main/resources/sm.xml")
-
+    val wikiData = spark.read.option("rowTag", "page").xml("src/main/resources/small.xml")
 
     val dataFrame = wikiData.select("title", "revision.text._VALUE").toDF("title", "text")
-
-    val props: Properties = new Properties()
-    props.put("annotators", "tokenize, ssplit, pos, lemma")
 
     val stopWords = scala.io.Source.fromFile("src/main/resources/stopwords.txt").getLines().toSet
 
@@ -42,10 +38,10 @@ object LoadData {
 
     val wikiDF = spark.createDataFrame(trd).toDF("title", "terms")
 
-    //the total frequency of each term
-    val termsCount = wikiDF.rdd.flatMap((row: Row) => row.getAs("terms"): Seq[String]).map((w: String) => (w, 1)).reduceByKey(_ + _).sortBy(f => (-(f._2)))
+    //the total frequency of each term sorted DSC
+    val termsCount = wikiDF.rdd.flatMap((row: Row) => row.getAs("terms"): Seq[String]).map((w: String) => (w, 1)).reduceByKey(_ + _).sortBy(f => -f._2)
 
-    termsCount.foreach(f => {
+    /*termsCount.foreach(f => {
       println("Term: " + f._1 + "\t\t Occurred: " + f._2)
     })
 
@@ -55,7 +51,7 @@ object LoadData {
       println("Lemmas:")
       println(row.getAs("terms"))
       println("--------")
-    })
+    })*/
 
     val filtered = wikiDF.where(size(col("terms")).>=(100))
 
@@ -77,14 +73,16 @@ object LoadData {
       println()
     })*/
 
-    val idf = new IDF().setInputCol("termFrequency").setOutputCol("tfidfVec")
+    val idf = new IDF().setInputCol("termFrequency").setOutputCol("tfIdf")
     val idfModel = idf.fit(docTermFrequency)
-    val docTermMatrix = idfModel.transform(docTermFrequency).select("title", "tfidfVec")
+    val docTermMatrix = idfModel.transform(docTermFrequency).select("title", "tfIdf")
+
+    val termIdfs = idfModel.idf.toArray
 
     /*docTermMatrix.foreach((row: Row) => {
       println()
       println("Title: " + row.getAs("title"))
-      println("tfidfVec: " + row.getAs("tfidfVec"))
+      println("TF-IDF: " + row.getAs("tfIdf"))
       println()
     })*/
 
@@ -92,25 +90,32 @@ object LoadData {
 
     val docIds = docTermFrequency.rdd.map(_.getString(0)).zipWithUniqueId().map(_.swap).collect().toMap
 
-    val vecRdd = docTermMatrix.select("tfidfVec").rdd.map {
-      row => org.apache.spark.mllib.linalg.Vectors.fromML(row.getAs[MLVector]("tfidfVec"))
+    val vecRdd = docTermMatrix.select("tfIdf").rdd.map {
+      row => org.apache.spark.mllib.linalg.Vectors.fromML(row.getAs[MLVector]("tfIdf"))
     }
 
     vecRdd.cache()
 
     val mat = new RowMatrix(vecRdd)
-    val k = 20
+    val k = 5
     val svd = mat.computeSVD(k, computeU = true)
 
-    val topConceptTerms = topTermsInTopConcepts(svd, 10, 15, termIds)
-    val topConceptDocs = topDocsInTopConcepts(svd, 10, 5, docIds)
+    val topConceptTerms = topTermsInTopConcepts(svd, 5, 6, termIds)
+    val topConceptDocs = topDocsInTopConcepts(svd, 5, 15, docIds)
     for((terms, docs) <- topConceptTerms.zip(topConceptDocs)) {
       println("Concept terms: " + terms.map(_._1).mkString(", "))
       println("Concept docs: " + docs.map(_._1).mkString(", "))
       println()
     }
 
-    print(trd)
+    val queryEngine = new LSAQueryEngine(svd, termIds, docIds, termIdfs)
+    queryEngine.printTopTermsForTerm("mitochondria")
+    queryEngine.printTopTermsForTerm("georgia")
+    queryEngine.printTopTermsForTerm("denmark")
+
+    queryEngine.printTopDocsForTerm("sunlight")
+    queryEngine.printTopDocsForTerm("day")
+
   }
 
   def createNLPPipeline(): StanfordCoreNLP = {
@@ -124,17 +129,20 @@ object LoadData {
   }
 
   def plainTextToLemmas(text: String, stopWords: Set[String], pipeline: StanfordCoreNLP): String = {
-    val doc = new Annotation(text)
-    pipeline.annotate(doc)
     var lemmas: String = ""
     import scala.collection.JavaConverters._
 
-    val sentences = doc.get(classOf[SentencesAnnotation]).asScala
+    if(text != null) {
+      val doc = new Annotation(text)
+      pipeline.annotate(doc)
 
-    for(sentence <- sentences; token <- sentence.get(classOf[TokensAnnotation]).asScala) {
-      val lemma: String = token.get(classOf[LemmaAnnotation])
-      if(lemma.length > 2 && !stopWords.contains(lemma) && isOnlyLetters(lemma)) {
-        lemmas = lemmas.concat(lemma.toLowerCase).concat(",")
+      val sentences = doc.get(classOf[SentencesAnnotation]).asScala
+
+      for(sentence <- sentences; token <- sentence.get(classOf[TokensAnnotation]).asScala) {
+        val lemma: String = token.get(classOf[LemmaAnnotation])
+        if(lemma.length > 2 && !stopWords.contains(lemma) && isOnlyLetters(lemma)) {
+          lemmas = lemmas.concat(lemma.toLowerCase).concat(",")
+        }
       }
     }
     lemmas
