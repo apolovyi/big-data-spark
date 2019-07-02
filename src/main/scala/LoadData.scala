@@ -8,10 +8,11 @@ import org.apache.spark.ml.linalg.{Vector => MLVector}
 import org.apache.spark.mllib.linalg.distributed.RowMatrix
 import org.apache.spark.mllib.linalg.{Matrix, SingularValueDecomposition}
 import org.apache.spark.sql.functions.{col, size}
+import org.apache.spark.sql.types.{StructField, StructType}
 import org.apache.spark.sql.{DataFrame, Encoders, Row, SparkSession}
 import org.apache.spark.{SparkConf, SparkContext}
 
-import scala.collection.Map
+import scala.collection.{Map, mutable}
 import scala.collection.mutable.ArrayBuffer
 
 object LoadData {
@@ -20,7 +21,7 @@ object LoadData {
 
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf().setAppName("Spark Job for Loading Data").setMaster("local[*]")
-    new SparkContext(conf)
+    val sc = new SparkContext(conf)
 
     val spark = SparkSession.builder.getOrCreate()
     val wikiData = spark.read.option("rowTag", "page").xml("src/main/resources/small.xml")
@@ -116,6 +117,39 @@ object LoadData {
     queryEngine.printTopDocsForTerm("sunlight")
     queryEngine.printTopDocsForTerm("day")
 
+    /*import spark.implicits._
+    val allTerms = termIds.toSeq.toDF("term")
+    val termsElasticSearch = allTerms.map(row => (row(0).asInstanceOf[String],
+                                            queryEngine.getTopTermsForTerm(row(0).asInstanceOf[String]),
+                                            queryEngine.getTopDocsForTerm(row(0).asInstanceOf[String])))
+
+    termsElasticSearch.printSchema()
+    termsElasticSearch.show()*/
+    val result1 = termElasticSearch("sunlight", svd, termIds, docIds, termIdfs)
+    println(result1._1.mkString(", "))
+    println(result1._2.mkString(", "))
+
+    val result2 = docElasticSearch("Computer", svd, termIds, docIds, termIdfs)
+    println(result2._1.mkString(", "))
+    println(result2._2.mkString(", "))
+  }
+
+  /*** return null if the term is not one of the interesting ones inside the vocabulary ***/
+  def termElasticSearch(term: String, svd: SingularValueDecomposition[RowMatrix, Matrix], termIds: Array[String], docIds: Map[Long, String], termIdfs: Array[Double]): (Array[String], Array[String]) = {
+    val queryEngine = new LSAQueryEngine(svd, termIds, docIds, termIdfs)
+    if(!termIds.contains(term)){return null}
+    val relTerms = queryEngine.getTopTermsForTerm(term)
+    val relDocs = queryEngine.getTopDocsForTerm(term)
+    return (relTerms, relDocs)
+  }
+
+  /*** return null if the doc doesn't exist in the data set ***/
+  def docElasticSearch(doc: String, svd: SingularValueDecomposition[RowMatrix, Matrix], termIds: Array[String], docIds: Map[Long, String], termIdfs: Array[Double]): (Array[String], Array[String]) = {
+    val queryEngine = new LSAQueryEngine(svd, termIds, docIds, termIdfs)
+    if(!docIds.exists(_._2 == doc)){return null}
+    val relTerms = queryEngine.getTopTermsForDoc(doc)
+    val relDocs = queryEngine.getTopDocsForDoc(doc)
+    return (relTerms, relDocs)
   }
 
   def createNLPPipeline(): StanfordCoreNLP = {
@@ -132,10 +166,10 @@ object LoadData {
     var lemmas: String = ""
     import scala.collection.JavaConverters._
 
+
     if(text != null) {
       val doc = new Annotation(text)
       pipeline.annotate(doc)
-
       val sentences = doc.get(classOf[SentencesAnnotation]).asScala
 
       for(sentence <- sentences; token <- sentence.get(classOf[TokensAnnotation]).asScala) {

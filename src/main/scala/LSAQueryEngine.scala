@@ -1,4 +1,5 @@
-import breeze.linalg.{DenseMatrix => BDenseMatrix, SparseVector => BSparseVector}
+import breeze.linalg.{DenseVector, DenseMatrix => BDenseMatrix, SparseVector => BSparseVector}
+import org.apache.spark.SparkContext
 import org.apache.spark.mllib.linalg.distributed.RowMatrix
 import org.apache.spark.mllib.linalg.{Matrices, Matrix, SingularValueDecomposition, Vectors, Vector => MLLibVector}
 
@@ -14,6 +15,7 @@ class LSAQueryEngine(
   val normalizedVS: BDenseMatrix[Double] = rowsNormalized(VS)
   val US: RowMatrix = multiplyByDiagonalRowMatrix(svd.U, svd.s)
   val normalizedUS: RowMatrix = distributedRowsNormalized(US)
+  val SV: BDenseMatrix[Double] = diagonalMultipliedByMatrix(svd.s, svd.V.transpose)
 
   val idTerms: Map[String, Int] = termIds.zipWithIndex.toMap
   val idDocs: Map[String, Long] = docIds.map(_.swap)
@@ -26,6 +28,12 @@ class LSAQueryEngine(
     val sArr = diag.toArray
     new BDenseMatrix[Double](mat.numRows, mat.numCols, mat.toArray)
       .mapPairs { case ((r, c), v) => v * sArr(c) }
+  }
+
+  def diagonalMultipliedByMatrix(diag: MLLibVector, mat: Matrix): BDenseMatrix[Double] = {
+    val sArr = diag.toArray
+    new BDenseMatrix[Double](sArr.length, mat.numCols, mat.toArray)
+      .mapPairs { case ((r, c), v) => v * sArr(r) }
   }
 
   /**
@@ -79,6 +87,20 @@ class LSAQueryEngine(
     allDocWeights.top(10)
   }
 
+
+  def topTermsForDoc(docId: Long): Seq[(Double, Int)] = {
+    val docRowArr = normalizedUS.rows.zipWithUniqueId.map(_.swap)
+      .lookup(docId).head.toArray
+    val docRowMat = BDenseMatrix.zeros[Double](docRowArr.length, 1)
+    for(i <- Range(0,docRowArr.length-1))
+      docRowMat(i, 0) = docRowArr(i)
+    val docRowVec = docRowMat(::, 0)
+    // Compute scores against every term
+    val termScores = (VS * docRowVec).toArray.zipWithIndex
+
+    termScores.sortBy(-_._1).take(10)
+  }
+
   /**
     * Finds terms relevant to a term. Returns the term IDs and scores for the terms with the highest
     * relevance scores to the given term.
@@ -94,10 +116,56 @@ class LSAQueryEngine(
     termScores.sortBy(-_._1).take(10)
   }
 
+
+  def topDocsForDoc(docId: Long): Seq[(Double, Long)] = {
+    val docRowArr = normalizedUS.rows.zipWithUniqueId.map(_.swap)
+      .lookup(docId).head.toArray
+    val docRowVec = Matrices.dense(docRowArr.length, 1, docRowArr)
+    val docScores = normalizedUS.multiply(docRowVec)
+    val allDocWeights = docScores.rows.map(_.toArray(0)).
+      zipWithUniqueId()
+    allDocWeights.filter(!_._1.isNaN).top(10)
+  }
+
+
+
+
+  def printTopDocsForDoc(doc: String): Unit = {
+    val idWeights = topDocsForDoc(idDocs(doc))
+    println(idWeights.map { case (score, id) =>
+      (docIds(id), score)
+    }.mkString(", "))
+  }
+
+
   def printTopTermsForTerm(term: String): Unit = {
     val idWeights = topTermsForTerm(idTerms(term))
     println("Top terms for term: "+ term)
     println(idWeights.map { case (score, id) => (termIds(id), score) }.mkString(", "))
+  }
+
+  def getTopTermsForTerm(term: String): Array[String] = {
+    val idWeights = topTermsForTerm(idTerms(term))
+    val termsForTermString = idWeights.map { case (score, id) => termIds(id) }.mkString(", ")
+    termsForTermString.split(", ")
+  }
+
+  def getTopDocsForTerm(term: String): Array[String] = {
+    val idWeights = topDocsForTerm(idTerms(term))
+    val docsForTermString = idWeights.map { case (score, id) => docIds(id) }.mkString(", ")
+    docsForTermString.split(", ")
+  }
+
+  def getTopTermsForDoc(doc: String): Array[String] = {
+    val idWeights = topTermsForDoc(idDocs(doc))
+    val docsForDocString = idWeights.map { case (score, id) => termIds(id)}.mkString(", ")
+    docsForDocString.split(", ")
+  }
+
+  def getTopDocsForDoc(doc: String): Array[String] = {
+    val idWeights = topDocsForDoc(idDocs(doc))
+    val docsForDocString = idWeights.map { case (score, id) => docIds(id)}.mkString(", ")
+    docsForDocString.split(", ")
   }
 
   def printTopDocsForTerm(term: String): Unit = {
