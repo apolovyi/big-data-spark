@@ -83,7 +83,5 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 !/src/main/resources/sm.xml
-/src/main/resources/train.xml
-/src/main/resources/wiki.xml
 /.idea/checkstyle-idea.xml
 /.idea/qaplug_profiles.xml

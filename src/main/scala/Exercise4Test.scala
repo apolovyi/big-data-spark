@@ -14,16 +14,18 @@ import org.apache.spark.{SparkConf, SparkContext}
 import scala.collection.Map
 import scala.collection.mutable.ArrayBuffer
 
-object LoadData {
+object Exercise4Test {
 
   val pipeline1: StanfordCoreNLP = createNLPPipeline()
+
+  val elasticClient = new ElasticClient
 
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf().setAppName("Spark Job for Loading Data").setMaster("local[*]")
     new SparkContext(conf)
 
     val spark = SparkSession.builder.getOrCreate()
-    val wikiData = spark.read.option("rowTag", "page").xml("src/main/resources/small.xml")
+    val wikiData = spark.read.option("rowTag", "page").xml("src/main/resources/smallWiki.xml")
 
     val dataFrame = wikiData.select("title", "revision.text._VALUE").toDF("title", "text")
 
@@ -43,18 +45,9 @@ object LoadData {
 
     /*termsCount.foreach(f => {
       println("Term: " + f._1 + "\t\t Occurred: " + f._2)
-    })
-
-    wikiDF.foreach((row: Row) => {
-      println("Title:")
-      println(row.getAs("title"))
-      println("Lemmas:")
-      println(row.getAs("terms"))
-      println("--------")
     })*/
 
     val filtered = wikiDF.where(size(col("terms")).>=(100))
-
     val countVectorizer = new CountVectorizer().setInputCol("terms").setOutputCol("termFrequency").setVocabSize(20000)
     val vocabModel = countVectorizer.fit(filtered)
 
@@ -108,7 +101,12 @@ object LoadData {
       println()
     }
 
-    val queryEngine = new LSAQueryEngine(svd, termIds, docIds, termIdfs)
+    val queryEngine = new QueryEngine(svd, termIds, docIds, termIdfs, elasticClient)
+
+    //create and fill Term and Document index in Elastic
+    queryEngine.fillTermIndex()
+    queryEngine.fillDocIndex()
+
     queryEngine.printTopTermsForTerm("mitochondria")
     queryEngine.printTopTermsForTerm("georgia")
     queryEngine.printTopTermsForTerm("denmark")

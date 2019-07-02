@@ -15,7 +15,11 @@ libraryDependencies ++= Seq(
   "edu.umd" % "cloud9" % "1.4.17",
   "com.databricks" %% "spark-xml" % "0.5.0",
   "edu.stanford.nlp" % "stanford-corenlp" % "3.9.2",
-  "edu.stanford.nlp" % "stanford-corenlp" % "3.9.2" classifier "models"
+  "edu.stanford.nlp" % "stanford-corenlp" % "3.9.2" classifier "models",
+  "org.elasticsearch.client" % "transport" % "7.2.0",
+  "org.elasticsearch.client" % "elasticsearch-rest-client" % "7.2.0",
+  "org.elasticsearch.client" % "elasticsearch-rest-high-level-client" % "7.2.0",
+  "org.elasticsearch" % "elasticsearch" % "7.2.0"
 )
 
 //libraryDependencies += "databricks" % "spark-corenlp" % "0.4.0-spark2.4-scala2.11"

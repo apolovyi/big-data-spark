@@ -451,8 +451,10 @@ In years immediately before common years, August starts on the same day of the w
         <username>JAnDbot</username>
         <id>4575</id>
     </contributor>
-    <minor />
-    <comment>robot  Adding: bg, ca, cs, cy, da, de, eo, es, fi, fr, he, ia, id, it, ja, jbo, km, ko, nl, nn, no, pl, pt, ro, ru, sl, sr, sv, th, uk, vi, zh</comment>
+    <minor/>
+    <comment>robot Adding: bg, ca, cs, cy, da, de, eo, es, fi, fr, he, ia, id, it, ja, jbo, km, ko, nl, nn, no, pl, pt, ro, ru, sl, sr, sv,
+        th, uk, vi, zh
+    </comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
     <text xml:space="preserve">&lt;div style=&quot;background-color: #F8F2F2; margin: 20px; padding: 20px;&quot;&gt;
@@ -985,8 +987,10 @@ Users who want to request administrator, bureaucrat, checkuser or oversighter ri
         <username>ChenzwBot</username>
         <id>16695</id>
     </contributor>
-    <minor />
-    <comment>[[Help:Revert a page|Reverted]] edits by [[Special:Contributions/92.24.142.62|92.24.142.62]] ([[User talk:92.24.142.62|talk]]) to last version by Dexbot</comment>
+    <minor/>
+    <comment>[[Help:Revert a page|Reverted]] edits by [[Special:Contributions/92.24.142.62|92.24.142.62]] ([[User talk:92.24.142.62|talk]]) to
+        last version by Dexbot
+    </comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
     <text xml:space="preserve">{{complex|date=March 2012}}{{nosources|date=October 2012}}
@@ -1056,7 +1060,7 @@ Catharism disappeared from the northern Italian cities after the 1260s, pressure
         <username>Auntof6</username>
         <id>22027</id>
     </contributor>
-    <minor />
+    <minor/>
     <comment>use standard simple headings and/or general cleanup using [[Project:AWB|AWB]]</comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
@@ -1125,8 +1129,9 @@ Should the distinction between the 'physics' version and 'religion' version of c
         <username>Enfcer</username>
         <id>170917</id>
     </contributor>
-    <minor />
-    <comment>Reverted 1 edit by [[Special:Contributions/187.172.184.23|187.172.184.23]] ([[User talk:187.172.184.23|talk]]). ([[WP:TW|TW]])</comment>
+    <minor/>
+    <comment>Reverted 1 edit by [[Special:Contributions/187.172.184.23|187.172.184.23]] ([[User talk:187.172.184.23|talk]]). ([[WP:TW|TW]])
+    </comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
     <text xml:space="preserve">&quot;Very often a computer contains [[toxic waste]], sometimes called [[e-waste]].  When a new computer is purchased in some places, the cost of its [[waste management]] must also be paid for - this is called [[product stewardship]].&quot; -- Moved this to /Talk Oct 21 03 because it is [[soapbox]], not [[NPOV]]
@@ -1290,8 +1295,10 @@ For the third person,I don't think that Korea will unify. The best it can turn i
         <username>Pmlineditor</username>
         <id>56710</id>
     </contributor>
-    <minor />
-    <comment>[[Help:Revert a page|Reverted]] edits by [[Special:Contributions/JayBFive|JayBFive]] ([[User talk:JayBFive|talk]]) to last version by Jim.henderson</comment>
+    <minor/>
+    <comment>[[Help:Revert a page|Reverted]] edits by [[Special:Contributions/JayBFive|JayBFive]] ([[User talk:JayBFive|talk]]) to last
+        version by Jim.henderson
+    </comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
     <text xml:space="preserve">{{about|the church as a building|the Church as a Christian organization|One Holy Catholic and Apostolic Church|other uses of the word &quot;church&quot;|Church (disambiguation)}}
@@ -1378,7 +1385,7 @@ Modern churches often do not have the traditional cross-shape. It is difficult f
 <title>Cities</title>
 <ns>0</ns>
 <id>143</id>
-<redirect title="City" />
+<redirect title="City"/>
 <revision>
     <id>36481</id>
     <timestamp>2003-10-21T13:24:16Z</timestamp>
@@ -1406,8 +1413,10 @@ Modern churches often do not have the traditional cross-shape. It is difficult f
         <username>Caliburn</username>
         <id>374981</id>
     </contributor>
-    <minor />
-    <comment>Protected &quot;[[City]]&quot;: Targeted by LTA. ([Edit=Allow only autoconfirmed users] (expires 12:22, 27 August 2017 (UTC)) [Move=Allow only autoconfirmed users] (expires 12:22, 27 August 2017 (UTC)))</comment>
+    <minor/>
+    <comment>Protected &quot;[[City]]&quot;: Targeted by LTA. ([Edit=Allow only autoconfirmed users] (expires 12:22, 27 August 2017 (UTC))
+        [Move=Allow only autoconfirmed users] (expires 12:22, 27 August 2017 (UTC)))
+    </comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
     <text xml:space="preserve">[[Image:Piazza del Campo (Siena).jpg|thumb|250px|The medieval city of [[Sienna]] with its town square and magnificent [[town hall]]. A modern [[suburb]] can be seen in the background.]]
@@ -1555,8 +1564,10 @@ There is a large [[economy]] for cooking in the world. [[Restaurant]]s [[hire]] 
         <username>ChenzwBot</username>
         <id>16695</id>
     </contributor>
-    <minor />
-    <comment>[[Help:Revert a page|Reverted]] edits by [[Special:Contributions/Iantucker2912|Iantucker2912]] ([[User talk:Iantucker2912|talk]]) to last version by Auntof6</comment>
+    <minor/>
+    <comment>[[Help:Revert a page|Reverted]] edits by [[Special:Contributions/Iantucker2912|Iantucker2912]] ([[User talk:Iantucker2912|talk]])
+        to last version by Auntof6
+    </comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
     <text xml:space="preserve">To '''chat''' is to '''talk''' about ordinary things that are not very important. A person can chat with another person, or to many people. People also use this word now for parts of the [[Internet]] where we can talk with many different people at the same time. Usually, people chat on the Internet in a [[chat room]] or [[instant messaging|messaging]] service like [[AOL|AOL Instant Messenger]] (AIM), [[Yahoo!|Yahoo Messenger]] [[Windows Live Messenger]] or [[Tencent QQ]]. There are also programs which let people use different messaging services from one program, such as [[Pidgin (software)|Pidgin]].
@@ -1655,7 +1666,7 @@ In most countries, [[police]] try to stop crimes and to find criminals. When the
 <title>Countries</title>
 <ns>0</ns>
 <id>152</id>
-<redirect title="Country" />
+<redirect title="Country"/>
 <revision>
     <id>36489</id>
     <timestamp>2003-10-23T13:04:01Z</timestamp>
@@ -1683,7 +1694,7 @@ In most countries, [[police]] try to stop crimes and to find criminals. When the
         <username>Orthogonal1</username>
         <id>378915</id>
     </contributor>
-    <minor />
+    <minor/>
     <comment>Not &quot;Many scientists reject these ideas&quot; but &quot;Scientists reject these ideas&quot;</comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
@@ -1748,7 +1759,7 @@ You can read about it at http://en.wikipedia.org/wiki/User:TimecubeGuy</text>
         <username>Peterdownunder</username>
         <id>17988</id>
     </contributor>
-    <minor />
+    <minor/>
     <comment>/* top */clean up, typos fixed: ten year → ten-year using [[Project:AWB|AWB]]</comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
@@ -1779,8 +1790,10 @@ In this case, in the seas.
         <username>Eurodyne</username>
         <id>380105</id>
     </contributor>
-    <minor />
-    <comment>[[Help:Revert a page|Reverted]] edits by [[Special:Contributions/101.58.74.223|101.58.74.223]] ([[User talk:101.58.74.223|talk]]) to last version by Macdonald-ross</comment>
+    <minor/>
+    <comment>[[Help:Revert a page|Reverted]] edits by [[Special:Contributions/101.58.74.223|101.58.74.223]] ([[User talk:101.58.74.223|talk]])
+        to last version by Macdonald-ross
+    </comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
     <text xml:space="preserve">{{Taxobox
@@ -1832,8 +1845,10 @@ There are five [[species]] and many [[subspecies]] in the [[genus]]. They are al
         <username>ChenzwBot</username>
         <id>16695</id>
     </contributor>
-    <minor />
-    <comment>[[Help:Revert a page|Reverted]] edits by [[Special:Contributions/193.111.119.208|193.111.119.208]] ([[User talk:193.111.119.208|talk]]) to last version by Addbot</comment>
+    <minor/>
+    <comment>[[Help:Revert a page|Reverted]] edits by [[Special:Contributions/193.111.119.208|193.111.119.208]] ([[User
+        talk:193.111.119.208|talk]]) to last version by Addbot
+    </comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
     <text xml:space="preserve">'''Civics''' is the study of [[government]].  It most often refers to studying government in high school to prepare to be a good [[citizen]].  In college, civics is usually called [[political science]].  Since a [[city]] has the most unsimple government problems, the word for this study is like that for city.
@@ -1865,7 +1880,7 @@ Theories of civics can be grouped as:
         <username>NetBot~simplewiki</username>
         <id>545</id>
     </contributor>
-    <minor />
+    <minor/>
     <comment>Netoholic - Robot: Automated text replacement</comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
@@ -2000,7 +2015,7 @@ Because coins have been made for a very long time, some people collect old coins
 <title>Control Paradigm</title>
 <ns>0</ns>
 <id>163</id>
-<redirect title="Mechanistic paradigm" />
+<redirect title="Mechanistic paradigm"/>
 <revision>
     <id>36498</id>
     <parentid>1906</parentid>
@@ -2009,7 +2024,7 @@ Because coins have been made for a very long time, some people collect old coins
         <username>Angela</username>
         <id>2</id>
     </contributor>
-    <minor />
+    <minor/>
     <comment>fix redir</comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
@@ -2082,7 +2097,7 @@ There are many more, enough to prove the importance of the metaphor in our lives
         <username>Saehrimnir</username>
         <id>73398</id>
     </contributor>
-    <minor />
+    <minor/>
     <comment>interwiki conflikt resolved</comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
@@ -2110,7 +2125,7 @@ Crust can also mean:
         <username>Auntof6</username>
         <id>22027</id>
     </contributor>
-    <minor />
+    <minor/>
     <comment>use standard simple headings and/or general cleanup using [[Project:AWB|AWB]]</comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
@@ -2244,7 +2259,7 @@ In modern times [[space probe]]s have visited comets to learn more about them.
         <username>Macdonald-ross</username>
         <id>68157</id>
     </contributor>
-    <minor />
+    <minor/>
     <comment>/* Other pages */</comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
@@ -2284,7 +2299,7 @@ There are two types of cells. [[Prokaryote|Prokaryotic]] cells do not have a cle
         <username>Auntof6</username>
         <id>22027</id>
     </contributor>
-    <minor />
+    <minor/>
     <comment>removed [[Category:Christianity]]; added [[Category:Christians]] using [[Help:Gadget-HotCat|HotCat]]</comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
@@ -2394,7 +2409,7 @@ Different types of cheese include:
         <username>Frogger48</username>
         <id>320922</id>
     </contributor>
-    <minor />
+    <minor/>
     <model>wikitext</model>
     <format>text/x-wiki</format>
     <text xml:space="preserve">{{talkheader}}
@@ -2431,8 +2446,10 @@ Any repeating of the [[particle physics]] dogma that molecules are somehow made 
         <username>Jim.henderson</username>
         <id>70336</id>
     </contributor>
-    <minor />
-    <comment>[[Help:Revert a page|Reverted]] edits by [[Special:Contributions/27.111.71.80|27.111.71.80]] ([[User talk:27.111.71.80|talk]]) to last version by J991</comment>
+    <minor/>
+    <comment>[[Help:Revert a page|Reverted]] edits by [[Special:Contributions/27.111.71.80|27.111.71.80]] ([[User talk:27.111.71.80|talk]]) to
+        last version by J991
+    </comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
     <text xml:space="preserve">[[File:Hammurabi.jpg|thumbnail|200px|Detail from [[Hammurabi]]'s [[stele]] shows him receiving the laws of [[Babylon]] from the seated [[sun deity]].]]
@@ -2566,7 +2583,7 @@ The [[homonym]] '''capitalize''' is a different word, and means &quot;to fully f
 <title>Capitalize</title>
 <ns>0</ns>
 <id>177</id>
-<redirect title="Capitalization" />
+<redirect title="Capitalization"/>
 <revision>
     <id>210535</id>
     <parentid>36510</parentid>
@@ -2575,7 +2592,7 @@ The [[homonym]] '''capitalize''' is a different word, and means &quot;to fully f
         <username>Blockinblox</username>
         <id>1719</id>
     </contributor>
-    <minor />
+    <minor/>
     <comment>fixing dbl redirects</comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
@@ -2832,7 +2849,9 @@ The 2-dimensional ([[2D]]) shape (like a circle, square, triangle, etc.) that a 
         <username>Zhangj1079</username>
         <id>595018</id>
     </contributor>
-    <comment>Undid revision 5753807 by [[Special:Contributions/2602:306:3433:C7F0:188F:FDE3:9FBE:D0B0|2602:306:3433:C7F0:188F:FDE3:9FBE:D0B0]] ([[User talk:2602:306:3433:C7F0:188F:FDE3:9FBE:D0B0|talk]]), not simple enough.</comment>
+    <comment>Undid revision 5753807 by [[Special:Contributions/2602:306:3433:C7F0:188F:FDE3:9FBE:D0B0|2602:306:3433:C7F0:188F:FDE3:9FBE:D0B0]]
+        ([[User talk:2602:306:3433:C7F0:188F:FDE3:9FBE:D0B0|talk]]), not simple enough.
+    </comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
     <text xml:space="preserve">{{monththisyear|12}}
@@ -3256,7 +3275,7 @@ This was also when Henry VIII made himself the new head of the [[Church of Engla
 <title>Data Device</title>
 <ns>0</ns>
 <id>189</id>
-<redirect title="Boot device" />
+<redirect title="Boot device"/>
 <revision>
     <id>36520</id>
     <timestamp>2003-09-26T17:05:25Z</timestamp>
@@ -3264,7 +3283,7 @@ This was also when Henry VIII made himself the new head of the [[Church of Engla
         <username>hlfx58-1-126.ns.sympatico.ca</username>
         <id>0</id>
     </contributor>
-    <minor />
+    <minor/>
     <comment>redirect to where explained</comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
@@ -3349,8 +3368,11 @@ The words used in Speedwords are the same as the words used in many other langua
         <username>Gordonrox24</username>
         <id>45220</id>
     </contributor>
-    <minor />
-    <comment>[[Help:Revert a page|Reverted]] edits by [[Special:Contributions/2601:282:D01:A470:7D43:97D6:35E5:6E31|2601:282:D01:A470:7D43:97D6:35E5:6E31]] ([[User talk:2601:282:D01:A470:7D43:97D6:35E5:6E31|talk]]) to last version by MiloDenn</comment>
+    <minor/>
+    <comment>[[Help:Revert a page|Reverted]] edits by
+        [[Special:Contributions/2601:282:D01:A470:7D43:97D6:35E5:6E31|2601:282:D01:A470:7D43:97D6:35E5:6E31]] ([[User
+        talk:2601:282:D01:A470:7D43:97D6:35E5:6E31|talk]]) to last version by MiloDenn
+    </comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
     <text xml:space="preserve">[[File:At the Devil's Ball 1.jpg|thumb|220px|right|A common image of the devil, red, with [[horn (anatomy)|horns]] and a [[tail]]]]
@@ -3520,7 +3542,7 @@ For example, if Jane wants to know the position of Sally, Sally can give Jane a 
 <title>Dimensions</title>
 <ns>0</ns>
 <id>201</id>
-<redirect title="Dimension" />
+<redirect title="Dimension"/>
 <revision>
     <id>36529</id>
     <parentid>281</parentid>
@@ -3630,7 +3652,7 @@ Distance is different from [[displacement vector|displacement]]. Displacement is
         <username>Vanischenu</username>
         <id>238391</id>
     </contributor>
-    <minor />
+    <minor/>
     <comment>Undid good faith edit</comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
@@ -3760,8 +3782,9 @@ Dictionaries need to be updated frequently because of the way language changes. 
         <username>Dexbot</username>
         <id>233259</id>
     </contributor>
-    <minor />
-    <comment>Removing Link FA template ([[d:Wikidata:Development plan#Badges|handled by wikidata]]) - The interwiki article is not featured</comment>
+    <minor/>
+    <comment>Removing Link FA template ([[d:Wikidata:Development plan#Badges|handled by wikidata]]) - The interwiki article is not featured
+    </comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
     <text xml:space="preserve">{{wiktionary|definition}}
@@ -4174,8 +4197,9 @@ Many [[activist]]s feel that promoting hydrogen is a stall, a way to avoid forci
         <username>Freshstart</username>
         <id>2077</id>
     </contributor>
-    <minor />
-    <comment>[[Talk:Dieselectric]] moved to [[Talk:Diesel-electric]]: Far more common; dieselectric is at best car junkie forum slang</comment>
+    <minor/>
+    <comment>[[Talk:Dieselectric]] moved to [[Talk:Diesel-electric]]: Far more common; dieselectric is at best car junkie forum slang
+    </comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
     <text xml:space="preserve">Considering that many [[Simple English Users]] and users of the translated articles live in countries that will be making important infrastructure decisions in the next ten years, I think this option needs very detailed treatment here.  Many more articles than, I think, than we would want on for instance steam engine design.  ;-)
@@ -4187,7 +4211,7 @@ Many [[activist]]s feel that promoting hydrogen is a stall, a way to avoid forci
 <title>Degree (geometry)</title>
 <ns>0</ns>
 <id>212</id>
-<redirect title="Degree (angle)" />
+<redirect title="Degree (angle)"/>
 <revision>
     <id>888980</id>
     <parentid>809804</parentid>
@@ -4207,7 +4231,7 @@ Many [[activist]]s feel that promoting hydrogen is a stall, a way to avoid forci
 <title>Elements</title>
 <ns>0</ns>
 <id>213</id>
-<redirect title="Element" />
+<redirect title="Element"/>
 <revision>
     <id>36541</id>
     <parentid>300</parentid>
@@ -4413,8 +4437,10 @@ The [[European Union]] is a [[confederation]] of 28 European countries.  These 
         <username>Sarrus</username>
         <id>59140</id>
     </contributor>
-    <minor />
-    <comment>[[Help:Revert a page|Reverted]] edits by [[Special:Contributions/79.32.131.240|79.32.131.240]] ([[User talk:79.32.131.240|talk]]) to last version by Auntof6</comment>
+    <minor/>
+    <comment>[[Help:Revert a page|Reverted]] edits by [[Special:Contributions/79.32.131.240|79.32.131.240]] ([[User talk:79.32.131.240|talk]])
+        to last version by Auntof6
+    </comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
     <text xml:space="preserve">[[File:Danimarca XIII secolo, plinio historia naturalis.JPG|thumb|A richly decorated edition of [[Pliny the Elder|Pliny]]'s  ''Naturalis historia'' from the 13th century. It was first published AD 77{{ndash}}79. Pliny died in the [[Volcanic eruption|eruption]] of [[Vesuvius]], AD 79]]
@@ -4465,8 +4491,10 @@ Many [[dictionary|dictionaries]] have similar information to encyclopedias.
         <username>Auntof6</username>
         <id>22027</id>
     </contributor>
-    <minor />
-    <comment>[[Help:Revert a page|Reverted]] edits by [[Special:Contributions/197.149.92.18|197.149.92.18]] ([[User talk:197.149.92.18|talk]]) to last version by Zabshk</comment>
+    <minor/>
+    <comment>[[Help:Revert a page|Reverted]] edits by [[Special:Contributions/197.149.92.18|197.149.92.18]] ([[User talk:197.149.92.18|talk]])
+        to last version by Zabshk
+    </comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
     <text xml:space="preserve">[[Image:Volcano q.jpg|thumb|250px|A [[volcano]] eruption is the release of stored energy from below the surface of Earth. The heat comes mostly from [[radioactive decay]], and [[convection]], in the Earth's [[Planetary core|core]] and [[Mantle (geology)|mantle]].&lt;ref&gt;''Encyclopedia of Volcanoes''. Academic Press, London, 2000.&lt;/ref&gt;]]
@@ -4718,7 +4746,7 @@ People change the Earth in many ways. They have been able to grow plants for foo
 <title>Etc.</title>
 <ns>0</ns>
 <id>220</id>
-<redirect title="Et cetera" />
+<redirect title="Et cetera"/>
 <revision>
     <id>36547</id>
     <parentid>3864</parentid>
@@ -4727,7 +4755,7 @@ People change the Earth in many ways. They have been able to grow plants for foo
         <username>Angela</username>
         <id>2</id>
     </contributor>
-    <minor />
+    <minor/>
     <comment>fix double redirect</comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
@@ -4766,7 +4794,7 @@ People change the Earth in many ways. They have been able to grow plants for foo
 <title>Experiments</title>
 <ns>0</ns>
 <id>223</id>
-<redirect title="Experiment" />
+<redirect title="Experiment"/>
 <revision>
     <id>61787</id>
     <parentid>36549</parentid>
@@ -4793,7 +4821,7 @@ People change the Earth in many ways. They have been able to grow plants for foo
         <username>Macdonald-ross</username>
         <id>68157</id>
     </contributor>
-    <minor />
+    <minor/>
     <model>wikitext</model>
     <format>text/x-wiki</format>
     <text xml:space="preserve">An '''experiment''' is a test of an [[idea]] or a [[wiktionary:method|method]]. It is often used by [[scientist]]s and [[engineer]]s.  An experiment is used to see how well the idea matches the real world.  Experiments have been used for many years to help people understand the world around them. Experiments are part of [[scientific method]].
@@ -4828,7 +4856,7 @@ Now, a hundred years or so after Einstein published his ideas, there have been m
 <title>Etc</title>
 <ns>0</ns>
 <id>225</id>
-<redirect title="Et cetera" />
+<redirect title="Et cetera"/>
 <revision>
     <id>36551</id>
     <parentid>3860</parentid>
@@ -4837,7 +4865,7 @@ Now, a hundred years or so after Einstein published his ideas, there have been m
         <username>Angela</username>
         <id>2</id>
     </contributor>
-    <minor />
+    <minor/>
     <comment>fix double redirect</comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
@@ -4925,7 +4953,7 @@ Along with [[aesthetics]] ethics forms part of [[axiology]], the philosophy of w
         <username>Shadowowl</username>
         <id>530079</id>
     </contributor>
-    <minor />
+    <minor/>
     <comment>[[:en:WP:CLEANER|WPCleaner]] v1.41b - Fixed using [[Wikipedia:WikiProject Check Wikipedia]] (Link equal to linktext)</comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
@@ -4961,7 +4989,7 @@ In English, 'to be' can have different functions:
 <title>English As A Second Language</title>
 <ns>0</ns>
 <id>228</id>
-<redirect title="English as a second language" />
+<redirect title="English as a second language"/>
 <revision>
     <id>2365246</id>
     <parentid>216297</parentid>
@@ -4970,7 +4998,7 @@ In English, 'to be' can have different functions:
         <username>Gordonrox24</username>
         <id>45220</id>
     </contributor>
-    <minor />
+    <minor/>
     <comment>fixing dobule redirect</comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
@@ -5368,8 +5396,10 @@ Also see [[Simple English Staging]], [[Simple English User Stories]] and [[SEUS_
         <username>ChenzwBot</username>
         <id>16695</id>
     </contributor>
-    <minor />
-    <comment>[[Help:Revert a page|Reverted]] edits by [[Special:Contributions/88.96.242.198|88.96.242.198]] ([[User talk:88.96.242.198|talk]]) to last version by 108.73.114.207</comment>
+    <minor/>
+    <comment>[[Help:Revert a page|Reverted]] edits by [[Special:Contributions/88.96.242.198|88.96.242.198]] ([[User talk:88.96.242.198|talk]])
+        to last version by 108.73.114.207
+    </comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
     <text xml:space="preserve">
@@ -5389,7 +5419,7 @@ The [[International Covenant on Civil and Political Rights]] ensures the rights 
 <title>ESL</title>
 <ns>0</ns>
 <id>235</id>
-<redirect title="English as a second language" />
+<redirect title="English as a second language"/>
 <revision>
     <id>2365248</id>
     <parentid>216320</parentid>
@@ -5398,7 +5428,7 @@ The [[International Covenant on Civil and Political Rights]] ensures the rights 
         <username>Gordonrox24</username>
         <id>45220</id>
     </contributor>
-    <minor />
+    <minor/>
     <comment>fixing dobule redirect</comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
@@ -5418,7 +5448,7 @@ The [[International Covenant on Civil and Political Rights]] ensures the rights 
         <username>Tbennert</username>
         <id>183741</id>
     </contributor>
-    <minor />
+    <minor/>
     <comment>add long comment</comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
@@ -5437,7 +5467,7 @@ The [[International Covenant on Civil and Political Rights]] ensures the rights 
 <title>EAL</title>
 <ns>0</ns>
 <id>238</id>
-<redirect title="English as a second language" />
+<redirect title="English as a second language"/>
 <revision>
     <id>2365249</id>
     <parentid>216324</parentid>
@@ -5446,7 +5476,7 @@ The [[International Covenant on Civil and Political Rights]] ensures the rights 
         <username>Gordonrox24</username>
         <id>45220</id>
     </contributor>
-    <minor />
+    <minor/>
     <comment>fixing dobule redirect</comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
@@ -5575,7 +5605,7 @@ Thanks,
         <username>Djsasso</username>
         <id>18539</id>
     </contributor>
-    <minor />
+    <minor/>
     <comment>cleanup</comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
@@ -5843,8 +5873,10 @@ I made some changes that make this easier to understand and less misleading.--[[
         <username>ChenzwBot</username>
         <id>16695</id>
     </contributor>
-    <minor />
-    <comment>[[Help:Revert a page|Reverted]] edits by [[Special:Contributions/103.15.62.162|103.15.62.162]] ([[User talk:103.15.62.162|talk]]) to last version by 216.159.3.1</comment>
+    <minor/>
+    <comment>[[Help:Revert a page|Reverted]] edits by [[Special:Contributions/103.15.62.162|103.15.62.162]] ([[User talk:103.15.62.162|talk]])
+        to last version by 216.159.3.1
+    </comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
     <text xml:space="preserve">{{issues|
@@ -5956,7 +5988,9 @@ Famous economists of the 19th and 20th century include [[Friedrich August von Ha
         <username>Peterdownunder</username>
         <id>17988</id>
     </contributor>
-    <comment>Undid revision 5709834 by [[Special:Contributions/113.132.10.168|113.132.10.168]] ([[User talk:113.132.10.168|talk]]) not a useful reading for this page</comment>
+    <comment>Undid revision 5709834 by [[Special:Contributions/113.132.10.168|113.132.10.168]] ([[User talk:113.132.10.168|talk]]) not a
+        useful reading for this page
+    </comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
     <text xml:space="preserve">[[File:Sulfur.jpg|thumb|The element [[Sulfur|sulphur]] has a [[crystal]]line structure]]
@@ -6250,7 +6284,7 @@ Egypt established [[EgyptAir]] in 1932. The airline is based in [[Cairo Internat
         <username>Addbot</username>
         <id>293183</id>
     </contributor>
-    <minor />
+    <minor/>
     <comment>Bot: 10 interwiki links moved, now provided by [[d:|Wikidata]] on [[d:q776951]]</comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
@@ -6338,7 +6372,7 @@ This page is not very neutral and presents opinions as facts for example &quot;e
 <title>Britain</title>
 <ns>0</ns>
 <id>105</id>
-<redirect title="Great Britain" />
+<redirect title="Great Britain"/>
 <revision>
     <id>5303744</id>
     <parentid>5069385</parentid>
@@ -6347,7 +6381,9 @@ This page is not very neutral and presents opinions as facts for example &quot;e
         <username>Auntof6</username>
         <id>22027</id>
     </contributor>
-    <comment>Reverted to revision 2720862 by Qwerasdfzxcv1234: revert to hard redirect -- it doesn't have to be the same to be a redirect. ([[WP:TW|TW]])</comment>
+    <comment>Reverted to revision 2720862 by Qwerasdfzxcv1234: revert to hard redirect -- it doesn't have to be the same to be a redirect.
+        ([[WP:TW|TW]])
+    </comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
     <text xml:space="preserve">#REDIRECT [[Great Britain]]</text>
@@ -6491,8 +6527,10 @@ It also searches many other language versions (those also on wikipedia.org), inc
         <username>Peterdownunder</username>
         <id>17988</id>
     </contributor>
-    <minor />
-    <comment>Reverted 1 edit by [[Special:Contributions/202.45.119.73|202.45.119.73]] ([[User talk:202.45.119.73|talk]]) identified as [[WP:VAND|vandalism]] to last revision by Eurodyne. ([[WP:TW|TW]])</comment>
+    <minor/>
+    <comment>Reverted 1 edit by [[Special:Contributions/202.45.119.73|202.45.119.73]] ([[User talk:202.45.119.73|talk]]) identified as
+        [[WP:VAND|vandalism]] to last revision by Eurodyne. ([[WP:TW|TW]])
+    </comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
     <text xml:space="preserve">{{Article issues|complex=December 2011|redlinks=March 2012}}
@@ -6774,7 +6812,9 @@ A computer has several main parts. When comparing a computer to a human body, th
         <username>J991</username>
         <id>212981</id>
     </contributor>
-    <comment>Reverted 1 edit by [[Special:Contributions/81.152.105.105|81.152.105.105]] ([[User talk:81.152.105.105|talk]]): Actually unhelpful.</comment>
+    <comment>Reverted 1 edit by [[Special:Contributions/81.152.105.105|81.152.105.105]] ([[User talk:81.152.105.105|talk]]): Actually
+        unhelpful.
+    </comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
     <text xml:space="preserve">'''Chinese''' might mean:
@@ -6888,7 +6928,7 @@ Afro-Eurasia is made of Africa and Eurasia.
 <title>Classical Elements</title>
 <ns>0</ns>
 <id>118</id>
-<redirect title="Classical element" />
+<redirect title="Classical element"/>
 <revision>
     <id>4994520</id>
     <parentid>2577303</parentid>
@@ -6916,8 +6956,10 @@ Afro-Eurasia is made of Africa and Eurasia.
         <username>ChenzwBot</username>
         <id>16695</id>
     </contributor>
-    <minor />
-    <comment>[[Help:Revert a page|Reverted]] edits by [[Special:Contributions/203.62.25.28|203.62.25.28]] ([[User talk:203.62.25.28|talk]]) to last version by Macdonald-ross</comment>
+    <minor/>
+    <comment>[[Help:Revert a page|Reverted]] edits by [[Special:Contributions/203.62.25.28|203.62.25.28]] ([[User talk:203.62.25.28|talk]]) to
+        last version by Macdonald-ross
+    </comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
     <text xml:space="preserve">[[Image:Four elements representation.png|thumb|The four classical elements.]]
@@ -7159,7 +7201,8 @@ File:MeihuaShan 1.jpg|[[Prunus mume|Plum blossom]]
         <username>Chenzw</username>
         <id>8630</id>
     </contributor>
-    <comment>Revert to revision 5661146 dated 2017-04-14 18:02:19 by Some Gadget Geek using [[:en:Wikipedia:Tools/Navigation_popups|popups]]</comment>
+    <comment>Revert to revision 5661146 dated 2017-04-14 18:02:19 by Some Gadget Geek using [[:en:Wikipedia:Tools/Navigation_popups|popups]]
+    </comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
     <text xml:space="preserve">{{otheruses}}
@@ -7205,8 +7248,10 @@ As defined by [[Montevideo Convention]], a &quot;country&quot; has:
         <username>Only</username>
         <id>38711</id>
     </contributor>
-    <minor />
-    <comment>[[Help:Revert a page|Reverted]] edits by [[Special:Contributions/Luke Upcott|Luke Upcott]] ([[User talk:Luke Upcott|talk]]) to last version by Macdonald-ross</comment>
+    <minor/>
+    <comment>[[Help:Revert a page|Reverted]] edits by [[Special:Contributions/Luke Upcott|Luke Upcott]] ([[User talk:Luke Upcott|talk]]) to
+        last version by Macdonald-ross
+    </comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
     <text xml:space="preserve">{{infobox UK place
@@ -7266,7 +7311,7 @@ Colchester is [[sister city|twinned]] with the following cities:
         <username>YiFeiBot</username>
         <id>394147</id>
     </contributor>
-    <minor />
+    <minor/>
     <comment>Bot: Migrating 1 langlinks, now provided by [[d:|Wikidata]] on [[d:q4375196]]</comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
@@ -7340,7 +7385,7 @@ Copyright does not apply is some cases. These are the ones that are probably rel
         <username>Brion VIBBER</username>
         <id>1</id>
     </contributor>
-    <minor />
+    <minor/>
     <comment>-talk</comment>
     <model>wikitext</model>
     <format>text/x-wiki</format>
