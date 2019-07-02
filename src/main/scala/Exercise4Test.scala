@@ -14,6 +14,8 @@ import org.apache.spark.{SparkConf, SparkContext}
 import scala.collection.Map
 import scala.collection.mutable.ArrayBuffer
 
+import org.elasticsearch.spark._
+
 object Exercise4Test {
 
   val pipeline1: StanfordCoreNLP = createNLPPipeline()
@@ -22,7 +24,8 @@ object Exercise4Test {
 
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf().setAppName("Spark Job for Loading Data").setMaster("local[*]")
-    new SparkContext(conf)
+    conf.set("es.index.auto.create", "true")
+    val sc = new SparkContext(conf)
 
     val spark = SparkSession.builder.getOrCreate()
     val wikiData = spark.read.option("rowTag", "page").xml("src/main/resources/smallWiki.xml")
@@ -104,16 +107,23 @@ object Exercise4Test {
     val queryEngine = new QueryEngine(svd, termIds, docIds, termIdfs, elasticClient)
 
     //create and fill Term and Document index in Elastic
-    queryEngine.fillTermIndex()
-    queryEngine.fillDocIndex()
+    //queryEngine.fillTermIndex()
+    //queryEngine.fillDocIndex()
 
-    queryEngine.printTopTermsForTerm("mitochondria")
+    /*queryEngine.printTopTermsForTerm("mitochondria")
     queryEngine.printTopTermsForTerm("georgia")
     queryEngine.printTopTermsForTerm("denmark")
 
     queryEngine.printTopDocsForTerm("sunlight")
-    queryEngine.printTopDocsForTerm("day")
+    queryEngine.printTopDocsForTerm("day")*/
 
+
+    val numbers = Map("one" -> 1, "two" -> 2, "three" -> 3)
+    val airports = Map("arrival" -> "Otopeni", "SFO" -> "San Fran")
+
+    sc.makeRDD(
+      Seq(numbers, airports)
+    ).saveToEs("spark/docs")
   }
 
   def createNLPPipeline(): StanfordCoreNLP = {

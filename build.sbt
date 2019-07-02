@@ -19,8 +19,10 @@ libraryDependencies ++= Seq(
   "org.elasticsearch.client" % "transport" % "7.2.0",
   "org.elasticsearch.client" % "elasticsearch-rest-client" % "7.2.0",
   "org.elasticsearch.client" % "elasticsearch-rest-high-level-client" % "7.2.0",
-  "org.elasticsearch" % "elasticsearch" % "7.2.0"
+  "org.elasticsearch" % "elasticsearch" % "7.2.0",
+  "org.elasticsearch" %% "elasticsearch-spark" % "5.0.0-alpha4"
 )
+
 
 //libraryDependencies += "databricks" % "spark-corenlp" % "0.4.0-spark2.4-scala2.11"
 //libraryDependencies += "databricks" % "spark-corenlp" % "0.4.0-spark2.4-scala2.11"
