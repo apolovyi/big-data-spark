@@ -14,8 +14,6 @@ import org.apache.spark.{SparkConf, SparkContext}
 import scala.collection.Map
 import scala.collection.mutable.ArrayBuffer
 
-import org.elasticsearch.spark._
-
 object Exercise4Test {
 
   val pipeline1: StanfordCoreNLP = createNLPPipeline()
@@ -121,9 +119,6 @@ object Exercise4Test {
     val numbers = Map("one" -> 1, "two" -> 2, "three" -> 3)
     val airports = Map("arrival" -> "Otopeni", "SFO" -> "San Fran")
 
-    sc.makeRDD(
-      Seq(numbers, airports)
-    ).saveToEs("spark/docs")
   }
 
   def createNLPPipeline(): StanfordCoreNLP = {

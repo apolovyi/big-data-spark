@@ -69,6 +69,19 @@ class QueryEngine(
     termScores.sortBy(-_._1).take(10)
   }
 
+  def topTermsForDoc(docId: Long): Seq[(Double, Int)] = {
+    val docRowArr = normalizedUS.rows.zipWithUniqueId.map(_.swap)
+      .lookup(docId).head.toArray
+    val docRowMat = BDenseMatrix.zeros[Double](docRowArr.length, 1)
+    for(i <- Range(0,docRowArr.length-1))
+      docRowMat(i, 0) = docRowArr(i)
+    val docRowVec = docRowMat(::, 0)
+    // Compute scores against every term
+    val termScores = (VS * docRowVec).toArray.zipWithIndex
+
+    termScores.sortBy(-_._1).take(10)
+  }
+
   def topDocsForDoc(docId: Long): Seq[(Double, Long)] = {
     val docRowArr = normalizedUS.rows.zipWithUniqueId.map(_.swap).lookup(docId).head.toArray
     val docRowVec = Matrices.dense(docRowArr.length, 1, docRowArr)
@@ -104,6 +117,13 @@ class QueryEngine(
     idWeights.map(f => {
       docIds(f._2)
     }).toArray
+  }
+
+  def getTopTermsForDoc(doc: String): Array[String] = {
+    val idWeights = topTermsForDoc(idDocs(doc))
+    idWeights.map { f =>
+      termIds(f._2)}
+      .toArray
   }
 
   def getTopDocsForDoc(doc: String): Array[String] = {
