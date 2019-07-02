@@ -119,7 +119,7 @@ class QueryEngine(
       jsonMap.put("term", f._1)
       jsonMap.put("relatedTerms", getTopTermsForTerm(f._1))
       jsonMap.put("relatedDocs", getTopDocsForTerm(f._1))
-      elasticClient.putToIndex("term500", jsonMap)
+      elasticClient.putToIndex("term", jsonMap)
     })
   }
 
@@ -128,7 +128,7 @@ class QueryEngine(
       val jsonMap = new java.util.HashMap[String, AnyRef]
       jsonMap.put("document", f._1)
       jsonMap.put("relatedDocuments", getTopDocsForDoc(f._1))
-      elasticClient.putToIndex("doc500", jsonMap)
+      elasticClient.putToIndex("document", jsonMap)
     })
   }
 }
