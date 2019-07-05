@@ -10,6 +10,7 @@ import org.apache.spark.mllib.linalg.{Matrix, SingularValueDecomposition}
 import org.apache.spark.sql.functions.{col, size}
 import org.apache.spark.sql.{DataFrame, Encoders, Row, SparkSession}
 import org.apache.spark.{SparkConf, SparkContext}
+import org.elasticsearch.spark.sql._
 
 import scala.collection.Map
 import scala.collection.mutable.ArrayBuffer
@@ -18,17 +19,19 @@ object Exercise4Test {
 
   val pipeline1: StanfordCoreNLP = createNLPPipeline()
 
-  val elasticClient = new ElasticClient
-
   def main(args: Array[String]): Unit = {
-    val conf = new SparkConf().setAppName("Spark Job for Loading Data").setMaster("local[*]")
-    conf.set("es.index.auto.create", "true")
+    val conf = new SparkConf()
+      .setAppName("Spark Job for Loading Data")
+      .setMaster("local[*]")
+      .set("es.nodes.wan.only", "true")
+      .set("es.index.auto.create", "true")
+
     val sc = new SparkContext(conf)
 
     val spark = SparkSession.builder.getOrCreate()
     val wikiData = spark.read.option("rowTag", "page").xml("src/main/resources/smallWiki.xml")
 
-    val dataFrame = wikiData.select("title", "revision.text._VALUE").toDF("title", "text")
+    val dataFrame = wikiData.select("title", "revision.text._VALUE", "revision.timestamp").toDF("title", "text", "timestamp")
 
     val stopWords = scala.io.Source.fromFile("src/main/resources/stopwords.txt").getLines().toSet
 
@@ -44,9 +47,9 @@ object Exercise4Test {
     //the total frequency of each term sorted DSC
     val termsCount = wikiDF.rdd.flatMap((row: Row) => row.getAs("terms"): Seq[String]).map((w: String) => (w, 1)).reduceByKey(_ + _).sortBy(f => -f._2)
 
-    /*termsCount.foreach(f => {
+    termsCount.foreach(f => {
       println("Term: " + f._1 + "\t\t Occurred: " + f._2)
-    })*/
+    })
 
     val filtered = wikiDF.where(size(col("terms")).>=(100))
     val countVectorizer = new CountVectorizer().setInputCol("terms").setOutputCol("termFrequency").setVocabSize(20000)
@@ -56,7 +59,7 @@ object Exercise4Test {
     // term frequency of each term with respect to each document
     val docTermFrequency = vocabModel.transform(filtered)
 
-    docTermFrequency.show()
+    //docTermFrequency.show()
 
     docTermFrequency.cache()
 
@@ -102,11 +105,10 @@ object Exercise4Test {
       println()
     }
 
-    val queryEngine = new QueryEngine(svd, termIds, docIds, termIdfs, elasticClient)
+    val queryEngine = new QueryEngine(svd, termIds, docIds, termIdfs)
 
-    //create and fill Term and Document index in Elastic
-    //queryEngine.fillTermIndex()
-    //queryEngine.fillDocIndex()
+    spark.createDataFrame(sc.parallelize(queryEngine.prepareTermIndex())).toDF("term", "topTermsForTerm", "topDocsForTerm").saveToEs("wiki-terms")
+    spark.createDataFrame(sc.parallelize(queryEngine.prepareDocIndex())).toDF("document", "topTermsForDocument", "topDocsForDocument").saveToEs("wiki-documents")
 
     /*queryEngine.printTopTermsForTerm("mitochondria")
     queryEngine.printTopTermsForTerm("georgia")
@@ -114,10 +116,6 @@ object Exercise4Test {
 
     queryEngine.printTopDocsForTerm("sunlight")
     queryEngine.printTopDocsForTerm("day")*/
-
-
-    val numbers = Map("one" -> 1, "two" -> 2, "three" -> 3)
-    val airports = Map("arrival" -> "Otopeni", "SFO" -> "San Fran")
 
   }
 
@@ -175,5 +173,4 @@ object Exercise4Test {
     }
     topDocs
   }
-
 }

@@ -2,8 +2,23 @@
 ## Default Elasticsearch configuration from elasticsearch-docker.
 ## from https://github.com/elastic/elasticsearch-docker/blob/master/.tedi/template/elasticsearch.yml
 #
-cluster.name: "en-wikipedia"
+cluster.name: "wikipedia"
 network.host: 0.0.0.0
+
+#
+#http.host: 0.0.0.0
+#transport.host: 0.0.0.0
+#discovery.zen.minimum_master_nodes: 2
+#
+#node.name: "nodeWikipedia"
+#node.master: true
+#node.data: true
+#discovery.zen.ping_timeout: 10s
+#
+#network.bind_host: 0.0.0.0
+#network.publish_host: 0.0.0.0
+#transport.tcp.port: 9300
+#discovery.zen.ping.unicast.hosts: ["172.21.0.2", "[::1]"]
 
 ## Use single node discovery in order to disable production mode and avoid bootstrap checks
 ## see https://www.elastic.co/guide/en/elasticsearch/reference/current/bootstrap-checks.html
@@ -13,6 +28,6 @@ discovery.type: single-node
 ## X-Pack settings
 ## see https://www.elastic.co/guide/en/elasticsearch/reference/current/setup-xpack.html
 #
-xpack.license.self_generated.type: trial
-xpack.security.enabled: false
-xpack.monitoring.collection.enabled: true
+#xpack.license.self_generated.type: trial
+#xpack.security.enabled: false
+#xpack.monitoring.collection.enabled: true

@@ -8,8 +8,7 @@ class QueryEngine(
                    val svd: SingularValueDecomposition[RowMatrix, Matrix],
                    val termIds: Array[String],
                    val docIds: Map[Long, String],
-                   val termIdfs: Array[Double],
-                   val elasticClient: ElasticClient) {
+                   val termIdfs: Array[Double]) {
 
   val VS: BDenseMatrix[Double] = multiplyByDiagonalMatrix(svd.V, svd.s)
   val normalizedVS: BDenseMatrix[Double] = rowsNormalized(VS)
@@ -73,7 +72,7 @@ class QueryEngine(
     val docRowArr = normalizedUS.rows.zipWithUniqueId.map(_.swap)
       .lookup(docId).head.toArray
     val docRowMat = BDenseMatrix.zeros[Double](docRowArr.length, 1)
-    for(i <- Range(0,docRowArr.length-1))
+    for(i <- Range(0, docRowArr.length - 1))
       docRowMat(i, 0) = docRowArr(i)
     val docRowVec = docRowMat(::, 0)
     // Compute scores against every term
@@ -121,9 +120,9 @@ class QueryEngine(
 
   def getTopTermsForDoc(doc: String): Array[String] = {
     val idWeights = topTermsForDoc(idDocs(doc))
-    idWeights.map { f =>
-      termIds(f._2)}
-      .toArray
+    idWeights.map({ f =>
+      termIds(f._2)
+    }).toArray
   }
 
   def getTopDocsForDoc(doc: String): Array[String] = {
@@ -133,22 +132,17 @@ class QueryEngine(
     }).toArray
   }
 
-  def fillTermIndex(): Unit = {
-    idTerms.foreach(f => {
-      val jsonMap = new java.util.HashMap[String, AnyRef]
-      jsonMap.put("term", f._1)
-      jsonMap.put("relatedTerms", getTopTermsForTerm(f._1))
-      jsonMap.put("relatedDocs", getTopDocsForTerm(f._1))
-      elasticClient.putToIndex("term", jsonMap)
-    })
+  def prepareTermIndex(): Seq[(String, Array[String], Array[String])] = {
+    idTerms.map(f => (
+      f._1, getTopTermsForTerm(f._1), getTopDocsForTerm(f._1)
+    )
+    ).toSeq
   }
 
-  def fillDocIndex(): Unit = {
-    idDocs.foreach(f => {
-      val jsonMap = new java.util.HashMap[String, AnyRef]
-      jsonMap.put("document", f._1)
-      jsonMap.put("relatedDocuments", getTopDocsForDoc(f._1))
-      elasticClient.putToIndex("document", jsonMap)
-    })
+  def prepareDocIndex(): Seq[(String, Array[String], Array[String])] = {
+    idDocs.map(f => (
+      f._1, getTopTermsForDoc(f._1), getTopDocsForDoc(f._1)
+    )
+    ).toSeq
   }
 }
