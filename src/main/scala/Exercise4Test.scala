@@ -10,6 +10,7 @@ import org.apache.spark.mllib.linalg.{Matrix, SingularValueDecomposition}
 import org.apache.spark.sql.functions.{col, size}
 import org.apache.spark.sql.{DataFrame, Encoders, Row, SparkSession}
 import org.apache.spark.{SparkConf, SparkContext}
+
 import org.elasticsearch.spark.sql._
 
 import scala.collection.Map
@@ -31,7 +32,7 @@ object Exercise4Test {
     val spark = SparkSession.builder.getOrCreate()
     val wikiData = spark.read.option("rowTag", "page").xml("src/main/resources/smallWiki.xml")
 
-    val dataFrame = wikiData.select("title", "revision.text._VALUE", "revision.timestamp").toDF("title", "text", "timestamp")
+    val dataFrame = wikiData.select("title", "revision.text._VALUE", "revision.contributor.username", "revision.timestamp").toDF("title", "text", "contributor", "timestamp")
 
     val stopWords = scala.io.Source.fromFile("src/main/resources/stopwords.txt").getLines().toSet
 
@@ -107,9 +108,11 @@ object Exercise4Test {
 
     val queryEngine = new QueryEngine(svd, termIds, docIds, termIdfs)
 
-    spark.createDataFrame(sc.parallelize(queryEngine.prepareTermIndex())).toDF("term", "topTermsForTerm", "topDocsForTerm").saveToEs("wiki-terms")
-    spark.createDataFrame(sc.parallelize(queryEngine.prepareDocIndex())).toDF("document", "topTermsForDocument", "topDocsForDocument").saveToEs("wiki-documents")
+    spark.createDataFrame(sc.parallelize(queryEngine.prepareDocIndexMoreInfo(dataFrame))).toDF("document", "contributor", "timestamp", "topTermsForDocument", "topDocsForDocument").saveToEs("wiki-documents-moreinfo-v2.0")
+    spark.createDataFrame(sc.parallelize(queryEngine.prepareDocIndex())).toDF("document", "topTermsForDocument", "topDocsForDocument").saveToEs("wiki-documents-basic-v2.0")
+    spark.createDataFrame(sc.parallelize(queryEngine.prepareTermIndex())).toDF("term", "topTermsForTerm", "topDocsForTerm").saveToEs("wiki-terms-v2.0")
 
+    //val docIndex = wikiData.map()
     /*queryEngine.printTopTermsForTerm("mitochondria")
     queryEngine.printTopTermsForTerm("georgia")
     queryEngine.printTopTermsForTerm("denmark")
@@ -118,6 +121,7 @@ object Exercise4Test {
     queryEngine.printTopDocsForTerm("day")*/
 
   }
+
 
   def createNLPPipeline(): StanfordCoreNLP = {
     val props = new Properties()
@@ -173,4 +177,5 @@ object Exercise4Test {
     }
     topDocs
   }
+
 }

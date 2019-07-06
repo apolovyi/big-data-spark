@@ -1,14 +1,17 @@
+import java.sql.Struct
+
 import breeze.linalg.{DenseMatrix => BDenseMatrix}
 import org.apache.spark.mllib.linalg.distributed.RowMatrix
 import org.apache.spark.mllib.linalg.{Matrices, Matrix, SingularValueDecomposition, Vectors, Vector => MLLibVector}
+import org.apache.spark.sql.{DataFrame}
 
 import scala.collection.Map
 
-class QueryEngine(
+class QueryEngine (
                    val svd: SingularValueDecomposition[RowMatrix, Matrix],
                    val termIds: Array[String],
                    val docIds: Map[Long, String],
-                   val termIdfs: Array[Double]) {
+                   val termIdfs: Array[Double]) extends java.io.Serializable {
 
   val VS: BDenseMatrix[Double] = multiplyByDiagonalMatrix(svd.V, svd.s)
   val normalizedVS: BDenseMatrix[Double] = rowsNormalized(VS)
@@ -144,5 +147,16 @@ class QueryEngine(
       f._1, getTopTermsForDoc(f._1), getTopDocsForDoc(f._1)
     )
     ).toSeq
+  }
+
+
+  val prepareDocIndexMoreInfo = (wikiData: DataFrame) => {
+    val filtered = wikiData.select("title","contributor", "timestamp").filter(row => idDocs.contains(row(0).asInstanceOf[String])).collect()
+    filtered.map(row => {
+      val title = row(0).asInstanceOf[String]
+      val contributor = row(1).asInstanceOf[String]
+      val timestamp = row(2).asInstanceOf[String]
+      (title, contributor, timestamp, getTopTermsForDoc(title), getTopDocsForDoc(title))
+    }).toSeq
   }
 }
