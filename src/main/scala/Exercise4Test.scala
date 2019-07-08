@@ -64,12 +64,12 @@ object Exercise4Test {
 
     docTermFrequency.cache()
 
-    /*docTermFrequency.foreach((row: Row) => {
-      println("Title: " + row.getAs("title"))
-      println("Terms: " + row.getAs("terms"))
-      println("TermFrequency: " + row.getAs("termFrequency"))
-      println()
-    })*/
+    /*    docTermFrequency.foreach((row: Row) => {
+          println("Title: " + row.getAs("title"))
+          println("Terms: " + row.getAs("terms"))
+          println("TermFrequency: " + row.getAs("termFrequency"))
+          println()
+        })*/
 
     val idf = new IDF().setInputCol("termFrequency").setOutputCol("tfIdf")
     val idfModel = idf.fit(docTermFrequency)
@@ -95,30 +95,39 @@ object Exercise4Test {
     vecRdd.cache()
 
     val mat = new RowMatrix(vecRdd)
-    val k = 5
+    val k = 10
     val svd = mat.computeSVD(k, computeU = true)
 
-    val topConceptTerms = topTermsInTopConcepts(svd, 5, 6, termIds)
-    val topConceptDocs = topDocsInTopConcepts(svd, 5, 15, docIds)
+    val topConceptTerms = topTermsInTopConcepts(svd, 10, 6, termIds)
+    val topConceptDocs = topDocsInTopConcepts(svd, 10, 15, docIds)
     for((terms, docs) <- topConceptTerms.zip(topConceptDocs)) {
-      println("Concept terms: " + terms.map(_._1).mkString(", "))
-      println("Concept docs: " + docs.map(_._1).mkString(", "))
+      println("Concept ")
+      println("Terms: " + terms.map(_._1).mkString(", "))
+      println("Docs: " + docs.map(_._1).mkString(", "))
       println()
     }
 
     val queryEngine = new QueryEngine(svd, termIds, docIds, termIdfs)
 
-    spark.createDataFrame(sc.parallelize(queryEngine.prepareDocIndexMoreInfo(dataFrame))).toDF("document", "contributor", "timestamp", "topTermsForDocument", "topDocsForDocument").saveToEs("wiki-documents-moreinfo-v2.0")
-    spark.createDataFrame(sc.parallelize(queryEngine.prepareDocIndex())).toDF("document", "topTermsForDocument", "topDocsForDocument").saveToEs("wiki-documents-basic-v2.0")
-    spark.createDataFrame(sc.parallelize(queryEngine.prepareTermIndex())).toDF("term", "topTermsForTerm", "topDocsForTerm").saveToEs("wiki-terms-v2.0")
+    queryEngine.printTopDocsForDoc("Computer")
+    queryEngine.printTopDocsForDoc("Ebola virus")
+    queryEngine.printTopDocsForDoc("Continent")
+    queryEngine.printTopDocsForDoc("City")
+    queryEngine.printTopDocsForDoc("Earth")
+    queryEngine.printTopDocsForDoc("Europe")
 
-    //val docIndex = wikiData.map()
-    /*queryEngine.printTopTermsForTerm("mitochondria")
+    queryEngine.printTopTermsForTerm("mitochondria")
     queryEngine.printTopTermsForTerm("georgia")
     queryEngine.printTopTermsForTerm("denmark")
+    queryEngine.printTopTermsForTerm("protein")
+    queryEngine.printTopTermsForTerm("serbia")
+    queryEngine.printTopTermsForTerm("monarchy")
+    queryEngine.printTopTermsForTerm("meal")
 
-    queryEngine.printTopDocsForTerm("sunlight")
-    queryEngine.printTopDocsForTerm("day")*/
+
+    spark.createDataFrame(sc.parallelize(queryEngine.prepareDocIndexMoreInfo(dataFrame))).toDF("document", "contributor", "timestamp", "topTermsForDocument", "topDocsForDocument").saveToEs("wiki-documents")
+    //spark.createDataFrame(sc.parallelize(queryEngine.prepareDocIndex())).toDF("document", "topTermsForDocument", "topDocsForDocument").saveToEs("wiki-documents-basic-v2.0")
+    spark.createDataFrame(sc.parallelize(queryEngine.prepareTermIndex())).toDF("term", "topTermsForTerm", "topDocsForTerm").saveToEs("wiki-terms")
 
   }
 

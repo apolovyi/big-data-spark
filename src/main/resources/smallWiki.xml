@@ -3539,27 +3539,6 @@ For example, if Jane wants to know the position of Sally, Sally can give Jane a 
 </revision>
 </page>
 <page>
-<title>Dimensions</title>
-<ns>0</ns>
-<id>201</id>
-<redirect title="Dimension"/>
-<revision>
-    <id>36529</id>
-    <parentid>281</parentid>
-    <timestamp>2003-11-02T14:40:44Z</timestamp>
-    <contributor>
-        <username>Tango</username>
-        <id>0</id>
-    </contributor>
-    <comment>corrected redirect</comment>
-    <model>wikitext</model>
-    <format>text/x-wiki</format>
-    <text xml:space="preserve">#REDIRECT [[Dimension]]
-</text>
-    <sha1>4ld56j0m9f3ouow3cmm1t705m5p1y8y</sha1>
-</revision>
-</page>
-<page>
 <title>Talk:Dimension</title>
 <ns>1</ns>
 <id>202</id>
@@ -4743,27 +4722,6 @@ People change the Earth in many ways. They have been able to grow plants for foo
 </revision>
 </page>
 <page>
-<title>Etc.</title>
-<ns>0</ns>
-<id>220</id>
-<redirect title="Et cetera"/>
-<revision>
-    <id>36547</id>
-    <parentid>3864</parentid>
-    <timestamp>2004-02-27T02:43:20Z</timestamp>
-    <contributor>
-        <username>Angela</username>
-        <id>2</id>
-    </contributor>
-    <minor/>
-    <comment>fix double redirect</comment>
-    <model>wikitext</model>
-    <format>text/x-wiki</format>
-    <text xml:space="preserve">#REDIRECT [[Et_cetera]]</text>
-    <sha1>0iqigtkwi1kqqusqyrhh0f2winawy1q</sha1>
-</revision>
-</page>
-<page>
 <title>Et cetera</title>
 <ns>0</ns>
 <id>221</id>
@@ -4850,27 +4808,6 @@ Now, a hundred years or so after Einstein published his ideas, there have been m
 
 [[Category:Experiments| ]]</text>
     <sha1>m9ryfb71txrzv5l2jmad3rl6wzkijy2</sha1>
-</revision>
-</page>
-<page>
-<title>Etc</title>
-<ns>0</ns>
-<id>225</id>
-<redirect title="Et cetera"/>
-<revision>
-    <id>36551</id>
-    <parentid>3860</parentid>
-    <timestamp>2004-02-27T02:41:20Z</timestamp>
-    <contributor>
-        <username>Angela</username>
-        <id>2</id>
-    </contributor>
-    <minor/>
-    <comment>fix double redirect</comment>
-    <model>wikitext</model>
-    <format>text/x-wiki</format>
-    <text xml:space="preserve">#REDIRECT [[Et_cetera]]</text>
-    <sha1>0iqigtkwi1kqqusqyrhh0f2winawy1q</sha1>
 </revision>
 </page>
 <page>
@@ -5461,27 +5398,6 @@ The [[International Covenant on Civil and Political Rights]] ensures the rights 
 
 {{Short pages monitor}}&lt;!-- This long comment was added to the page to prevent it being listed on Special:Shortpages. It and the accompanying monitoring template were generated via Template:Longcomment. Please do not remove the monitor template without removing the comment as well.--&gt;</text>
     <sha1>hsrecg9uu2xfa0ydwtueniou15t0xbq</sha1>
-</revision>
-</page>
-<page>
-<title>EAL</title>
-<ns>0</ns>
-<id>238</id>
-<redirect title="English as a second language"/>
-<revision>
-    <id>2365249</id>
-    <parentid>216324</parentid>
-    <timestamp>2010-08-14T20:25:57Z</timestamp>
-    <contributor>
-        <username>Gordonrox24</username>
-        <id>45220</id>
-    </contributor>
-    <minor/>
-    <comment>fixing dobule redirect</comment>
-    <model>wikitext</model>
-    <format>text/x-wiki</format>
-    <text xml:space="preserve">#redirect [[English as a second language]]</text>
-    <sha1>bf3w79w6mbpa89q3why0eii2w6ck8ew</sha1>
 </revision>
 </page>
 <page>
@@ -7488,5 +7404,85 @@ In other traditions ([[Buddhism]], [[Native American mythology]]) anyone has thi
 
 [[Category:Theology]]</text>
     <sha1>sqlj89idzuk9wp2a1ad8mzk1mgei3qt</sha1>
+</revision>
+</page>
+<page>
+<title>Contact network</title>
+<ns>0</ns>
+<id>131</id>
+<revision>
+    <id>2930785</id>
+    <parentid>1165681</parentid>
+    <timestamp>2011-07-26T02:53:36Z</timestamp>
+    <contributor>
+        <username>MerlIwBot</username>
+        <id>172028</id>
+    </contributor>
+    <minor/>
+    <comment>robot Removing: [[en:Contact network]] (deleted)</comment>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">A '''contact network''' is a group of people who can all quickly get in touch with each other.  It does not guarantee any kind of help or access to [[knowledge]] other than that.
+
+A [[creative network]], [[social network]] and [[power network]] are also contact networks.  These include some kind of guarantee or expectation of help.  Thus they involve more investment per person.
+{{stub}}
+[[Category:Relationships]]
+[[Category:Sociology]]</text>
+    <sha1>770kik702ox0lx9n8ru6dkmvd6i4qaw</sha1>
+</revision>
+</page>
+<page>
+<title>Chorizo</title>
+<ns>0</ns>
+<id>133</id>
+<revision>
+    <id>4311376</id>
+    <parentid>4198374</parentid>
+    <timestamp>2013-03-14T23:02:11Z</timestamp>
+    <contributor>
+        <username>Auntof6</username>
+        <id>22027</id>
+    </contributor>
+    <minor/>
+    <comment>removed [[Category:Meats]]; added [[Category:Sausage]] using [[Help:Gadget-HotCat|HotCat]]</comment>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">[[Image:Chorizo1.jpg|thumb]]
+'''Chorizo''' is a [[pork]] (pig-meat) [[sausage]] which people first made in the [[Iberian Peninsula]]. It is made with large pieces of fatty pork, [[chili pepper]] and [[paprika]]. The special taste of this sausage comes from the mild Spanish paprika in it.
+
+In the western hemisphere, the [[Mexico|Mexican]] and [[Caribbean]] types are better known. These types of chorizo are made with smaller pieces of pork and different seasonings and peppers are used.
+
+Cured smoked chorizo can be [[Eating|eaten]] without [[cooking]]. Fresh chorizo must be cooked before eating. It can be eaten by its self, or as part of [[meal]]. It can also be used in place of ground [[beef]] or pork.
+
+{{food-stub}}
+
+[[Category:Sausage]]</text>
+    <sha1>741e1ss3nps6upjsjkdcqnqsi2aywr9</sha1>
+</revision>
+</page>
+<page>
+<title>Creativity</title>
+<ns>0</ns>
+<id>134</id>
+<revision>
+    <id>5496910</id>
+    <parentid>4798603</parentid>
+    <timestamp>2016-10-09T19:02:39Z</timestamp>
+    <contributor>
+        <ip>2603:300B:E01:BF00:C598:7CEC:5DCD:CB0D</ip>
+    </contributor>
+    <model>wikitext</model>
+    <format>text/x-wiki</format>
+    <text xml:space="preserve">'''Creativity''' is the [[ability]] of a person or group to make something new and useful or valuable, or the [[process]] of making something new and useful or valuable. It happens in all areas of life - science, art, literature and music. As a personal ability it is very difficult to [[measure]]. The reason is that we don't understand the mental processes that help some people be more creative than others. Judging what is creative is also controversial. Some people say only things which are historically new are creative, while other people say that if it is new for the creator and the people around them, then it is also creativity.
+
+Some think creativity is an important thing that makes [[human]]s different from [[ape]]s. Others recognize that even apes, other [[primate]]s, other [[mammal]]s and some birds [[adapt]] to [[survive]] by being creative (for example - primates using tools). [[Liane Gabora]] believes that all [[culture]] comes from creativity, not [[imitation]]. Therefore, these people say, [[human science]] should focus on it (pay special attention to it): [[Ethics]] for example would focus on finding creative [[solution]]s to [[ethical dilemma]]s. [[Politics]] would focus on the [[political virtues]] that need some creativity. Imitation would not be the focus of [[education]]. [[Linguistics]] might be more interested in how new words are created by culture, rather than in how existing ones are used in [[grammar]].
+
+[[Intellectual interests]] (recognized as [[intellectual rights]] or [[intellectual property]] in the [[law]]) are a way to [[reward]] creativity in law, but they do not always work very well. A good example is [[copyright]] which is supposed to pay [[author]]s and [[artist]]s, but may only pay [[lawyer]]s to make (imitative) arguments in [[court]].
+
+Creativity is a central question in [[economics]], where it is known as '''ingenuity''' (the ability to come up with new ideas) or '''individual capital''' - [[capacity|capacities]] that [[individual]]s have, that do not arise from simple imitation of what is known already. This is separate from the [[instructional capital]] that might try to [[capture]] some of that in a [[patent]] or [[training]] system that helps others do what the individual leader or [[wikt:founder|founder]] of the system can do. In [[urban economics]] there are various ways to measure creativity - the [[Bohemian Index]] and [[Gay Index]] are two attempts to do this [[wikt:accurate|accurately]] and [[predict]] the [[economic growth]] of [[city|cities]] based on creativity. For information on creativity see [http://www.best100ideas.com practical creative ideas and tools]
+
+[[Category:Human behavior]]
+[[Category:Creativity| ]]</text>
+    <sha1>6r5hpps1wccaftgqi14s2kjpaal7s4w</sha1>
 </revision>
 </page>

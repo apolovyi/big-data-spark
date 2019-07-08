@@ -60,7 +60,7 @@ class QueryEngine (
     val docScores = US.multiply(rowVec)
 
     val allDocWeights = docScores.rows.map(_.toArray(0)).zipWithUniqueId
-    allDocWeights.top(30)
+    allDocWeights.top(50)
   }
 
   def topTermsForTerm(termId: Int): Seq[(Double, Int)] = {
@@ -81,7 +81,7 @@ class QueryEngine (
     // Compute scores against every term
     val termScores = (VS * docRowVec).toArray.zipWithIndex
 
-    termScores.sortBy(-_._1).take(10)
+    termScores.sortBy(-_._1).take(50)
   }
 
   def topDocsForDoc(docId: Long): Seq[(Double, Long)] = {
@@ -104,6 +104,12 @@ class QueryEngine (
   def printTopDocsForTerm(term: String): Unit = {
     val idWeights = topDocsForTerm(idTerms(term))
     println("Top documents for term: " + term)
+    println(idWeights.map(f => docIds(f._2)).mkString(", "))
+  }
+
+  def printTopDocsForDoc(doc: String): Unit = {
+    val idWeights = topDocsForDoc(idDocs(doc))
+    println("Top documents for document: " + doc)
     println(idWeights.map(f => docIds(f._2)).mkString(", "))
   }
 
